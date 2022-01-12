@@ -1,12 +1,12 @@
 @extends('layouts.backend')
 @section('content') <div class="content-header row">
         <div class="content-header-left col-md-6 col-12 mb-2">
-            <h3 class="content-header-title">العملاء</h3>
+            <h3 class="content-header-title">الخدمات</h3>
             <div class="row breadcrumbs-top">
                 <div class="breadcrumb-wrapper col-12">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="">الرئيسية</a> </li>
-                        <li class="breadcrumb-item active">العملاء </li>
+                        <li class="breadcrumb-item active">الخدمات </li>
                     </ol>
                 </div>
             </div>
@@ -17,7 +17,7 @@
             <div class="col-12">
                 <div class="card">
                     <div class="card-header">
-                        <h4 class="card-title">العملاء</h4> <a class="heading-elements-toggle"><i
+                        <h4 class="card-title">الخدمات</h4> <a class="heading-elements-toggle"><i
                                 class="la la-ellipsis-v font-medium-3"></i></a>
                         <div class="heading-elements">
                             <ul class="list-inline mb-0">
@@ -30,52 +30,33 @@
 
 
 
-                        <!-- Modal -->
-                        <div class="modal fade text-left" id="default" tabindex="-1" role="dialog"
-                            aria-labelledby="myModalLabel1" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content" style="width: 130%; !important">
-                                    <div class="modal-header">
-                                        <h4 class="modal-title" id="myModalLabel1">بيانات العميل</h4>
-                                        <button type="button" class="close" data-dismiss="modal"
-                                            aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div id="addToCart-modal-body">
-
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn grey btn-outline-secondary"
-                                            data-dismiss="modal">إغلاق</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div> <a href="{{ route('clients.index') }}" style="float: left" class="btn btn-primary">أضف
+                        <div> <a href="{{ route('services.create') }}" style="float: left" class="btn btn-primary">أضف
                                 جديد</a> </div> <br>
                     </div>
                     <div class="card-content collapse show">
-                        <div class="card-body card-dashboard"> @include('inc.alerts.error') @include('inc.alerts.success')
+                        <div class="card-body card-dashboard">
+                             @include('inc.alerts.error')
+                              @include('inc.alerts.success')
                             <table class="table table-striped table-bordered zero-configuration">
                                 <thead>
                                     <tr>
-                                        <th>اسم العميل</th>
-                                        <th>اسم الموظف</th>
+                                        <th>اسم الخدمة</th>
+                                    
                                         <th>الإجرائات</th>
                                     </tr>
                                 </thead>
                                 <tbody id="edit_table">
-                                    @foreach ($clients as $item)
+                                    @foreach ($services as $item)
                                         <tr>
-                                            <td> <a class="btn" onclick="make('{{ $item->id }}')"
-                                                    data-toggle="modal" data-target="#default">{{ $item->name }}</a></td>
-                                                    <td> <a class="btn" onclick="make('{{ $item->id }}')"
-                                                        data-toggle="modal" data-target="#default">{{ $item->user->name }}</a></td>
-
                                             <td>
+                                                {{ $item->title }}
+                                            </td>
+                                            <td>
+                                                <a href="{{ route('services.edit', $item->id) }}"
+                                                    class="btn btn-icon btn-primary mr-1"> <i
+                                                        class="la la-edit"></i></a>
                                                 <form style="display: inline"
-                                                    action="{{ route('clients.destroy', $item->id) }}" method="post">
+                                                    action="{{ route('services.destroy', $item->id) }}" method="post">
                                                     @csrf @method('delete')
                                                     <button type="submit"
                                                         class="btn btn-icon btn-danger mr-1 delete-confirm"><i

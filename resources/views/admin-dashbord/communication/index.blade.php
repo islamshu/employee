@@ -34,9 +34,7 @@
                             </ul>
                         </div>
                         <br>
-                        <div>
-                            <a href="{{ route('communication.create') }}" style="float: left" class="btn btn-primary">أضف جديد</a>
-                        </div>
+                        
                         <br>
                     </div>
                     <div class="card-content collapse show">
@@ -47,22 +45,20 @@
                             <table class="table table-striped table-bordered zero-configuration">
                                 <thead>
                                     <tr>
+                                        <th>اسم العميل</th>
                                         <th>اسم الشركة</th>
-                                        <th>البريد الإلكتروني</th>
-                                        <th>رقم الهاتف</th>
-                                        <th>آلية التواصل</th>
-                                        <th>حالة التواصل</th>
-                                        <th>الحالة </th>
+                                      
 
                                         <th>الإجرائات</th>
                                     </tr>
                                 </thead>
                                 <tbody class="sort_menu">
-                                    @foreach ($coms as $item)
+                                    @foreach ($clients as $item)
                                    
         
                                         <tr>
-                                            <td >{{ $item->company_name }}</td>
+                                            <td> {{ $item->name }}</td>    
+                                            <td> {{ $item->company_name }}</td>                                           {{-- <td >{{ $item->company_name }}</td>
                                             <td >{{ $item->email }}</td>
                                             <td >{{ $item->phone }}</td>
                                             <td >{{ $item->communication }}</td>
@@ -77,19 +73,19 @@
                                             @else
                                             {{ '__' }}
                                             @endif
-                                            </td>
+                                            </td> --}}
 
                                             <td >
-                                                <a href="{{ route('communication.edit', $item->id) }}"
-                                                    class="btn btn-icon btn-primary mr-1"> <i
-                                                        class="la la-edit"></i></a>
-                                                <form style="display: inline"
+                                               <a href="{{ route('add_comuncate.new',$item->id) }}"><button type="submit"
+                                                class="btn btn-icon btn-info mr-1 "><i
+                                                class="la la-plus"></i>اضف وسائل</button></a>
+                                                {{-- <form style="display: inline"
                                                     action="{{ route('communication.destroy', $item->id) }}" method="post">
                                                     @csrf @method('delete')
                                                     <button type="submit"
                                                         class="btn btn-icon btn-danger mr-1 delete-confirm"><i
-                                                            class="la la-trash"></i></button>
-                                                </form>
+                                                        class="la la-trash"></i></button>
+                                                </form> --}}
                                             </td>
                                       
                                         </tr>
@@ -104,7 +100,113 @@
             </div>
         </div>
     </section>
+    <div class="modal fade text-left" id="default" tabindex="-1" role="dialog"
+    aria-labelledby="myModalLabel1" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="width: 130%; !important">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel1"> اضف جديد</h4>
+                <button type="button" class="close" data-dismiss="modal"
+                    aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div id="addToCart-modal-body">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn grey btn-outline-secondary"
+                    data-dismiss="modal">إغلاق</button>
+            </div>
+        </div>
+    </div>
+</div>
   
+@endsection
+@section('script')
+    <script>
+        function change(status){
+         var lee =    $('#' + status).val();
+         alert(lee);
+
+        }
+       
+        function add_new(id) {
+
+            $('#staticBackdrop').modal("show");
+            $('.c-preloader').show();
+
+            $.ajax({
+                type: 'post',
+                url: "{{ route('add_new_communcation') }}",
+                data: {
+                    "_token": "{{ csrf_token() }}",
+                    'id': id
+                },
+                success: function(data) {
+                    $('#addToCart-modal-body').html(data);
+                }
+            });
+
+        }
+        function change(id) {
+            $('#' + id).attr("readonly", false);
+        }
+        function setInput(id, inputid, elemt) {
+            let val = $('#' + inputid).val();
+            $.ajax({
+                type: 'post',
+                url: "{{ route('update_info') }}",
+                data: {
+                    "_token": "{{ csrf_token() }}",
+                    'id': id,
+                    'value': val,
+                    'elemnt_name': elemt
+                },
+
+                success: function(data) {
+
+                    if (data == 1) {
+                        alert('updated');
+                        $('#' + inputid).attr("readonly", true);
+
+                        refresh();
+
+                    }
+
+
+                }
+
+
+            });
+        }
+
+        function refresh() {
+            $.get(`{{ route('user.refresh') }}`).done(function(new_data) {
+                    $("#edit_table").replaceWith(new_data);
+                });
+            }
+     
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+          $("#status").change(function(){ 
+            var state =  $(this).val();
+           
+            if(state == 'respond'){
+                $("#unresponse").css("display", "block");
+                $("#status2").attr("required", true);
+    
+            }else{
+                $("#unresponse").css("display", "none");
+                $("#status2").attr("required", false);
+    
+            }
+            
+          });
+        
+        });
+    </script>
 @endsection
 
 

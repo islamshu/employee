@@ -5,12 +5,27 @@
         <li class=" nav-item"><a href="{{ route('generalinfo.index') }}"><i class="la la-cog"></i><span class="menu-title" data-i18n="nav.dash.main">الإعدادات العامة</span></a>
          
         </li>
-        
+        <li class=" nav-item"><a href="index.html"><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> الأقسام</span></a>
+          <ul class="menu-content">
+            <li><a class="menu-item" href="{{ route('department.index') }}" data-i18n="nav.dash.ecommerce">جميع الاقسام</a>
+            </li>
+            <li ><a class="menu-item" href="{{ route('department.create') }}" data-i18n="nav.dash.crypto">اضف جديد</a>
+            </li>
+          </ul>
+        </li>
         <li class=" nav-item"><a href="index.html"><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> الموظفين</span></a>
           <ul class="menu-content">
             <li><a class="menu-item" href="{{ route('employees.index') }}" data-i18n="nav.dash.ecommerce">جميع الموظفين</a>
             </li>
             <li ><a class="menu-item" href="{{ route('employees.create') }}" data-i18n="nav.dash.crypto">اضف جديد</a>
+            </li>
+          </ul>
+        </li>
+        <li class=" nav-item"><a href="index.html"><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> الخدمات</span></a>
+          <ul class="menu-content">
+            <li><a class="menu-item" href="{{ route('services.index') }}" data-i18n="nav.dash.ecommerce">جميع الخدمات</a>
+            </li>
+            <li ><a class="menu-item" href="{{ route('services.create') }}" data-i18n="nav.dash.crypto">اضف جديد</a>
             </li>
           </ul>
         </li>
@@ -25,9 +40,9 @@
         </li>
         <li class=" nav-item"><a href="index.html"><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> بيانات تواصل مع العملاء</span></a>
           <ul class="menu-content">
-            <li><a class="menu-item" href="{{ route('communication.index') }}" data-i18n="nav.dash.ecommerce">جميع البيانات</a>
+            <li><a class="menu-item" href="{{ route('new.client') }}" data-i18n="nav.dash.ecommerce">عميل جديد</a>
             </li>
-            <li ><a class="menu-item" href="{{ route('communication.create') }}" data-i18n="nav.dash.crypto">اضف جديد</a>
+            <li ><a class="menu-item" href="{{ route('communication.index') }}" data-i18n="nav.dash.crypto">العملاء الموجودين</a>
             </li>
           </ul>
         </li>

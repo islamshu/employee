@@ -40,7 +40,7 @@
                         <div class="card-body">
                             @include('inc.alerts.error')
                             @include('inc.alerts.success')
-                            <form class="form" method="post" action="{{ route('clients.store') }}"
+                            <form class="form" method="post" action="{{ route('post_new.client') }}"
                                 enctype="multipart/form-data">
                                 @csrf
                                 <div class="form-body">
