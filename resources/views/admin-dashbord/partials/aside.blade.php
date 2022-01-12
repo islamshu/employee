@@ -5,7 +5,7 @@
         <li class=" nav-item"><a href="{{ route('generalinfo.index') }}"><i class="la la-cog"></i><span class="menu-title" data-i18n="nav.dash.main">الإعدادات العامة</span></a>
          
         </li>
-        <li class=" nav-item"><a href="index.html"><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> الأقسام</span></a>
+        <li class=" nav-item"><a ><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> الأقسام</span></a>
           <ul class="menu-content">
             <li><a class="menu-item" href="{{ route('department.index') }}" data-i18n="nav.dash.ecommerce">جميع الاقسام</a>
             </li>
@@ -13,7 +13,7 @@
             </li>
           </ul>
         </li>
-        <li class=" nav-item"><a href="index.html"><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> الموظفين</span></a>
+        <li class=" nav-item"><a ><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> الموظفين</span></a>
           <ul class="menu-content">
             <li><a class="menu-item" href="{{ route('employees.index') }}" data-i18n="nav.dash.ecommerce">جميع الموظفين</a>
             </li>
@@ -21,7 +21,7 @@
             </li>
           </ul>
         </li>
-        <li class=" nav-item"><a href="index.html"><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> الخدمات</span></a>
+        <li class=" nav-item"><a ><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> الخدمات</span></a>
           <ul class="menu-content">
             <li><a class="menu-item" href="{{ route('services.index') }}" data-i18n="nav.dash.ecommerce">جميع الخدمات</a>
             </li>
@@ -30,7 +30,7 @@
           </ul>
         </li>
         @endif
-        <li class=" nav-item"><a href="index.html"><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> العملاء</span></a>
+        <li class=" nav-item"><a ><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> العملاء</span></a>
           <ul class="menu-content">
             <li><a class="menu-item" href="{{ route('clients.index') }}" data-i18n="nav.dash.ecommerce">جميع العملاء</a>
             </li>
@@ -38,7 +38,7 @@
             </li>
           </ul>
         </li>
-        <li class=" nav-item"><a href="index.html"><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> بيانات تواصل مع العملاء</span></a>
+        <li class=" nav-item"><a ><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> بيانات تواصل مع العملاء</span></a>
           <ul class="menu-content">
             <li><a class="menu-item" href="{{ route('new.client') }}" data-i18n="nav.dash.ecommerce">عميل جديد</a>
             </li>
@@ -46,7 +46,7 @@
             </li>
           </ul>
         </li>
-        {{-- <li class=" nav-item"><a href="index.html"><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> السلايدر</span></a>
+        {{-- <li class=" nav-item"><a ><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> السلايدر</span></a>
           <ul class="menu-content">
             <li><a class="menu-item" href="{{ route('sliders.index') }}" data-i18n="nav.dash.ecommerce">جميع السلايدرات</a>
             </li>
@@ -56,7 +56,7 @@
         </li>
         <li class=" nav-item"><a href="{{ route('firstsection.index') }}"><i class="la la-cog"></i><span class="menu-title" data-i18n="nav.dash.main">مزايانا </span></a>
         </li>
-        <li class=" nav-item"><a href="index.html"><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> خدماتنا</span></a>
+        <li class=" nav-item"><a ><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> خدماتنا</span></a>
           <ul class="menu-content">
             <li><a class="menu-item" href="{{ route('services.index') }}" data-i18n="nav.dash.ecommerce">جميع الخدمات</a>
             </li>
@@ -64,7 +64,7 @@
             </li>
           </ul>
         </li>
-        <li class=" nav-item"><a href="index.html"><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> الخادمات</span></a>
+        <li class=" nav-item"><a ><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> الخادمات</span></a>
           <ul class="menu-content">
             <li><a class="menu-item" href="{{ route('workers.index') }}" data-i18n="nav.dash.ecommerce">جميع الخادمات</a>
             </li>
@@ -72,7 +72,7 @@
             </li>
           </ul>
         </li>
-        <li class=" nav-item"><a href="index.html"><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> خطوات كيفية العمل</span></a>
+        <li class=" nav-item"><a ><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> خطوات كيفية العمل</span></a>
           <ul class="menu-content">
             <li><a class="menu-item" href="{{ route('how_its_work.index') }}" data-i18n="nav.dash.ecommerce">جميع الخطوات</a>
             </li>
