@@ -20,8 +20,16 @@ Route::group([ 'middleware' => 'auth'], function () {
     Route::resource('clients','ClientController');
     Route::resource('department','DepartmentController');
     Route::resource('services','ServiceController');
-
-    
+    Route::get('first_section','FirstSectionController@index')->name('first_section');
+    Route::post('first_section','FirstSectionController@store')->name('first_section_post');
+    Route::get('statistic','StatisticController@index')->name('statistic.index');
+    Route::post('statistic','StatisticController@store')->name('statistic.post');
+    Route::get('language_translate/{local}','GeneralController@show_translate')->name('show_translate');
+    Route::post('/languages/key_value_store', 'GeneralController@key_value_store')->name('languages.key_value_store');
+    Route::get('partners','PartnerController@index')->name('partners');
+    Route::post('partners','PartnerController@store')->name('partners_post');
+    Route::get('third_section','ThirdSectionController@index')->name('third_section');
+    Route::post('third_section','ThirdSectionController@store')->name('third_section_post');
     Route::resource('communication', 'CommunicationController');
     Route::get('edit-profile','UserController@edit_profile')->name('edit.profile');
     Route::post('edit-profile','UserController@update_profile')->name('update.profile');
@@ -35,6 +43,7 @@ Route::group([ 'middleware' => 'auth'], function () {
     Route::get('add_comuncate/{id}','CommunicationController@add_comuncate')->name('add_comuncate.new');
     Route::get('new_client','ClientController@new_client')->name('new.client');
     Route::post('new_client','ClientController@post_new_client')->name('post_new.client');
+    Route::resource('programs','ProjectController');
 
 
 });

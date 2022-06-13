@@ -48,10 +48,40 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="userinput1">اسم النظام  </label>
-                                <input type="text" value="{{ get_general_value('title') }}" id="userinput1" class="form-control border-primary" placeholder="عنوان النظام" name="general[title]">
+                                <label for="userinput1">اسم النظام بالعربية  </label>
+                                <input type="text" value="{{ get_general_value('title_ar') }}" id="userinput1" class="form-control border-primary" placeholder="عنوان النظام" name="general[title_ar]">
                             </div>
                         </div>
+                        <div class="col-md-6">
+                          <div class="form-group">
+                              <label for="userinput1">اسم النظام بالانجليزية  </label>
+                              <input type="text" value="{{ get_general_value('title_en') }}" id="userinput1" class="form-control border-primary" placeholder="عنوان النظام" name="general[title_en]">
+                          </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="userinput1">وصف النظام بالعربية  </label>
+                            <textarea name="general[desc_ar]" id="" class="ckeditor" cols="30" rows="10">{{ get_general_value('desc_ar') }}</textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                          <label for="userinput1">وصف النظام بالانجليزية  </label>
+                          <textarea name="general[desc_en]" id="" class="ckeditor" cols="30" rows="10">{{ get_general_value('desc_en') }}</textarea>
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="userinput1"> العنوان بالعربية بالعربية  </label>
+                        <input type="text" value="{{ get_general_value('address_ar') }}" id="userinput1" class="form-control border-primary" placeholder="عنوان النظام" name="general[address_ar]">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                      <label for="userinput1">اسم النظام بالانجليزية  </label>
+                      <input type="text" value="{{ get_general_value('address_en') }}" id="userinput1" class="form-control border-primary" placeholder="عنوان النظام" name="general[address_en]">
+                  </div>
+              </div>
                       
                       
                         
@@ -72,8 +102,8 @@
 
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="main_image">توقيع المدير  </label>
-                                <input type="file" id="main_image" class="form-control border-primary" name="general_file[signature]">
+                                <label for="main_image">ايقوونة الموقع </label>
+                                <input type="file" id="main_image" class="form-control border-primary" name="general_file[icon]">
                             </div>
                         </div>
 

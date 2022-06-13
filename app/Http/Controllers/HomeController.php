@@ -2,6 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\FirstSection;
+use App\Partner;
+use App\Project;
+use App\Statistic;
+use App\ThirdSection;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -11,10 +16,7 @@ class HomeController extends Controller
      *
      * @return void
      */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
+
 
     /**
      * Show the application dashboard.
@@ -23,6 +25,13 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        return view('layouts.frontend')
+        ->with('first_se',FirstSection::first())
+        ->with('partner',Partner::first())
+        ->with('third',ThirdSection::first())
+        ->with('statistic',Statistic::first())
+        ->with('programs',Project::get())
+
+        ;
     }
 }

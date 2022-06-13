@@ -13,7 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return redirect()->route('user.get_login');
-});
+Route::get('/', 'HomeController@index');
 
+Route::post('submit-form', 'ContactController@store');
