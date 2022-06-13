@@ -7,6 +7,7 @@ use App\Partner;
 use App\Project;
 use App\Statistic;
 use App\ThirdSection;
+use Session;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -33,5 +34,9 @@ class HomeController extends Controller
         ->with('programs',Project::get())
 
         ;
+    }
+    public function change_lang($lang){
+        Session::put('lang', $lang);
+        return redirect()->back();
     }
 }

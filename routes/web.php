@@ -14,5 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'HomeController@index');
-
+Route::get('lang/{lang}','HomeController@change_lang');
 Route::post('submit-form', 'ContactController@store');

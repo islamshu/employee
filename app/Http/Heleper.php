@@ -509,3 +509,7 @@ function saveJSONFile($code, $data){
     $jsonData = json_encode($data, JSON_PRETTY_PRINT|JSON_UNESCAPED_UNICODE);
     file_put_contents(base_path('resources/lang/'.$code.'.json'), stripslashes($jsonData));
 }
+function get_lang()
+{
+    return app()->getLocale();
+}

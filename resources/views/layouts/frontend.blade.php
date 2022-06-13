@@ -13,11 +13,17 @@
             display: none !important;
             visibility: hidden !important;
         }
+        
+
     </style>
   
     <script type="text/javascript" async src="wp_content/themes/thegem/js/thegem-pagespeed-lazy-items.js"></script>
-
+    @if(get_lang() == 'ar')
     <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.5.3/css/bootstrap.min.css" integrity="sha384-JvExCACAZcHNJEc7156QaHXTnQL3hQBixvj5RV5buE7vgnNEzzskDtx9NQ4p6BJe" crossorigin="anonymous">
+    @else
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    @endif
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
@@ -41,6 +47,7 @@
             padding: 0 !important;
         }
     </style>
+
     <link rel='stylesheet' id='layerslider-css' href='wp_content/plugins/LayerSlider/assets/static/layerslider/css/layersliderfa4a.css?ver=6.11.6' type='text/css' media='all' />
     <link rel='stylesheet' id='thegem-preloader-css' href='wp_content/themes/thegem/css/thegem-preloader647e.css?ver=5.5.9' type='text/css' media='all' />
     <style id='thegem-preloader-inline-css' type='text/css'>
@@ -50,6 +57,13 @@
             opacity: 0 !important;
         }
     </style>
+
+ 
+ 
+ 
+    @if(get_lang() == 'ar')
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.5.3/css/bootstrap.min.css" integrity="sha384-JvExCACAZcHNJEc7156QaHXTnQL3hQBixvj5RV5buE7vgnNEzzskDtx9NQ4p6BJe" crossorigin="anonymous">
+
     <link rel='stylesheet' id='thegem-reset-css' href='wp_content/themes/thegem/css/thegem-reset647e.css?ver=5.5.9' type='text/css' media='all' />
     <link rel='stylesheet' id='thegem-grid-css' href='wp_content/themes/thegem/css/thegem-grid647e.css?ver=5.5.9' type='text/css' media='all' />
     <link rel='stylesheet' id='thegem-style-css' href='wp_content/themes/thegem/style647e.css?ver=5.5.9' type='text/css' media='all' />
@@ -75,6 +89,36 @@
     <link rel='stylesheet' id='formbuilder-123-block-style-css-css' href='wp_content/plugins/123contactform-for-wordpress/admin/gutenberg/blocks.style.build647e.css?ver=5.5.9' type='text/css' media='all' />
     <link rel='stylesheet' id='wpml-menu-item-0-css' href='wp_content/plugins/sitepress-multilingual-cms/templates/language-switchers/menu-item/style68b3.css?ver=1' type='text/css' media='all' />
     <link rel='stylesheet' id='thegem_js_composer_front-css' href='wp_content/themes/thegem/css/thegem-js_composer_columns647e.css?ver=5.5.9' type='text/css' media='all' />
+   @endif
+    @if(get_lang() == 'en')
+    <link rel='stylesheet' id='thegem-reset-css'  href='wp_content_english/themes/thegem/css/thegem-reset647e.css?ver=5.5.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='thegem-grid-css'  href='wp_content_english/themes/thegem/css/thegem-grid647e.css?ver=5.5.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='thegem-style-css'  href='wp_content_english/themes/thegem/style647e.css?ver=5.5.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='thegem-child-style-css'  href='wp_content_english/themes/thegem-child/style647e.css?ver=5.5.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='thegem-header-css'  href='wp_content_english/themes/thegem/css/thegem-header647e.css?ver=5.5.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='thegem-widgets-css'  href='wp_content_english/themes/thegem/css/thegem-widgets647e.css?ver=5.5.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='thegem-new-css-css'  href='wp_content_english/themes/thegem/css/thegem-new-css647e.css?ver=5.5.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='perevazka-css-css-css'  href='wp_content_english/themes/thegem/css/thegem-perevazka-css647e.css?ver=5.5.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='thegem-google-fonts-css'  href='http://fonts.googleapis.com/css?family=Tajawal%3A700%2Cregular%2C300%7CMontserrat%3A700%2Cregular%7CSource+Sans+Pro%3Aregular%2C300&amp;subset=arabic%2Clatin%2Ccyrillic%2Ccyrillic-ext%2Clatin-ext%2Cvietnamese%2Cgreek%2Cgreek-ext&amp;ver=5.5.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='thegem-custom-css'  href='wp_content_english/themes/thegem-child/css/custom-VDyJnWIQ647e.css?ver=5.5.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='js_composer_front-css'  href='wp_content_english/plugins/js_composer/assets/css/js_composer.min31dc.css?ver=6.6.0' type='text/css' media='all' />
+    <link rel='stylesheet' id='thegem-additional-blog-1-css'  href='wp_content_english/themes/thegem/css/thegem-additional-blog-1647e.css?ver=5.5.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='jquery-fancybox-css'  href='wp_content_english/themes/thegem/js/fancyBox/jquery.fancybox.min647e.css?ver=5.5.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='thegem-vc_elements-css'  href='wp_content_english/themes/thegem/css/thegem-vc_elements647e.css?ver=5.5.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-block-library-css'  href='wp-includes_english/css/dist/block-library/style.min647e.css?ver=5.5.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-components-css'  href='wp-includes_english/css/dist/components/style.min647e.css?ver=5.5.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-editor-font-css'  href='https://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&amp;ver=5.5.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-block-editor-css'  href='wp-includes_english/css/dist/block-editor/style.min647e.css?ver=5.5.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-nux-css'  href='wp-includes_english/css/dist/nux/style.min647e.css?ver=5.5.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='wp-editor-css'  href='wp-includes_english/css/dist/editor/style.min647e.css?ver=5.5.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='formbuilder-123-block-style-css-css'  href='wp_content_english/plugins/123contactform-for-wordpress/admin/gutenberg/blocks.style.build647e.css?ver=5.5.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='wpml-menu-item-0-css'  href='wp_content_english/plugins/sitepress-multilingual-cms/templates/language-switchers/menu-item/style68b3.css?ver=1' type='text/css' media='all' />
+    <link rel='stylesheet' id='vc_animate-css-css'  href='wp_content_english/plugins/js_composer/assets/lib/bower/animate-css/animate.min.css?ver=6.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='thegem-lazy-loading-animations-css'  href='wp_content_english/themes/thegem/css/thegem-lazy-loading-animations.css?ver=5.5.9' type='text/css' media='all' />
+
+<link rel='stylesheet' id='odometr-css'  href='wp_content_english/themes/thegem/css/odometer-theme-default.css?ver=5.5.9' type='text/css' media='all' />
+    <link rel='stylesheet' id='thegem_js_composer_front-css'  href='wp_content_english/themes/thegem/css/thegem-js_composer_columns647e.css?ver=5.5.9' type='text/css' media='all' />
+@endif
     <script type='text/javascript' id='thegem-settings-init-js-extra'>
         /* <![CDATA[ */
         var gemSettings = {
@@ -244,6 +288,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
         .vc_custom_1601299991278 .gem-textbox-content * {
             position: inherit;
         }
+       
     </style>
     <style type="text/css" data-type="vc_custom-css">
         .hover-button {
@@ -563,7 +608,10 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
         .vc_custom_1602619660157 {
             margin-bottom: 0px !important;
             background: #2c2e3d url({{ asset('uploads/'.$first_se->image) }}) !important;
+            @if(get_lang()=='en')
+            transform: scaleX(-1);
 
+            @endif
             background-position: center !important;
             background-repeat: no-repeat !important;
             background-size: cover !important;
@@ -728,7 +776,10 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
             padding-top: 0px !important;
             padding-bottom: 0px !important;
         }
-    </style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>
+       
+    </style>
+  
+
 </head>
 
 
@@ -787,7 +838,8 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                             <div class="site-title">
                                 <div class="site-logo" style="width:180px;">
                                     <a href="/" rel="home">
-                                        <span class="logo"><img data-tgpli-src="{{ asset('uploads/'.get_general_value('header_logo')) }}" data-tgpli-srcset="{{ asset('uploads/'.get_general_value('header_logo')) }} 1x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_2x.png 2x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_3x.png 3x" alt="ولاء بلس" style="width:180px;" class="default" data-tgpli-inited data-tgpli-image-inited id="tgpli-62986ef2444d3" /><script>window.tgpQueue.add('tgpli-62986ef2444d3')</script><noscript><img src="wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_1x.png" srcset="{{ asset('uploads/'.get_general_value('header_logo')) }} 1x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_2x.png 2x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_3x.png 3x" alt="ولاء بلس" style="width:180px;" class="default"/></noscript><img data-tgpli-src="{{ asset('uploads/'.get_general_value('header_logo')) }}" data-tgpli-srcset="{{ asset('uploads/'.get_general_value('header_logo')) }} 1x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_2x.png 2x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_3x.png 3x" alt="ولاء بلس" style="width:100px;" class="small" data-tgpli-inited data-tgpli-image-inited id="tgpli-62986ef2444ea" /><script>window.tgpQueue.add('tgpli-62986ef2444ea')</script><noscript><img src="wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_1x.png" srcset="{{ asset('uploads/'.get_general_value('header_logo')) }} 1x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_2x.png 2x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_3x.png 3x" alt="ولاء بلس" style="width:100px;" class="small"/></noscript></span>
+                                        <span class="logo"><img data-tgpli-src="{{ asset('uploads/'.get_general_value('header_logo')) }}" data-tgpli-srcset="{{ asset('uploads/'.get_general_value('header_logo')) }} 1x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_2x.png 2x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_3x.png 3x" alt="ولاء بلس" style="width:180px;" class="default" data-tgpli-inited data-tgpli-image-inited id="tgpli-62986ef2444d3" />
+                                            <img src="wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_1x.png" srcset="{{ asset('uploads/'.get_general_value('header_logo')) }} 1x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_2x.png 2x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_3x.png 3x" alt="ولاء بلس" style="width:180px;" class="default"/></noscript><img data-tgpli-src="{{ asset('uploads/'.get_general_value('header_logo')) }}" data-tgpli-srcset="{{ asset('uploads/'.get_general_value('header_logo')) }} 1x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_2x.png 2x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_3x.png 3x" alt="ولاء بلس" style="width:100px;" class="small" data-tgpli-inited data-tgpli-image-inited id="tgpli-62986ef2444ea" /></span>
                                     </a>
                                 </div>
                             </div>
@@ -817,11 +869,21 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                             </a>
                                         </div>
                                     </li>
+                                    @if(get_lang() == 'ar')
+                                        
+                                    
                                     <li id="menu-item-wpml-ls-50-ar" class="menu-item wpml-ls-slot-50 wpml-ls-item wpml-ls-item-ar wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children menu-item-wpml-ls-50-ar megamenu-first-element"><a title="العربية" href="/"><span class="wpml-ls-display">العربية</span></a>
                                         <ul class="sub-menu styled dl-submenu">
-                                            <li id="menu-item-wpml-ls-50-en" class="menu-item wpml-ls-slot-50 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-50-en megamenu-first-element"><a title="الإنجليزية" href="en//"><span class="wpml-ls-display">الإنجليزية</span></a></li>
+                                            <li id="menu-item-wpml-ls-50-en" class="menu-item wpml-ls-slot-50 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-50-en megamenu-first-element"><a title="الإنجليزية" href="lang/en"><span class="wpml-ls-display">الإنجليزية</span></a></li>
                                         </ul>
                                     </li>
+                                    @else
+                                    <li id="menu-item-wpml-ls-50-ar" class="menu-item wpml-ls-slot-50 wpml-ls-item wpml-ls-item-ar wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children menu-item-wpml-ls-50-ar megamenu-first-element"><a title="English" href="/"><span class="wpml-ls-display">English</span></a>
+                                        <ul class="sub-menu styled dl-submenu">
+                                            <li id="menu-item-wpml-ls-50-en" class="menu-item wpml-ls-slot-50 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-50-en megamenu-first-element"><a title="ARABIC" href="lang/ar"><span class="wpml-ls-display">ARABIC</span></a></li>
+                                        </ul>
+                                    </li>
+                                    @endif
                                 </ul>
                             </nav>
                         </div>
@@ -857,7 +919,11 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                     gem_fix_fullwidth_position(document.getElementById("vc_row-62986ef229645"));
                                                 }
                                             </script>
-                                            <div class="wpb_column vc_column_container vc_col-sm-12">
+                                            <div class="wpb_column vc_column_container vc_col-sm-12" @if(get_lang() == 'en')
+                                                style="    transform: scaleX(-1);"
+                                                @else
+                                                style="    text-align: right;"
+                                            @endif>
                                                 <div class="vc_column-inner vc_custom_1601299991278">
                                                     <div class="wpb_wrapper">
                                                         <div class="wpb_text_column wpb_content_element  vc_custom_1601488817120">
@@ -1259,9 +1325,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                         <div class="gem-image gem-wrapbox gem-wrapbox-style-default gem-wrapbox-position-below lazy-loading" style="">
                                                             <div class="gem-wrapbox-inner  lazy-loading-item" data-ll-effect="move-up"><img class="gem-wrapbox-element img-responsive" data-tgpli-src="https://walaplus.com/wp_content/uploads/2020/09/mobails.png" alt="" data-tgpli-inited data-tgpli-image-inited id="tgpli-62986ef244530"
                                                                 />
-                                                                <script>
-                                                                    window.tgpQueue.add('tgpli-62986ef244530')
-                                                                </script><noscript><img class="gem-wrapbox-element img-responsive" src="wp_content/uploads/2020/09/mobails.png" alt=""/></noscript></div>
+                                                               </div>
                                                         </div>
                                                         <div class="clearboth"></div>
                                                         <div class="gem-divider " style="margin-top: 80px;"></div>
@@ -1656,7 +1720,6 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
     </script>
 
 
-    <script type='text/javascript' src='../js.hs-scripts.com/6086842a466.js?integration=WordPress' async defer id='hs-script-loader'></script>
     <script type='text/javascript' src='wp-includes/js/wp-embed.min647e.js?ver=5.5.9' id='wp-embed-js'></script>
     <script type='text/javascript' src='wp_content/plugins/js_composer/assets/js/dist/js_composer_front.min31dc.js?ver=6.6.0' id='wpb_composer_front_js-js'></script>
     <script type='text/javascript' src='wp_content/plugins/js_composer/assets/lib/vc_waypoints/vc-waypoints.min31dc.js?ver=6.6.0' id='vc_waypoints-js'></script>
