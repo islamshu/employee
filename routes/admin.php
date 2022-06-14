@@ -28,6 +28,7 @@ Route::group([ 'middleware' => 'auth'], function () {
     Route::post('/languages/key_value_store', 'GeneralController@key_value_store')->name('languages.key_value_store');
     Route::get('partners','PartnerController@index')->name('partners');
     Route::post('partners','PartnerController@store')->name('partners_post');
+    Route::delete('partners/{id}','PartnerController@destroy')->name('partners_post_destroy');
     Route::get('third_section','ThirdSectionController@index')->name('third_section');
     Route::post('third_section','ThirdSectionController@store')->name('third_section_post');
     Route::resource('communication', 'CommunicationController');

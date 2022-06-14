@@ -12,7 +12,43 @@
         img[data-tgpli-image-inited] {
             display: none !important;
             visibility: hidden !important;
-        }
+        }.gallery {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+}
+
+.gallery .pics {
+  -webkit-transition: all 350ms ease;
+  transition: all 350ms ease;
+}
+
+.gallery .animation {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+@media (max-width: 450px) {
+  .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn.filter {
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+  }
+}
         
 
     </style>
@@ -617,14 +653,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
             background-size: cover !important;
         }
         
-        .vc_custom_1601296638924 {
-            margin-bottom: 0px !important;
-            padding-bottom: 128px !important;
-            background-image: url({{ asset('uploads/'.$partner->image) }}) !important;
-            background-position: center !important;
-            background-repeat: no-repeat !important;
-            background-size: cover !important;
-        }
+     
         
         .vc_custom_1600125432050 {
             margin-top: -128px !important;
@@ -1026,45 +1055,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                 right: 155px !important;
                                             }
                                         </style>
-                                        <div class="vc_row-full-width-before"></div>
-                                        <div id="vc_row-62986ef22f13e" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid wpb_animate_when_almost_visible wpb_fadeIn fadeIn vc_custom_1601296638924 vc_row-has-fill">
-                                            <script type="text/javascript">
-                                                if (typeof(gem_fix_fullwidth_position) == "function") {
-                                                    gem_fix_fullwidth_position(document.getElementById("vc_row-62986ef22f13e"));
-                                                }
-                                            </script>
-                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                <div class="vc_column-inner ">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="clearboth"></div>
-                                                        <div class="gem-divider " style="margin-top: 440px;"></div>
-                                                        <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_bottom-to-top bottom-to-top">
-                                                            {!! $partner->body !!}
-                                                        </div>
-
-                                                       
-                                                        @if($partner->btn != null && $partner->link)
-                                                        <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1586878494167 disable-custom-paggings-tablet disable-custom-paggings-mobile">
-                                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                                <div class="vc_column-inner ">
-                                                                    <div class="wpb_wrapper">
-                                                                        <div class="clearboth"></div>
-                                                                        <div class="gem-divider " style="margin-top: 20px;"></div>
-                                                                        <div class="gem-button-container gem-button-position-center lazy-loading"><a title="نبذة من عملائنا" class="gem-button gem-button-size-large gem-button-style-flat gem-button-text-weight-normal lazy-loading-item" data-ll-effect="drop-right-without-wrap"
-                                                                                style="border-radius: 80px;background-color: #df7242;color: #ffffff;" onmouseleave="this.style.backgroundColor='#df7242';this.style.color='#ffffff';" onmouseenter="this.style.backgroundColor='#ffffff';this.style.color='#000000';"
-                                                                                href="{{ $partner->link }}" target="_self">{{ $partner->btn}}</a></div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        @endif
-                                                        <div class="clearboth"></div>
-                                                        <div class="gem-divider " style="margin-top: 65px;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="vc_row-full-width vc_clearfix"></div>
+                                       
                                         <div class="vc_row-full-width-before"></div>
                                         <div id="vc_row-62986ef231b7c" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid z-index wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight vc_custom_1600125432050 vc_row-has-fill">
                                             <script type="text/javascript">
@@ -1248,6 +1239,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                 </div>
                                             </div>
                                         </div>
+
                                         <div class="vc_row-full-width vc_clearfix"></div>
                                         <style>
                                             #programs .begin-square:before {
@@ -1310,6 +1302,34 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                 }
                                             }
                                         </style>
+                                        <!-- Gallery -->
+                                        <!-- Grid row -->
+<!-- Page Content -->
+<div class="container">
+
+    <h1 class="fw-light text-center text-lg-start mt-4 mb-0">{{ __('Partners') }}</h1>
+  
+    <hr class="mt-2 mb-5">
+  
+    <div class="row text-center text-lg-start">
+        @foreach ($partners as $item)
+            
+        
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="{{ asset('uploads/'.$item->image) }}" alt="{{ get_general_value('title_'.app()->getLocale()) }}">
+        </a>
+      </div>
+      @endforeach
+ 
+    </div>
+  
+  </div>
+  <!-- Grid row -->
+                             
+  <!-- Gallery -->
+                                          <div class="gem-divider " style="margin-top: 160px;"></div>
+
                                         <div class="vc_row-full-width-before"></div>
                                         <div id="vc_row-62986ef23892e" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid custom-polygon-4 vc_custom_1600125704977 vc_row-has-fill">
                                             <script type="text/javascript">
@@ -1760,6 +1780,18 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
               },
               });
             });
+            $(function() {
+  var selectedClass = "";
+  $(".filter").click(function(){
+    selectedClass = $(this).attr("data-rel");
+    $("#gallery").fadeTo(100, 0.1);
+    $("#gallery div").not("."+selectedClass).fadeOut().removeClass('animation');
+    setTimeout(function() {
+      $("."+selectedClass).fadeIn().addClass('animation');
+      $("#gallery").fadeTo(300, 1);
+    }, 300);
+  });
+});
           </script>
           <script type="text/javascript">
         (function() {

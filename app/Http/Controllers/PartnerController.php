@@ -9,27 +9,18 @@ class PartnerController extends Controller
 {
     public function index()
     {
-       return view('admin-dashbord.partners.index')->With('partner',Partner::first());
+       return view('admin-dashbord.partners.index')->With('partners',Partner::get());
     }
     public function store(Request $request){
-        $first= Partner::first();
-        if($request->image != null){
-            $first ->update([
-                'title'    => ['en' => $request->title_en, 'ar' => $request->title_ar],
-                'body' => ['en' => $request->body_en, 'ar' => $request->body_ar],
-                'btn'  =>  ['en' => $request->btn_en, 'ar' => $request->btn_ar],
-                'link'  => $request->link,
-                'image' => $request->image->store('public/partner'),
-            ]);
-        }else{
-            $first ->update([
-                'title'    => ['en' => $request->title_en, 'ar' => $request->title_ar],
-                'body' => ['en' => $request->body_en, 'ar' => $request->body_ar],
-                'btn'  =>  ['en' => $request->btn_en, 'ar' => $request->btn_ar],
-                'link'  =>  $request->link,
-            ]); 
-        }
-        
-        return redirect()->back()->with(['success'=>'تم التعديل بنجاح']);
+        $first= new Partner();
+        $first->image = $request->image->store('partner');
+        $first->save();
+        return redirect()->route('partners')->with(['success'=>'تم الاضافة بنجاح']);
     }
+    public function destroy($id){
+        $first= Partner::find($id);
+        $first->delete();
+        return redirect()->route('partners')->with(['success'=>'تم الحذف بنجاح']);
+    }
+
 }
