@@ -1218,7 +1218,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                                     content: "" !important;
                                                                                     width: 145px !important;
                                                                                     height: 145px !important;
-                                                                                    background : #@php echo($color) @endphp !important;
+                                                                                    background : #0eaaf5  !important;
                                                                                     position: absolute !important;
                                                                                     top: -21px !important;
                                                                                     right: -26px !important;
@@ -1226,7 +1226,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                                     border-radius: 5px !important;
                                                                            }
                                                                                     .custom-list-style-begin .gem-list>ul>li:before {
-                                                                                    color:  #@php echo($color) @endphp !important;
+                                                                                    color:  #0eaaf5  !important;
                                                                                 }
                                                                                 }
                                                                         </style>
@@ -1241,7 +1241,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                         </div>
                                                                         <div class="clearboth"></div>
                                                                         <div class="gem-divider " style="margin-top: 75px;"></div>
-                                                                        <div class="gem-list lazy-loading gem-list-type-check-style-1 gem-list-color-3" style="#{{ $color }}!important">
+                                                                        <div class="gem-list lazy-loading gem-list-type-check-style-1 gem-list-color-3" style="#0eaaf5  !important">
                                                                             <ul>
                                                                                 @foreach ($item->lists as $item)
                                                                                 <li>{{ $item->title }}</li>
@@ -1252,8 +1252,8 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                         </div>
                                                                         <div class="clearboth"></div>
                                                                         <div class="gem-divider " style="margin-top: 100px;"></div>
-                                                                        <div class="gem-button-container gem-button-position-right lazy-loading"><a title="برنامج برافو" class="gem-button gem-button-size-medium gem-button-style-flat gem-button-text-weight-normal lazy-loading-item" data-ll-effect="drop-right-without-wrap" style="border-radius: 50px;background-color: #{{ $color }};color: #ffffff;"
-                                                                                onmouseleave="this.style.backgroundColor='#{{ $color }}';this.style.color='#ffffff';" onmouseenter="this.style.backgroundColor='#{{ $color }}';this.style.color='#ffffff';" href=""
+                                                                        <div class="gem-button-container gem-button-position-right lazy-loading"><a title="برنامج برافو" class="gem-button gem-button-size-medium gem-button-style-flat gem-button-text-weight-normal lazy-loading-item" data-ll-effect="drop-right-without-wrap" style="border-radius: 50px;background-color: #0eaaf5 ;color: #ffffff;"
+                                                                                onmouseleave="this.style.backgroundColor='#0eaaf5 ';this.style.color='#ffffff';" onmouseenter="this.style.backgroundColor='#0eaaf5 ';this.style.color='#ffffff';" href=""
                                                                                 target="_blank">{{ __('Learn about the program') }}</a></div>
                                                                         <div class="clearboth"></div>
                                                                         <div class="gem-divider " style="margin-top: 200px;"></div>
@@ -1544,9 +1544,9 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                             <div class="alert alert-success" role="alert" id="successMsg" style="display: none" >
                                                                {{ __('Thank you for joining us') }} 
                                                               </div>
-                                                              <form id="SubmitForm">
+                                                              <form id="SubmitForm" style="color: white">
                                                                 <div class="mb-3">
-                                                                    <label for="InputName" class="form-label">{{ __('Facility Name') }}</label>
+                                                                    <label for="compname" class="form-label">{{ __('Facility Name') }}</label>
                                                                     <input type="text" style="height: 50px;font-size: 18px;" class="form-control" id="compname">
                                                                     <span class="text-danger" id="COMPErrorMsg"></span>
                                                                   </div>
@@ -1569,7 +1569,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                 </div>
                                                           
                                                                 <div class="mb-3">
-                                                                    <label for="InputMobile" class="form-label">{{ __('Commercial Register') }}</label>
+                                                                    <label for="co_register" class="form-label">{{ __('Commercial Register') }}</label>
                                                                     <input type="number"  style="height: 50px;font-size: 18px;" class="form-control" id="co_register">
                                                                     <span class="text-danger" id="CoErrorMsg"></span> 
                                                                   </div>
