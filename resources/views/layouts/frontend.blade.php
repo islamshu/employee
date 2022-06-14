@@ -1243,7 +1243,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                         <div class="gem-divider " style="margin-top: 75px;"></div>
                                                                         <div class="gem-list lazy-loading gem-list-type-check-style-1 gem-list-color-3" style="#0eaaf5  !important">
                                                                             <ul>
-                                                                                @foreach ($item->lists as $item)
+                                                                                @foreach ($pro->lists as $item)
                                                                                 <li>{{ $item->title }}</li>
 
                                                                                 @endforeach
