@@ -189,8 +189,8 @@
             "topAreaMobileDisable": "",
             "parallaxDisabled": "",
             "fillTopArea": "",
-            "themePath": "https:\/\/walaplus.com\/wp_content\/themes\/thegem",
-            "rootUrl": "https:\/\/walaplus.com",
+            "themePath": "https:\/\/foryou.com\/wp_content\/themes\/thegem",
+            "rootUrl": "https:\/\/foryou.com",
             "mobileEffectsEnabled": "",
             "isRTL": "1"
         };
@@ -211,7 +211,7 @@
     <script type='text/javascript' src='wp_content/plugins/LayerSlider/assets/static/layerslider/js/layerslider.transitionsfa4a.js?ver=6.11.6' id='layerslider-transitions-js'></script>
     <script type='text/javascript' src='wp_content/themes/thegem/js/thegem-fullwidth-loader647e.js?ver=5.5.9' id='thegem-fullwidth-optimizer-js'></script>
     <!--[if lt IE 9]>
-<script type='text/javascript' src='https://walaplus.com/wp_content/themes/thegem/js/html5.js?ver=3.7.3' id='html5-js'></script>
+<script type='text/javascript' src='https://foryou.com/wp_content/themes/thegem/js/html5.js?ver=3.7.3' id='html5-js'></script>
 <![endif]-->
     <meta name="generator" content="Powered by LayerSlider 6.11.6 - Multi-Purpose, Responsive, Parallax, Mobile-Friendly Slider Plugin for WordPress." />
     <!-- LayerSlider updates and docs at: https://layerslider.kreaturamedia.com -->
@@ -219,8 +219,8 @@
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
     <link rel='shortlink' href='/' />
-    <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed78b2.json?url=https%3A%2F%2Fwalaplus.com%2F" />
-    <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embedf6e2?url=https%3A%2F%2Fwalaplus.com%2F&amp;format=xml" />
+    <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed78b2.json?url=https%3A%2F%2Fforyou.com%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embedf6e2?url=https%3A%2F%2Fforyou.com%2F&amp;format=xml" />
     <meta name="generator" content="WPML ver:4.2.5 stt:5,1;" />
     <!-- Google Tag Manager -->
     <script>
@@ -694,7 +694,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
         .vc_custom_1609826308527 {
             margin-bottom: 0px !important;
             padding-top: 70px !important;
-            background: #ffffff url(https://walaplus.com/wp_content/uploads/2020/09/bk2.png?id=1676) !important;
+            background: #ffffff url(https://foryou.com/wp_content/uploads/2020/09/bk2.png?id=1676) !important;
             background-position: center !important;
             background-repeat: no-repeat !important;
             background-size: contain !important;
@@ -891,8 +891,8 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                             <div class="site-title">
                                 <div class="site-logo" style="width:180px;">
                                     <a href="/" rel="home">
-                                        <span class="logo"><img data-tgpli-src="{{ asset('uploads/'.get_general_value('header_logo')) }}" data-tgpli-srcset="{{ asset('uploads/'.get_general_value('header_logo')) }} 1x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_2x.png 2x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_3x.png 3x" alt="ولاء بلس" style="width:180px;" class="default" data-tgpli-inited data-tgpli-image-inited id="tgpli-62986ef2444d3" />
-                                            <img src="wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_1x.png" srcset="{{ asset('uploads/'.get_general_value('header_logo')) }} 1x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_2x.png 2x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_3x.png 3x" alt="ولاء بلس" style="width:180px;" class="default"/></noscript><img data-tgpli-src="{{ asset('uploads/'.get_general_value('header_logo')) }}" data-tgpli-srcset="{{ asset('uploads/'.get_general_value('header_logo')) }} 1x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_2x.png 2x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_3x.png 3x" alt="ولاء بلس" style="width:100px;" class="small" data-tgpli-inited data-tgpli-image-inited id="tgpli-62986ef2444ea" /></span>
+                                        <span class="logo"><img data-tgpli-src="{{ asset('uploads/'.get_general_value('header_logo')) }}" data-tgpli-srcset="{{ asset('uploads/'.get_general_value('header_logo')) }} 1x,https://foryou.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_2x.png 2x,https://foryou.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_3x.png 3x" alt="ولاء بلس" style="width:180px;" class="default" data-tgpli-inited data-tgpli-image-inited id="tgpli-62986ef2444d3" />
+                                            <img src="wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_1x.png" srcset="{{ asset('uploads/'.get_general_value('header_logo')) }} 1x,https://foryou.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_2x.png 2x,https://foryou.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_3x.png 3x" alt="ولاء بلس" style="width:180px;" class="default"/></noscript><img data-tgpli-src="{{ asset('uploads/'.get_general_value('header_logo')) }}" data-tgpli-srcset="{{ asset('uploads/'.get_general_value('header_logo')) }} 1x,https://foryou.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_2x.png 2x,https://foryou.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_3x.png 3x" alt="ولاء بلس" style="width:100px;" class="small" data-tgpli-inited data-tgpli-image-inited id="tgpli-62986ef2444ea" /></span>
                                     </a>
                                 </div>
                             </div>
