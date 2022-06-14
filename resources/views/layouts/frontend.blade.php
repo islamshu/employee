@@ -1529,7 +1529,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                 }
                                             }
                                         </style>
-                                        {{-- <div class="vc_row-full-width-before"></div>
+                                        <div class="vc_row-full-width-before"></div>
                                         <div id="contact_us" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1600720753000 vc_row-has-fill">
                                             <script type="text/javascript">
                                                 if (typeof(gem_fix_fullwidth_position) == "function") {
@@ -1582,10 +1582,10 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                 </div>
                                                           
                                                                 <div class="mb-3">
-                                                                  <label for="InputMessage" class="form-label">{{ __('Message') }}</label>
-                                                                  <textarea class="form-control" style="font-size: 18px;" id="InputMessage" cols="30" rows="4"></textarea>
-                                                                  <span class="text-danger" id="messageErrorMsg"></span>
-                                                                </div>
+                                                                    <label for="InputMobile" class="form-label">{{ __('Commercial Register') }}</label>
+                                                                    <input type="number"  style="height: 50px;font-size: 18px;" class="form-control" id="co_register">
+                                                                    <span class="text-danger" id="CoErrorMsg"></span> 
+                                                                  </div>
                                                                 
                                                                 
                                                                 <button style="    font-size: 17px;
@@ -1599,7 +1599,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div> --}}
+                                        </div>
                                         <div class="vc_row-full-width vc_clearfix"></div>
                                         <style>
                                             #vc_row-62986ef23ee6f p span {
@@ -1778,18 +1778,20 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
             let name = $('#InputName').val();
             let email = $('#InputEmail').val();
             let mobile = $('#InputMobile').val();
-            let message = $('#InputMessage').val();
+            let co_register = $('#co_register').val();
+
+
             
             
             $.ajax({
-              url: "/submit-form",
+              url: "/submit-form-partner",
               type:"POST",
               data:{
                 "_token": "{{ csrf_token() }}",
                 name:name,
                 email:email,
                 mobile:mobile,
-                message:message,
+                co_register:co_register,
               },
               success:function(response){
                 $('#successMsg').show();
@@ -1799,7 +1801,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                 $('#nameErrorMsg').text(response.responseJSON.errors.name);
                 $('#emailErrorMsg').text(response.responseJSON.errors.email);
                 $('#mobileErrorMsg').text(response.responseJSON.errors.mobile);
-                $('#messageErrorMsg').text(response.responseJSON.errors.message);
+                $('#CoErrorMsg').text(response.responseJSON.errors.commercial_register);
               },
               });
             });

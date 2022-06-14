@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('lang/{lang}','HomeController@change_lang');
 Route::post('submit-form', 'ContactController@store');
+Route::post('submit-form-partner', 'ContactController@store_partner');
+
+
 Route::get('contact_us',function(){
     return view('layouts.contact_us');
 })->name('contact_us');

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Contact;
 use App\Contactus;
+use App\Partner_request;
 use Illuminate\Http\Request;
 
 class ContactController extends Controller
@@ -49,6 +50,25 @@ class ContactController extends Controller
         $contact->email = $request->email;
         $contact->phone = $request->mobile;
         $contact->message = $request->message;
+        $contact->save();
+
+        return response()->json(['success'=>'Successfully']);
+    }
+    public function store_partner(Request $request)
+    {
+        $request->validate([
+            'name'          => 'required',
+            'email'         => 'required|email',
+            'mobile'        => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:10',
+            'co_register'       => 'required',
+        ]);
+
+
+        $contact = new Partner_request();
+        $contact->name = $request->name;
+        $contact->email = $request->email;
+        $contact->phone = $request->mobile;
+        $contact->co_register = $request->co_register;
         $contact->save();
 
         return response()->json(['success'=>'Successfully']);
