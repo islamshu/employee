@@ -1307,7 +1307,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
 <!-- Page Content -->
 <div class="container">
 
-    <h1 class="fw-light text-center text-lg-start mt-4 mb-0">{{ __('Partners') }}</h1>
+    <h1 id="vc_row-62986ef22f13e" class="fw-light text-center text-lg-start mt-4 mb-0">{{ __('Partners') }}</h1>
   
     <hr class="mt-2 mb-5">
   
