@@ -941,7 +941,7 @@
                                        
                                             <div class="fullwidth-block-inner">
                                                 <div class="custom-title-title " style="text-align: center;margin-left: auto;margin-right: auto;">
-                                                    <h1 style="color: #00c387"> {{ __('We are excited to have you join us and connect with us') }}</h1>
+                                                    <h1 style="color: #69489D"> {{ __('We are excited to have you join us and connect with us') }}</h1>
                                                 </div>
                                             </div>
                                         </div>

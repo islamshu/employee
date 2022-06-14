@@ -1569,7 +1569,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                 </div>
                                                           
                                                                 <div class="mb-3">
-                                                                    <label for="co_register" class="form-label">{{ __('Commercial Register') }}</label>
+                                                                    <label for="InputMobile" class="form-label">{{ __('Commercial Register') }}</label>
                                                                     <input type="number"  style="height: 50px;font-size: 18px;" class="form-control" id="co_register">
                                                                     <span class="text-danger" id="CoErrorMsg"></span> 
                                                                   </div>
@@ -1577,6 +1577,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                 
                                                                 <button style="    font-size: 17px;
                                                                 height: 40px;
+                                                                background: #DE4F76;
                                                                 width: 100px;" type="submit" class="btn btn-primary">{{ __('Submit') }}</button>
                                                               </form>
                                                           </div>
