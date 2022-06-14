@@ -8,11 +8,34 @@
         .tgpli-background-inited {
             background-image: none !important;
         }
+        .partner_class{
+            height:850px;
+            overflow-y: scroll;
+        }
         
         img[data-tgpli-image-inited] {
             display: none !important;
             visibility: hidden !important;
-        }.gallery {
+        }
+        ::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+        .gallery {
   -webkit-column-count: 3;
   -moz-column-count: 3;
   column-count: 3;
@@ -1305,13 +1328,13 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                         <!-- Gallery -->
                                         <!-- Grid row -->
 <!-- Page Content -->
-<div class="container">
+<div class="container ">
 
     <h1 id="vc_row-62986ef22f13e" class="fw-light text-center text-lg-start mt-4 mb-0">{{ __('Partners') }}</h1>
   
     <hr class="mt-2 mb-5">
   
-    <div class="row text-center text-lg-start">
+    <div class="row text-center text-lg-start partner_class">
         @foreach ($partners as $item)
             
         
