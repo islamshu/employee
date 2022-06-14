@@ -57,6 +57,7 @@ class ContactController extends Controller
     public function store_partner(Request $request)
     {
         $request->validate([
+            'co_name'=>'required',
             'name'          => 'required',
             'email'         => 'required|email',
             'mobile'        => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:10',
@@ -69,6 +70,7 @@ class ContactController extends Controller
         $contact->email = $request->email;
         $contact->phone = $request->mobile;
         $contact->co_register = $request->co_register;
+        $contact->co_name = $request->co_name;
         $contact->save();
 
         return response()->json(['success'=>'Successfully']);

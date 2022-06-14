@@ -1546,6 +1546,11 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                               </div>
                                                               <form id="SubmitForm">
                                                                 <div class="mb-3">
+                                                                    <label for="InputName" class="form-label">{{ __('Facility Name') }}</label>
+                                                                    <input type="text" style="height: 50px;font-size: 18px;" class="form-control" id="compname">
+                                                                    <span class="text-danger" id="COMPErrorMsg"></span>
+                                                                  </div>
+                                                                <div class="mb-3">
                                                                   <label for="InputName" class="form-label">{{ __('Name') }}</label>
                                                                   <input type="text" style="height: 50px;font-size: 18px;" class="form-control" id="InputName">
                                                                   <span class="text-danger" id="nameErrorMsg"></span>
@@ -1756,7 +1761,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
    <script>
         $('#SubmitForm').on('submit',function(e){
             e.preventDefault();
-        
+            let co_name = $('#compname').val();
             let name = $('#InputName').val();
             let email = $('#InputEmail').val();
             let mobile = $('#InputMobile').val();
@@ -1774,6 +1779,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                 email:email,
                 mobile:mobile,
                 co_register:co_register,
+                co_name:co_name
               },
               success:function(response){
                 $('#successMsg').show();
@@ -1781,17 +1787,21 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                     $('#emailErrorMsg').hide();
                     $('#mobileErrorMsg').hide();
                     $('#CoErrorMsg').hide();
+                    $('#COMPErrorMsg').hide();
                     $('#InputName').val('');
                     $('#InputEmail').val('');
                     $('#InputMobile').val('');
                     $('#co_register').val('');
+                    $('#compname').val('');
               },
               error: function(response) {
                 $('#nameErrorMsg').text(response.responseJSON.errors.name);
                 $('#emailErrorMsg').text(response.responseJSON.errors.email);
                 $('#mobileErrorMsg').text(response.responseJSON.errors.mobile);
-                $('#CoErrorMsg').text(response.responseJSON.errors.commercial_register);
-              },
+                $('#CoErrorMsg').text(response.responseJSON.errors.co_register);
+                $('#COMPErrorMsg').text(response.responseJSON.errors.co_name);
+              },               
+
               });
             });
             $(function() {
