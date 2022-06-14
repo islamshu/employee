@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Contact;
+use App\Contactus;
 use Illuminate\Http\Request;
 
 class ContactController extends Controller
@@ -43,7 +44,7 @@ class ContactController extends Controller
         ]);
 
 
-        $contact = new Contact;
+        $contact = new Contactus();
         $contact->name = $request->name;
         $contact->email = $request->email;
         $contact->phone = $request->mobile;

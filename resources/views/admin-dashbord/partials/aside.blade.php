@@ -13,6 +13,8 @@
         </li>
         <li class=" nav-item"><a href="{{ route('statistic.index') }}" ><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> الاحصائيات  </span></a>
         </li>
+        <li class=" nav-item"><a href="{{ route('contacts.index') }}" ><i class="la la-home"></i><span class="menu-title" data-i18n="nav.dash.main"> طلبات المراسلة  </span></a>
+        </li>
      
         <li class="nav-item ">
           <a class="menu-item" href="#" data-i18n="nav.menu_levels.second_level_child.main">

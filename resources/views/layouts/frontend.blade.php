@@ -909,7 +909,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                     <li id="menu-item-1451" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-1451 megamenu-first-element"><a href="#programs">{{__('Our programs') }}</a><span class="menu-item-parent-toggle"></span>
                                         
                                     </li>
-                                    <li id="menu-item-1451" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-1451 megamenu-first-element"><a href="#contact_us">{{__('contact us') }}</a><span class="menu-item-parent-toggle"></span>
+                                    <li id="menu-item-1451" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-1451 megamenu-first-element"><a href={{ route('contact_us')}}>{{ __('contact us') }}</a><span class="menu-item-parent-toggle"></span>
                                         
                                     </li>
                                    
@@ -1529,7 +1529,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                 }
                                             }
                                         </style>
-                                        <div class="vc_row-full-width-before"></div>
+                                        {{-- <div class="vc_row-full-width-before"></div>
                                         <div id="contact_us" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1600720753000 vc_row-has-fill">
                                             <script type="text/javascript">
                                                 if (typeof(gem_fix_fullwidth_position) == "function") {
@@ -1599,7 +1599,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> --}}
                                         <div class="vc_row-full-width vc_clearfix"></div>
                                         <style>
                                             #vc_row-62986ef23ee6f p span {

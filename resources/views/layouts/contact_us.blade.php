@@ -1254,6 +1254,10 @@
                     $('#emailErrorMsg').hide();
                     $('#mobileErrorMsg').hide();
                     $('#messageErrorMsg').hide();
+                    $('#InputName').val('');
+                    $('#InputEmail').val('');
+                    $('#InputMobile').val('');
+                    $('#InputMessage').val('');
                 },
                 error: function(response) {
                     $('#nameErrorMsg').text(response.responseJSON.errors.name);
