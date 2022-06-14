@@ -1206,7 +1206,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                         <div class="clearboth"></div>
                                                         <div class="gem-divider " style="margin-top: 70px;"></div>
                                                         <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                                                            @foreach ($programs as $item)
+                                                            @foreach ($programs as $pro)
                                                             <div class="custom-list-style-begin wpb_column vc_column_container vc_col-sm-6">
                                                                 <div class="vc_column-inner ">
                                                                     <div class="wpb_wrapper">
@@ -1235,7 +1235,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                             <div class="wpb_wrapper">
                                                                                 <h4 style="text-align: right;"><span style="color: #171b2d;">برنامج</span></h4>
 
-                                                                                <h1 style="margin-top: -27px; text-align: right;"><span style="color: #171b2d;">{{ $item->title }}</span></h1>
+                                                                                <h1 style="margin-top: -27px; text-align: right;"><span style="color: #171b2d;">{{ $pro->title }}</span></h1>
 
                                                                             </div>
                                                                         </div>
@@ -1253,7 +1253,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                         <div class="clearboth"></div>
                                                                         <div class="gem-divider " style="margin-top: 100px;"></div>
                                                                         <div class="gem-button-container gem-button-position-right lazy-loading"><a title="برنامج برافو" class="gem-button gem-button-size-medium gem-button-style-flat gem-button-text-weight-normal lazy-loading-item" data-ll-effect="drop-right-without-wrap" style="border-radius: 50px;background-color: #0eaaf5 ;color: #ffffff;"
-                                                                                onmouseleave="this.style.backgroundColor='#0eaaf5 ';this.style.color='#ffffff';" onmouseenter="this.style.backgroundColor='#0eaaf5 ';this.style.color='#ffffff';" href="{{ route('single_pro',$item->id) }}"
+                                                                                onmouseleave="this.style.backgroundColor='#0eaaf5 ';this.style.color='#ffffff';" onmouseenter="this.style.backgroundColor='#0eaaf5 ';this.style.color='#ffffff';" href="{{ route('single_pro',$pro->id) }}"
                                                                                 target="_blank">{{ __('Learn about the program') }}</a></div>
                                                                         <div class="clearboth"></div>
                                                                         <div class="gem-divider " style="margin-top: 200px;"></div>
