@@ -1795,7 +1795,14 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
               },
               success:function(response){
                 $('#successMsg').show();
-                console.log(response);
+                    $('#nameErrorMsg').hide();
+                    $('#emailErrorMsg').hide();
+                    $('#mobileErrorMsg').hide();
+                    $('#CoErrorMsg').hide();
+                    $('#InputName').val('');
+                    $('#InputEmail').val('');
+                    $('#InputMobile').val('');
+                    $('#co_register').val('');
               },
               error: function(response) {
                 $('#nameErrorMsg').text(response.responseJSON.errors.name);
