@@ -1550,7 +1550,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
 
                                                         <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_bottom-to-top bottom-to-top vc_custom_1600767836328">
                                                             <div class="wpb_wrapper">
-                                                                <h3 style="text-align: center;"><span style="color: #ffffff;">{{ __('contact us') }}</span></h3>
+                                                                <h3 style="text-align: center;"><span style="color: #ffffff;">{{ __('Join us now') }}</span></h3>
 
                                                             </div>
                                                         </div>
@@ -1560,7 +1560,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                           
                                                           <div class="container"  style="width: 50%">
                                                             <div class="alert alert-success" role="alert" id="successMsg" style="display: none" >
-                                                               {{ __('Thank you for getting in touch!') }} 
+                                                               {{ __('Thank you for joining us') }} 
                                                               </div>
                                                               <form id="SubmitForm">
                                                                 <div class="mb-3">
