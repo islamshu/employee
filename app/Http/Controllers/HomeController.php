@@ -39,4 +39,9 @@ class HomeController extends Controller
         Session::put('lang', $lang);
         return redirect()->back();
     }
+    public function about_pr($id)
+    {
+        $pro = Project::find($id);
+        return view('layouts.single_program')->with('pro',$pro);
+    }
 }

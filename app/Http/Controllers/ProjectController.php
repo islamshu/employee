@@ -22,6 +22,7 @@ class ProjectController extends Controller
         $project = Project::create([
             'title' => ['en' => $request->title_en, 'ar' => $request->title_ar],
             'desc' => ['en' => $request->desc_en, 'ar' => $request->desc_ar],
+            'image'=>$request->image->store('projects')
 
         ]);
 
@@ -36,6 +37,7 @@ class ProjectController extends Controller
                 $blog = Project_list::create([
                     'project_id'    => $project->id,
                     'title' => ['en' => $value['title_en'], 'ar' => $value['title_ar']],
+                    
                 ]);
             }
         }
@@ -51,11 +53,20 @@ class ProjectController extends Controller
     public function update(Request $request,$id)
     {   
         $project = Project::find($id);
-        $project->update([
-            'title' => ['en' => $request->title_en, 'ar' => $request->title_ar],
-            'desc' => ['en' => $request->desc_en, 'ar' => $request->desc_ar],
-
-        ]);
+        if($request->image != null)
+        {
+            $project->update([
+                'title' => ['en' => $request->title_en, 'ar' => $request->title_ar],
+                'desc' => ['en' => $request->desc_en, 'ar' => $request->desc_ar],
+                'image'=>$request->image->store('projects')
+            ]);
+        }else{
+            $project->update([
+                'title' => ['en' => $request->title_en, 'ar' => $request->title_ar],
+                'desc' => ['en' => $request->desc_en, 'ar' => $request->desc_ar],
+            ]); 
+        }
+        
 
         if (is_array($request->addmore) || is_object($request->addmore)) {
             if ($project->lists->count() != 0) {

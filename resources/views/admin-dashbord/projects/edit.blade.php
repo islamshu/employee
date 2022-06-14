@@ -65,6 +65,14 @@
                                             <textarea name="desc_en" required class="ckeditor" cols="30" rows="10">{!! @$project->getTranslation('desc', 'en')!!}</textarea>
                                         </div>
                                     </div>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <label>اضف صورة * </label>
+                                            <input type="file" name="image" class="form-control" required >
+                                        </div>
+                                       
+                                    </div>
                                 </div>
                                 <h4 class="form-section"><i class="la la-add"></i>القوائم الجانبية</h4>
 

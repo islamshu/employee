@@ -1253,7 +1253,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                         <div class="clearboth"></div>
                                                                         <div class="gem-divider " style="margin-top: 100px;"></div>
                                                                         <div class="gem-button-container gem-button-position-right lazy-loading"><a title="برنامج برافو" class="gem-button gem-button-size-medium gem-button-style-flat gem-button-text-weight-normal lazy-loading-item" data-ll-effect="drop-right-without-wrap" style="border-radius: 50px;background-color: #0eaaf5 ;color: #ffffff;"
-                                                                                onmouseleave="this.style.backgroundColor='#0eaaf5 ';this.style.color='#ffffff';" onmouseenter="this.style.backgroundColor='#0eaaf5 ';this.style.color='#ffffff';" href=""
+                                                                                onmouseleave="this.style.backgroundColor='#0eaaf5 ';this.style.color='#ffffff';" onmouseenter="this.style.backgroundColor='#0eaaf5 ';this.style.color='#ffffff';" href="{{ route('single_pro',$item->id) }}"
                                                                                 target="_blank">{{ __('Learn about the program') }}</a></div>
                                                                         <div class="clearboth"></div>
                                                                         <div class="gem-divider " style="margin-top: 200px;"></div>
