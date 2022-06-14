@@ -1,5 +1,6 @@
 {
     "Email address": "البريد اللإلكتروني",
+    "FaceBook": "فيس بوك",
     "Figures and Statistics": "الأرقام والاحصائيات",
     "Home": "الرئيسية",
     "Learn about the program": "تعرف على البرنامج",
@@ -11,7 +12,12 @@
     "Start your journey with us now": "ابدأ رحلتك معنا الآن",
     "Submit": "ارسال",
     "Thank you for getting in touch!": "شكرا لك على تواصلك!",
+    "The :attribute field is required.": "هذا الحقل مطلوب",
+    "We are excited to have you join us and connect with us": "يسعدنا انضمامك إلينا والتواصل معنا",
     "address": "العنوان",
     "contact us": "تواصل معنا !",
+    "instagram": "انسقرام",
+    "linkedin": "لينكد ان",
+    "twitter": "تويتر",
     "usful links": "روابط مفيدة"
 }
