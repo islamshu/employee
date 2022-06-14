@@ -712,7 +712,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
         
         .vc_custom_1600720753000 {
             margin-bottom: -30px !important;
-            background-color: #00BCD4 !important;
+            background-color: #69489d  !important;
             background-position: center !important;
             background-repeat: no-repeat !important;
             background-size: cover !important;
