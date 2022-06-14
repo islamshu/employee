@@ -8,6 +8,7 @@
         .tgpli-background-inited {
             background-image: none !important;
         }
+        
         .partner_class{
             height:850px;
             overflow-y: scroll;
@@ -681,13 +682,13 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
         .vc_custom_1600125432050 {
             margin-top: -128px !important;
             margin-bottom: -128px !important;
-            background-color: #df7242 !important;
+            background-color: #69489d  !important;
         }
         
         .vc_custom_1600777159542 {
             padding-top: 170px !important;
             padding-bottom: 80px !important;
-            background-color: #00c387 !important;
+            background-color: #de4f76 !important;
         }
         
         .vc_custom_1609826308527 {
@@ -952,7 +953,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
             <div id="main-content" class="main-content">
 
 
-                <div class="block-content no-bottom-margin no-top-margin">
+                <div class="block-content no-bottom-margin no-top-margin" style="background: #de4f76">
                     <div class="container">
                         <div class="panel row">
 
@@ -1006,8 +1007,8 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                         <div class="gem-alert-inner">
                                                                             <div class="gem-alert-box-content"></div>
                                                                             <div class="gem-alert-box-buttons">
-                                                                                <div class="gem-button-container gem-button-position-inline"><a class="gem-button gem-button-size-medium gem-button-style-flat gem-button-text-weight-normal" style="border-radius: 36px;background-color: #00c387;color: #ffffff;" onmouseleave="this.style.backgroundColor='#00c387';this.style.color='#ffffff';"
-                                                                                        onmouseenter="this.style.backgroundColor='#3c3950';this.style.color='#ffffff';" href="{{ $first_se->first_link }}" target="_self">{{ $first_se->first_btn }}</a></div>
+                                                                                <div class="gem-button-container gem-button-position-inline"><a class="gem-button gem-button-size-medium gem-button-style-flat gem-button-text-weight-normal" style="border-radius: 36px;background-color: #de4f76;color: #ffffff;" onmouseleave="this.style.backgroundColor='#de4f76';this.style.color='#ffffff';"
+                                                                                        onmouseenter="this.style.backgroundColor='#de4f76';this.style.color='#ffffff';" href="{{ $first_se->first_link }}" target="_self">{{ $first_se->first_btn }}</a></div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -1021,16 +1022,19 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                             <div class="wpb_wrapper">
                                                                 <span class="wistia_embed wistia_async_1w9lj1e9sb popover=true popoverContent=link" style="display:inline;position:relative">
                                                                 <a style="border-radius: 36px !important;
-    background-color: rgb(223, 114, 66) !important;
-    color: rgb(255, 255, 255) !important;
-    height: 50px !important;
-    line-height: 50px !important;
-    padding: 12px 25px;
-    font-size: 19px !important;
-    font-weight: bold !important;
-    position: relative !important;
-    top: -70px !important;
-    right: 155px ;"  href="{{ $first_se->secand_link }}">{{ $first_se->secand_btn }}</a></span>
+                                                                            background-color: #69489d !important;
+                                                                            
+                                                                            color: #fff !important;
+                                                                            height: 50px !important;
+                                                                            line-height: 50px !important;
+                                                                            padding: 12px 25px;
+                                                                            font-size: 19px !important;
+                                                                            font-weight: bold !important;
+                                                                            position: relative !important;
+                                                                            top: -70px !important;
+                                                                            right: 155px ;"  href="{{ $first_se->secand_link }}">{{ $first_se->secand_btn }}
+                                                                            </a>
+                                                                        </span>
                                                             </div>
                                                         </div>
                                                         @endif
@@ -1195,7 +1199,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                     <div class="wpb_wrapper">
                                                         <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_bottom-to-top bottom-to-top vc_custom_1600772395043">
                                                             <div class="wpb_wrapper">
-                                                                <h2 class="any-custom-text" style="text-align: center;"><span style="color: #00c387; forn size: 70px;">{{ __('Our programs') }}</span></h2>
+                                                                <h2 class="any-custom-text" style="text-align: center;"><span style="color: #de4f76 ; forn size: 70px;">{{ __('Our programs') }}</span></h2>
 
                                                             </div>
                                                         </div>
@@ -1328,7 +1332,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                         <!-- Gallery -->
                                         <!-- Grid row -->
 <!-- Page Content -->
-<div class="container ">
+<div style="width: 100%" >
 
     <h1 id="vc_row-62986ef22f13e" class="fw-light text-center text-lg-start mt-4 mb-0">{{ __('Partners') }}</h1>
   
@@ -1339,8 +1343,8 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
             
         
       <div class="col-lg-3 col-md-4 col-6">
-        <a href="#" class="d-block mb-4 h-100">
-          <img class="img-fluid img-thumbnail" src="{{ asset('uploads/'.$item->image) }}" alt="{{ get_general_value('title_'.app()->getLocale()) }}">
+        <a href="#" class="d-block mb-4 " >
+          <img class="img-fluid img-thumbnail" style="height: 200px;width:250px" src="{{ asset('uploads/'.$item->image) }}" alt="{{ get_general_value('title_'.app()->getLocale()) }}">
         </a>
       </div>
       @endforeach
@@ -1353,32 +1357,10 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
   <!-- Gallery -->
                                           <div class="gem-divider " style="margin-top: 160px;"></div>
 
-                                        <div class="vc_row-full-width-before"></div>
-                                        <div id="vc_row-62986ef23892e" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid custom-polygon-4 vc_custom_1600125704977 vc_row-has-fill">
-                                            <script type="text/javascript">
-                                                if (typeof(gem_fix_fullwidth_position) == "function") {
-                                                    gem_fix_fullwidth_position(document.getElementById("vc_row-62986ef23892e"));
-                                                }
-                                            </script>
-                                            <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                <div class="vc_column-inner ">
-                                                    <div class="wpb_wrapper">
-                                                        <div class="clearboth"></div>
-                                                        <div class="gem-divider " style="margin-top: 80px;"></div>
-                                                        <div class="gem-image gem-wrapbox gem-wrapbox-style-default gem-wrapbox-position-below lazy-loading" style="">
-                                                            <div class="gem-wrapbox-inner  lazy-loading-item" data-ll-effect="move-up"><img class="gem-wrapbox-element img-responsive" data-tgpli-src="https://walaplus.com/wp_content/uploads/2020/09/mobails.png" alt="" data-tgpli-inited data-tgpli-image-inited id="tgpli-62986ef244530"
-                                                                />
-                                                               </div>
-                                                        </div>
-                                                        <div class="clearboth"></div>
-                                                        <div class="gem-divider " style="margin-top: 80px;"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                       
                                         <div class="vc_row-full-width vc_clearfix"></div>
                                         <div class="vc_row-full-width-before"></div>
-                                        <div id="vc_row-62986ef239c0f" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1601554316679 vc_row-o-content-middle vc_row-flex">
+                                        <div id="vc_row-62986ef239c0f" style="background:gainsboro" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1601554316679 vc_row-o-content-middle vc_row-flex">
                                             <script type="text/javascript">
                                                 if (typeof(gem_fix_fullwidth_position) == "function") {
                                                     gem_fix_fullwidth_position(document.getElementById("vc_row-62986ef239c0f"));
