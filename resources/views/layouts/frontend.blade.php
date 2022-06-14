@@ -1379,7 +1379,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                         <div class="gem-divider " style="margin-top: 22px;"></div>
                                                         <div class="wpb_text_column wpb_content_element ">
                                                             <div class="wpb_wrapper">
-                                                                <div class="title-xlarge" style="color: #00bcd4">{{ $statistic->main_title }}</div>
+                                                                <div class="title-xlarge" style="color: #69489D">{{ $statistic->main_title }}</div>
 
                                                             </div>
                                                         </div>
