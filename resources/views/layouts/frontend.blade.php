@@ -1344,7 +1344,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
         
       <div class="col-lg-3 col-md-4 col-6">
         <a href="#" class="d-block mb-4 " >
-          <img class="img-fluid img-thumbnail" style="height: 200px;width:250px" src="{{ asset('uploads/'.$item->image) }}" alt="{{ get_general_value('title_'.app()->getLocale()) }}">
+          <img class="img-fluid img-thumbnail" style="height: 200px;width:250px" src="http://foryougo.foryougo.net/images/brand/{{ $item->image }}" alt="{{ get_general_value('title_'.app()->getLocale()) }}">
         </a>
       </div>
       @endforeach

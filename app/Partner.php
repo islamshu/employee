@@ -5,6 +5,7 @@ use Illuminate\Database\Eloquent\Model;
 class Partner extends Model
 {
     protected $guarded=[];
-    // use HasTranslations;
-    // public $translatable = ['title','body','btn'];
+    protected $connection = 'mysql2';
+    protected $table = 'vendors';
+
 }

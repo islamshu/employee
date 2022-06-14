@@ -28,7 +28,7 @@ class HomeController extends Controller
     {
         return view('layouts.frontend')
         ->with('first_se',FirstSection::first())
-        ->with('partners',Partner::get())
+        ->with('partners',Partner::where('status','active')->get())
         ->with('third',ThirdSection::first())
         ->with('statistic',Statistic::first())
         ->with('programs',Project::get())
