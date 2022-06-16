@@ -1363,60 +1363,18 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
           <!--First slide-->
           <div class="carousel-item active">
       
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(38).webp"
-                  alt="Card image cap">
-              </div>
-            </div>
-      
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(19).webp"
-                  alt="Card image cap">
-              </div>
-            </div>
-      
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(42).webp"
-                  alt="Card image cap">
-              </div>
-            </div>
-      
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(8).webp"
-                  alt="Card image cap">
-              </div>
-            </div>
+            @foreach ($partners as $item)
+                
+           
+            
             <div class="col-md-3 mb-3">
                 <div class="card">
-                  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(38).webp"
+                  <img class="img-fluid" src="foryougo.foryougo.net/images/brand/{{ $item->image }}."
                     alt="Card image cap">
                 </div>
               </div>
         
-              <div class="col-md-3 mb-3">
-                <div class="card">
-                  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(19).webp"
-                    alt="Card image cap">
-                </div>
-              </div>
-        
-              <div class="col-md-3 mb-3">
-                <div class="card">
-                  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(42).webp"
-                    alt="Card image cap">
-                </div>
-              </div>
-        
-              <div class="col-md-3 mb-3">
-                <div class="card">
-                  <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(8).webp"
-                    alt="Card image cap">
-                </div>
-              </div>
+              @endforeach
       
           </div>
           <!--/.First slide-->
