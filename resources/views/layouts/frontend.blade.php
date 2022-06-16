@@ -1364,12 +1364,11 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
       
           <!--First slide-->
 
-          @if(count($partners))
           
           @foreach ($partners as $key=>$item)
-          
+          <div class="carousel-item @if($key == 0) active @endif">
+
                   @if($key % 8 == 0)
-                  <div class="carousel-item @if($key == 0) active @endif">
                     <div class="col-md-3 mb-3">
                         <div class="card">
                           <img class="img-fluid" src="http://foryougo.foryougo.net/images/brand/5.png"
@@ -1377,15 +1376,24 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                         </div>
                       </div>
                   @endif
+          </div>
+          @else
+          <div class="carousel-item @if($key == 0) active @endif">
+
+                  <div class="col-md-3 mb-3">
+                    <div class="card">
+                      <img class="img-fluid" src="http://foryougo.foryougo.net/images/brand/5.png"
+                        alt="Card image cap">
+                    </div>
+                  </div>
+          </div>
+          @endif
                   
+
                   
-          
-                  @if($key % 8 == 0)
-                     </div>
-                  @endif
+             
        
              @endforeach
-           @endif
           <!--/.Third slide-->
       
         </div>
