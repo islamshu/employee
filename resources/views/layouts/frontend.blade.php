@@ -1347,7 +1347,9 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
     <h1 id="vc_row-62986ef22f13e" class="fw-light text-center text-lg-start mt-4 mb-0">{{ __('Partners') }}</h1>
   
     <hr class="mt-2 mb-5">
-  
+
+
+
     <div id="multi-item-example" class="carousel slide carousel-multi-item carousel-multi-item-2" data-ride="carousel">
 
         <!--Controls-->
@@ -1368,8 +1370,9 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
           @foreach ($partners as $key=>$item)
           
                   @if($counter % 8 == 0)
-                       <div class="row margin-b-2">
+                  <div class="carousel-item active">
                   @endif
+                  
                   <div class="col-md-3 mb-3">
                     <div class="card">
                       <img class="img-fluid" src="foryougo.foryougo.net/images/brand/{{ $item->image }}."
@@ -1384,19 +1387,27 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
              <?php $counter++; ?>
              @endforeach
            @endif
-      
-         
-            </div>
-          <!--/.First slide-->
-      
-          <!--Second slide-->
-        
           <!--/.Third slide-->
       
         </div>
         <!--/.Slides-->
       
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   </div>
   <!-- Grid row -->
