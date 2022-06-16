@@ -1385,8 +1385,8 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
       
         </div>
         <div class="controls-top" style="text-align: center">
-          <a class="black-text" href="#multi-item-example" data-slide="prev"><img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/angle-right-512.png" width="20" height="20" alt=""></a>
-          <a class="black-text" href="#multi-item-example" data-slide="next">&#{!!9887!!};</a>
+          <a class="black-text" href="#multi-item-example" data-slide="prev"><img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/angle-right-512.png" width="40" height="40" alt=""></a>
+          <a class="black-text" href="#multi-item-example" data-slide="next"><img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/angle-left-512.png" width="40" height="40"  alt=""></a>
         </div>
         <!--/.Slides-->
       
