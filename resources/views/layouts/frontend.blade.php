@@ -1370,7 +1370,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
             <div class="col-md-3 mb-3">
               <div class="card">
                 <img class="img-fluid" src="http://foryougo.foryougo.net/images/brand/{{ $chunk->image }}"
-                  alt="Card image cap">
+                @if(get_lang() == 'ar') alt="{{ $chunk->name_ar }}" @else alt="{{ $chunk->name_en }}" @endif>
               </div>
             </div>
             @endforeach
