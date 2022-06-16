@@ -1368,7 +1368,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
           @foreach ($partners->chunk(8) as $key=>$item)
    
           
-          <div class="carousel-item active">
+          <div class="carousel-item @if($key ==0) active" @endih >
             @foreach ($item as $chunk)
             <div class="col-md-3 mb-3">
               <div class="card">
