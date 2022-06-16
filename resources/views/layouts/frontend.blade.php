@@ -1375,7 +1375,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                   
                   <div class="col-md-3 mb-3">
                     <div class="card">
-                      <img class="img-fluid" src="foryougo.foryougo.net/images/brand/{{ $item->image }}."
+                      <img class="img-fluid" src="http://foryougo.foryougo.net/images/brand/5.png"
                         alt="Card image cap">
                     </div>
                   </div>
