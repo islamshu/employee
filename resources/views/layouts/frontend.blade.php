@@ -1363,14 +1363,13 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
         <div class="carousel-inner" role="listbox">
       
           <!--First slide-->
-          <?php $counter = 1; ?>
 
           @if(count($partners))
           
           @foreach ($partners as $key=>$item)
           
-                  @if($counter % 8 == 0)
-                  <div class="carousel-item active">
+                  @if($key % 8 == 0)
+                  <div class="carousel-item @if($key == 0) active @endif">
                   @endif
                   
                   <div class="col-md-3 mb-3">
@@ -1379,12 +1378,11 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                         alt="Card image cap">
                     </div>
                   </div>
-                </div>
           
-                  @if($counter % 8 == 0)
+                  @if($key % 8 == 0)
                      </div>
                   @endif
-             <?php $counter++; ?>
+       
              @endforeach
            @endif
           <!--/.Third slide-->
