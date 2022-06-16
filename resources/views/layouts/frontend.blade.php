@@ -1385,7 +1385,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
       
         </div>
         <div class="controls-top">
-          <a class="black-text" href="#multi-item-example" data-slide="prev">&#f269E;</i></a>
+          <a class="black-text" href="#multi-item-example" data-slide="prev">{!! &#f269E; !!}</i></a>
           <a class="black-text" href="#multi-item-example" data-slide="next"><i class="fas fa-angle-right fa-3x pl-3"></i></a>
         </div>
         <!--/.Slides-->
