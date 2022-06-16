@@ -1363,7 +1363,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
           <!--First slide-->
           <?php $counter = 1; ?>
 
-          @if(count($articles))
+          @if(count($partners))
           
           @foreach ($partners as $key=>$item)
           
