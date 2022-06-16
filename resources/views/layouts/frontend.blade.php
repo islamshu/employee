@@ -1384,9 +1384,9 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
           <!--/.Third slide-->
       
         </div>
-        <div class="controls-top">
+        <div class="controls-top" style="text-align: center">
           <a class="black-text" href="#multi-item-example" data-slide="prev">&#{!! 9886 !!};</a>
-          <a class="black-text" href="#multi-item-example" data-slide="next"><i class="fas fa-angle-right fa-3x pl-3"></i></a>
+          <a class="black-text" href="#multi-item-example" data-slide="next">&#{!!9887!!};</a>
         </div>
         <!--/.Slides-->
       
