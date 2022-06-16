@@ -1365,7 +1365,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
           <!--First slide-->
 
           
-          @foreach ($partners->chunk(4) as $key=>$item)
+          @foreach ($partners->chunk(8) as $key=>$item)
    
           
           <div class="carousel-item active">
