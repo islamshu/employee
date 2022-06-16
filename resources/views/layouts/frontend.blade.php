@@ -1366,27 +1366,17 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
 
           
           @foreach ($partners as $key=>$item)
-          <div class="carousel-item @if($key == 0) active @endif">
-
-                  @if($key % 8 == 0)
-                    <div class="col-md-3 mb-3">
-                        <div class="card">
-                          <img class="img-fluid" src="http://foryougo.foryougo.net/images/brand/5.png"
-                            alt="Card image cap">
-                        </div>
-                      </div>
+          
+          <div class="carousel-item active">
+            @foreach ($partners->chunk(4) as $chunk)
+            <div class="col-md-3 mb-3">
+              <div class="card">
+                <img class="img-fluid" src="http://foryougo.foryougo.net/images/brand/{{ $chunk->image }}"
+                  alt="Card image cap">
+              </div>
+            </div>
+            @endforeach
           </div>
-          @else
-          <div class="carousel-item @if($key == 0) active @endif">
-
-                  <div class="col-md-3 mb-3">
-                    <div class="card">
-                      <img class="img-fluid" src="http://foryougo.foryougo.net/images/brand/5.png"
-                        alt="Card image cap">
-                    </div>
-                  </div>
-          </div>
-          @endif
                   
 
                   
