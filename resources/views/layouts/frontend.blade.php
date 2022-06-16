@@ -1370,7 +1370,6 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
           
           <div class="carousel-item active">
             @foreach ($item as $chunk)
-            {{ dd($chunk) }}
             <div class="col-md-3 mb-3">
               <div class="card">
                 <img class="img-fluid" src="http://foryougo.foryougo.net/images/brand/{{ $chunk->image }}"
