@@ -1361,90 +1361,36 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
         <div class="carousel-inner" role="listbox">
       
           <!--First slide-->
-          <div class="carousel-item active">
-      
-            @foreach ($partners as $item)
-                
-           
-            
-            <div class="col-md-3 mb-3">
-                <div class="card">
-                  <img class="img-fluid" src="foryougo.foryougo.net/images/brand/{{ $item->image }}."
-                    alt="Card image cap">
+          <?php $counter = 1; ?>
+
+          @if(count($articles))
+          
+          @foreach ($partners as $key=>$item)
+          
+                  @if($counter % 8 == 0)
+                       <div class="row margin-b-2">
+                  @endif
+                  <div class="col-md-3 mb-3">
+                    <div class="card">
+                      <img class="img-fluid" src="foryougo.foryougo.net/images/brand/{{ $item->image }}."
+                        alt="Card image cap">
+                    </div>
+                  </div>
                 </div>
-              </div>
-        
-              @endforeach
+          
+                  @if($counter % 8 == 0)
+                     </div>
+                  @endif
+             <?php $counter++; ?>
+             @endforeach
+           @endif
       
-          </div>
+         
+            </div>
           <!--/.First slide-->
       
           <!--Second slide-->
-          <div class="carousel-item">
-      
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(53).webp"
-                  alt="Card image cap">
-              </div>
-            </div>
-      
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(25).webp"
-                  alt="Card image cap">
-              </div>
-            </div>
-      
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(47).webp"
-                  alt="Card image cap">
-              </div>
-            </div>
-      
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(26).webp"
-                  alt="Card image cap">
-              </div>
-            </div>
-      
-          </div>
-          <!--/.Second slide-->
-      
-          <!--Third slide-->
-          <div class="carousel-item">
-      
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(64).webp"
-                  alt="Card image cap">
-              </div>
-            </div>
-      
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(51).webp"
-                  alt="Card image cap">
-              </div>
-            </div>
-      
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(59).webp"
-                  alt="Card image cap">
-              </div>
-            </div>
-      
-            <div class="col-md-3 mb-3">
-              <div class="card">
-                <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(63).webp"
-                  alt="Card image cap">
-              </div>
-            </div>
-      
-          </div>
+        
           <!--/.Third slide-->
       
         </div>
