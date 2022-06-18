@@ -1228,7 +1228,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                                     content: "" !important;
                                                                                     width: 145px !important;
                                                                                     height: 145px !important;
-                                                                                    background : #0eaaf5  !important;
+                                                                                    background : #748994  !important;
                                                                                     position: absolute !important;
                                                                                     top: -21px !important;
                                                                                     right: -26px !important;
@@ -1236,14 +1236,14 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                                     border-radius: 5px !important;
                                                                            }
                                                                                     .custom-list-style-begin .gem-list>ul>li:before {
-                                                                                    color:  #0eaaf5  !important;
+                                                                                    color:  #748994  !important;
                                                                                 }
                                                                                 }
                                                                         </style>
 
                                                                         <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_bottom-to-top bottom-to-top begin-square" >
                                                                             <div class="wpb_wrapper">
-                                                                                <h4 style="text-align: right;"><span style="color: #171b2d;">برنامج</span></h4>
+                                                                                <h4 style="text-align: right;"><span style="color: #171b2d;">{{ __('Program') }}</span></h4>
 
                                                                                 <h1 style="margin-top: -27px; text-align: right;"><span style="color: #171b2d;">{{ $pro->title }}</span></h1>
 
@@ -1251,7 +1251,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                         </div>
                                                                         <div class="clearboth"></div>
                                                                         <div class="gem-divider " style="margin-top: 75px;"></div>
-                                                                        <div class="gem-list lazy-loading gem-list-type-check-style-1 gem-list-color-3" style="#0eaaf5  !important">
+                                                                        <div class="gem-list lazy-loading gem-list-type-check-style-1 gem-list-color-3" style="#748994  !important">
                                                                             <ul>
                                                                                 @foreach ($pro->lists as $item)
                                                                                 <li>{{ $item->title }}</li>
@@ -1262,8 +1262,8 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                         </div>
                                                                         <div class="clearboth"></div>
                                                                         <div class="gem-divider " style="margin-top: 100px;"></div>
-                                                                        <div class="gem-button-container gem-button-position-right lazy-loading"><a title="برنامج برافو" class="gem-button gem-button-size-medium gem-button-style-flat gem-button-text-weight-normal lazy-loading-item" data-ll-effect="drop-right-without-wrap" style="border-radius: 50px;background-color: #0eaaf5 ;color: #ffffff;"
-                                                                                onmouseleave="this.style.backgroundColor='#0eaaf5 ';this.style.color='#ffffff';" onmouseenter="this.style.backgroundColor='#0eaaf5 ';this.style.color='#ffffff';" href="{{ route('single_pro',$pro->id) }}"
+                                                                        <div class="gem-button-container gem-button-position-right lazy-loading"><a title="{{ $pro->title }}" class="gem-button gem-button-size-medium gem-button-style-flat gem-button-text-weight-normal lazy-loading-item" data-ll-effect="drop-right-without-wrap" style="border-radius: 50px;background-color: #748994 ;color: #ffffff;"
+                                                                                onmouseleave="this.style.backgroundColor='#748994 ';this.style.color='#ffffff';" onmouseenter="this.style.backgroundColor='#748994 ';this.style.color='#ffffff';" href="{{ route('single_pro',$pro->id) }}"
                                                                                 target="_blank">{{ __('Learn about the program') }}</a></div>
                                                                         <div class="clearboth"></div>
                                                                         <div class="gem-divider " style="margin-top: 200px;"></div>
