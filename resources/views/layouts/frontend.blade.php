@@ -891,7 +891,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                     @if(get_lang() == 'ar')
                                     <a class="socials-item" href="lang/en"  title="english">{{ __('ENGLISH') }}  </a>
                                     @else
-                                    <a class="socials-item" href="lang/ar"  title="english">{{ __('العربية') }}  </a>
+                                    <a class="socials-item" href="lang/ar"  title="arabic">{{ __('العربية') }}  </a>
                                     @endif
 
 
@@ -945,7 +945,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                             </a>
                                         </div>
                                     </li>
-                                    @if(get_lang() == 'ar')
+                                    {{-- @if(get_lang() == 'ar')
                                         
                                     
                                     <li id="menu-item-wpml-ls-50-ar" class="menu-item wpml-ls-slot-50 wpml-ls-item wpml-ls-item-ar wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children menu-item-wpml-ls-50-ar megamenu-first-element"><a title="العربية" href="/"><span class="wpml-ls-display">العربية</span></a>
@@ -959,7 +959,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                             <li id="menu-item-wpml-ls-50-en" class="menu-item wpml-ls-slot-50 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-50-en megamenu-first-element"><a title="ARABIC" href="lang/ar"><span class="wpml-ls-display">ARABIC</span></a></li>
                                         </ul>
                                     </li>
-                                    @endif
+                                    @endif --}}
                                 </ul>
                             </nav>
                         </div>
