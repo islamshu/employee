@@ -888,6 +888,12 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                             <a class="socials-item" href="{{  get_general_value('facebook') }}" target="_blank" title="facebook"><i
 									class="socials-item-icon facebook "></i></a>
                                     @endif
+                                    @if(get_lang() == 'ar')
+                                    <a class="socials-item" href="lang/en"  title="english">{{ __('ENGLISH') }}  </a>
+                                    @else
+                                    <a class="socials-item" href="lang/ar"  title="english">{{ __('العربية') }}  </a>
+                                    @endif
+
 
                         </div>
                     </div>
