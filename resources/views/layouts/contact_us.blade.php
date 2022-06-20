@@ -953,7 +953,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="page-title-alignment-"></div>
                 </div>
                 <div class="block-content no-bottom-margin no-top-margin">
                     <div class="container">
