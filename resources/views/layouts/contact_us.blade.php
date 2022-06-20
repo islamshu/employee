@@ -936,7 +936,7 @@
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
                                     <div class="wpb_wrapper">
-                                        <div id="fullwidth-block-62986e153e336" class="custom-title-background fullwidth-block clearfix" style="background-color: ;padding-top: 120px;padding-bottom: 120px;">
+                                        <div id="fullwidth-block-62986e153e336" class="custom-title-background fullwidth-block clearfix" style="background-color: ;padding-top: 120px;">
                                             
                                             <br> 
                                             <br>
