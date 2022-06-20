@@ -1228,7 +1228,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                                     content: "" !important;
                                                                                     width: 145px !important;
                                                                                     height: 145px !important;
-                                                                                    background : #748994  !important;
+                                                                                    background : #bdcad1  !important;
                                                                                     position: absolute !important;
                                                                                     top: -21px !important;
                                                                                     right: -26px !important;
@@ -1236,7 +1236,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                                     border-radius: 5px !important;
                                                                            }
                                                                                     .custom-list-style-begin .gem-list>ul>li:before {
-                                                                                    color:  #748994  !important;
+                                                                                    color:  #bdcad1  !important;
                                                                                 }
                                                                                 }
                                                                         </style>
@@ -1251,7 +1251,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                         </div>
                                                                         <div class="clearboth"></div>
                                                                         <div class="gem-divider " style="margin-top: 75px;"></div>
-                                                                        <div class="gem-list lazy-loading gem-list-type-check-style-1 gem-list-color-3" style="#748994  !important">
+                                                                        <div class="gem-list lazy-loading gem-list-type-check-style-1 gem-list-color-3" style="#bdcad1  !important">
                                                                             <ul>
                                                                                 @foreach ($pro->lists as $item)
                                                                                 <li>{{ $item->title }}</li>
@@ -1262,8 +1262,8 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                         </div>
                                                                         <div class="clearboth"></div>
                                                                         <div class="gem-divider " style="margin-top: 100px;"></div>
-                                                                        <div class="gem-button-container gem-button-position-right lazy-loading"><a title="{{ $pro->title }}" class="gem-button gem-button-size-medium gem-button-style-flat gem-button-text-weight-normal lazy-loading-item" data-ll-effect="drop-right-without-wrap" style="border-radius: 50px;background-color: #748994 ;color: #ffffff;"
-                                                                                onmouseleave="this.style.backgroundColor='#748994 ';this.style.color='#ffffff';" onmouseenter="this.style.backgroundColor='#748994 ';this.style.color='#ffffff';" href="{{ route('single_pro',$pro->id) }}"
+                                                                        <div class="gem-button-container gem-button-position-right lazy-loading"><a title="{{ $pro->title }}" class="gem-button gem-button-size-medium gem-button-style-flat gem-button-text-weight-normal lazy-loading-item" data-ll-effect="drop-right-without-wrap" style="border-radius: 50px;background-color: #bdcad1 ;color: #ffffff;"
+                                                                                onmouseleave="this.style.backgroundColor='#bdcad1 ';this.style.color='#ffffff';" onmouseenter="this.style.backgroundColor='#bdcad1 ';this.style.color='#ffffff';" href="{{ route('single_pro',$pro->id) }}"
                                                                                 target="_blank">{{ __('Learn about the program') }}</a></div>
                                                                         <div class="clearboth"></div>
                                                                         <div class="gem-divider " style="margin-top: 200px;"></div>
@@ -1369,7 +1369,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
             @foreach ($item as $chunk)
             <div class="col-md-3 mb-3">
               <div class="card">
-                <img class="img-fluid" src="http://foryougo.foryougo.net/images/brand/{{ $chunk->image }}" style="width: 200px;height: 150px;"
+                <img class="img-fluid" src="http://foryougo.foryougo.net/images/brand/{{ $chunk->image }}" style="width: 200px;height: 150px; margin-right: 15px;"
                 @if(get_lang() == 'ar') alt="{{ $chunk->name_ar }}" @else alt="{{ $chunk->name_en }}" @endif>
               </div>
             </div>
@@ -1459,7 +1459,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                             <div class="gem-counter col-xs-12 inline-column gem-counter-effect-border-reverse">
                                                                                 <div class="gem-counter-inner">
                                                                                     <div class="gem-counter-icon">
-                                                                                        <div class="gem-icon gem-icon-pack-material gem-icon-size-small  gem-icon-shape-circle" style="border-color: #4ed2b3;opacity: 1;">
+                                                                                        <div class="gem-icon gem-icon-pack-material gem-icon-size-small  gem-icon-shape-circle" style="border-color: #4ed2b3;opacity: 1;height: 60px;">
                                                                                             <div class="gem-icon-inner" style=""><span class="gem-icon-half-1" style="color: #4ed2b3;"><span class="back-angle">&#{!! $statistic->icon1 !!};</span></span><span class="gem-icon-half-2" style="color: #4ed2b3;"><span class="back-angle">&#{!! $statistic->icon1 !!};</span></span>
                                                                                             </div>
                                                                                         </div>
@@ -1480,7 +1480,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                             <div class="gem-counter col-xs-12 inline-column gem-counter-effect-border-reverse">
                                                                                 <div class="gem-counter-inner">
                                                                                     <div class="gem-counter-icon">
-                                                                                        <div class="gem-icon gem-icon-pack-material gem-icon-size-small  gem-icon-shape-circle" style="border-color: #00bcd4;opacity: 1;">
+                                                                                        <div class="gem-icon gem-icon-pack-material gem-icon-size-small  gem-icon-shape-circle" style="border-color: #00bcd4;opacity: 1;height: 60px;">
                                                                                             <div class="gem-icon-inner" style=""><span class="gem-icon-half-1" style="color: #00bcd4;"><span class="back-angle">&#{!! $statistic->icon2 !!};</span></span><span class="gem-icon-half-2" style="color: #00bcd4;"><span class="back-angle">&#{!! $statistic->icon2 !!};</span></span>
                                                                                             </div>
                                                                                         </div>
@@ -1503,7 +1503,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                             <div class="gem-counter col-xs-12 inline-column gem-counter-effect-border-reverse">
                                                                                 <div class="gem-counter-inner">
                                                                                     <div class="gem-counter-icon">
-                                                                                        <div class="gem-icon gem-icon-pack-material gem-icon-size-small  gem-icon-shape-circle" style="border-color: #8f6cff;opacity: 1;">
+                                                                                        <div class="gem-icon gem-icon-pack-material gem-icon-size-small  gem-icon-shape-circle" style="border-color: #8f6cff;opacity: 1;height: 60px;">
                                                                                             <div class="gem-icon-inner" style=""><span class="gem-icon-half-1" style="color: #8f6cff;"><span class="back-angle">&#{!! $statistic->icon3 !!};</span></span><span class="gem-icon-half-2" style="color: #8f6cff;"><span class="back-angle">&#{!! $statistic->icon3 !!};</span></span>
                                                                                             </div>
                                                                                         </div>
@@ -1524,7 +1524,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                             <div class="gem-counter col-xs-12 inline-column gem-counter-effect-border-reverse">
                                                                                 <div class="gem-counter-inner">
                                                                                     <div class="gem-counter-icon">
-                                                                                        <div class="gem-icon gem-icon-pack-material gem-icon-size-small  gem-icon-shape-circle" style="border-color: #3f99ff;opacity: 1;">
+                                                                                        <div class="gem-icon gem-icon-pack-material gem-icon-size-small  gem-icon-shape-circle" style="border-color: #3f99ff;opacity: 1;height: 60px;">
                                                                                             <div class="gem-icon-inner" style=""><span class="gem-icon-half-1" style="color: #3f99ff;"><span class="back-angle">&#{!! $statistic->icon4 !!};</span></span>
                                                                                                 <span class="gem-icon-half-2" style="color: #3f99ff;"><span class="back-angle">&#{!! $statistic->icon4 !!};</span></span>
                                                                                             </div>
@@ -1748,7 +1748,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                             />
                             
                             <img  src="{{ asset('uploads/'.get_general_value('header_logo')) }}" height="100" class="aligncenter" style=" height: 200px;" alt="">
-                            {!!  get_general_value('desc_'.app()->getLocale()) !!}
+                            {{-- {!!  get_general_value('desc_'.app()->getLocale()) !!} --}}
                         </div>
                     </div>
                 </div>

@@ -904,7 +904,7 @@
                                     <li class="menu-item-logo">
                                         <div class="site-logo" style="width:180px;">
                                             <a href="/" rel="home">
-                                                <img class="default" width="180" height="80"
+                                                <img class="default" width="140" height="80"
                                                     src="{{ asset('uploads/' . get_general_value('header_logo')) }}"
                                                     alt="">
                                             </a>
@@ -1321,7 +1321,7 @@
 
                         <img src="{{ asset('uploads/' . get_general_value('header_logo')) }}" height="100"
                             class="aligncenter" style=" height: 200px;" alt="">
-                        {!! get_general_value('desc_' . app()->getLocale()) !!}
+                        {{-- {!! get_general_value('desc_' . app()->getLocale()) !!} --}}
                     </div>
                 </div>
             </div>

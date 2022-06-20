@@ -885,7 +885,7 @@
                                     <li class="menu-item-logo">
                                         <div class="site-logo" style="width:180px;">
                                             <a href="/" rel="home">
-                                                <img class="default" width="180" height="80"
+                                                <img class="default" width="140" height="80"
                                                     src="{{ asset('uploads/' . get_general_value('header_logo')) }}"
                                                     alt="">
                                             </a>
@@ -937,7 +937,10 @@
                                 <div class="vc_column-inner ">
                                     <div class="wpb_wrapper">
                                         <div id="fullwidth-block-62986e153e336" class="custom-title-background fullwidth-block clearfix" style="background-color: ;padding-top: 120px;padding-bottom: 120px;">
-                                          
+                                            
+                                            <br> 
+                                            <br>
+                                            <br>
                                        
                                             <div class="fullwidth-block-inner">
                                                 <div class="custom-title-title " style="text-align: center;margin-left: auto;margin-right: auto;">
@@ -1137,7 +1140,7 @@
 
                             <img src="{{ asset('uploads/' . get_general_value('header_logo')) }}" height="100"
                                 class="aligncenter" style=" height: 200px;" alt="">
-                            {!! get_general_value('desc_' . app()->getLocale()) !!}
+                            {{-- {!! get_general_value('desc_' . app()->getLocale()) !!} --}}
                         </div>
                     </div>
                 </div>
