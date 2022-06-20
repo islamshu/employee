@@ -1626,7 +1626,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                           
                                                                 <div class="mb-3">
                                                                     <label for="InputMobile" class="form-label">{{ __('Commercial Register') }}</label>
-                                                                    <input type="number"  style="height: 50px;font-size: 18px;" class="form-control" id="co_register">
+                                                                    <input type="text"  style="height: 50px;font-size: 18px;" class="form-control" id="co_register">
                                                                     <span class="text-danger" id="CoErrorMsg"></span> 
                                                                   </div>
                                                                 
