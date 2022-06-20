@@ -1179,7 +1179,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                 <div class="gem-icon-with-text-text">
                                                                     <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_bottom-to-top bottom-to-top">
                                                                         <div class="wpb_wrapper">
-                                                                            <h6><span style="color: #ffffff;">{{ $item->title }}<br />
+                                                                            <h6 style="font-family: system-ui"><span style="color: #ffffff;">{{ $item->title }}<br />
                                                                                     </span></h6>
 
                                                                         </div>
