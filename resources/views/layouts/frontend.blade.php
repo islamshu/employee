@@ -727,6 +727,13 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
             background-repeat: no-repeat !important;
             background-size: cover !important;
         }
+        .vc_custom_16007207530001{
+            margin-bottom: -30px !important;
+            background-color: #DE4F76  !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+        }
         
         .vc_custom_1601299991278 {
             margin-top: -20px !important;
@@ -1693,7 +1700,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                         </style>
 
 <div class="vc_row-full-width-before"></div>
-<div id="vc_row-62986ef23ee6f" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1600720753000 vc_row-has-fill">
+<div id="vc_row-62986ef23ee6f" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_16007207530001 vc_row-has-fill">
     <script type="text/javascript">
         if (typeof(gem_fix_fullwidth_position) == "function") {
             gem_fix_fullwidth_position(document.getElementById("vc_row-62986ef23ee6f"));
