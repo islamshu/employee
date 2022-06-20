@@ -1105,6 +1105,39 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                 right: 155px !important;
                                             }
                                         </style>
+                                            <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                <div class="vc_column-inner ">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="clearboth"></div>
+                                                        <div class="gem-divider " style="margin-top: 60px;"></div>
+                                                      
+                                        
+                                                        <div class="wpb_text_column wpb_content_element  wpb_animate_when_almost_visible wpb_bottom-to-top bottom-to-top vc_custom_1600767836328">
+                                                            <div class="wpb_wrapper">
+                                                                <h3 style="text-align: center;"><span style="color: #ffffff;">{{ __('Join now and get a trial period') }}</span></h3>
+                                        
+                                                            </div>
+                                                        </div>
+                                                        <div class="clearboth"></div>
+                                                        <div class="gem-divider " style="margin-top: 5px;"></div>
+                                                        <div id="i-want-button" class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1587451772836">
+                                                            <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                                <div class="vc_column-inner ">
+                                                                    <div class="wpb_wrapper">
+                                                                        <div class="gem-button-container gem-button-position-center button-padings lazy-loading"><a class="gem-button gem-button-size-large gem-button-style-flat gem-button-text-weight-normal lazy-loading-item" data-ll-effect="drop-right-without-wrap"
+                                                                                style="border-radius: 50px;background-color: #ffffff;color: #171b2d;" onmouseleave="this.style.backgroundColor='#ffffff';this.style.color='#171b2d';" onmouseenter="this.style.backgroundColor='#171b2d';this.style.color='#ffffff';"
+                                                                                href="#" target="_blank">{{ __('Join now') }} </a></div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="clearboth"></div>
+                                                        <div class="gem-divider " style="margin-top: 60px;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="vc_row-full-width vc_clearfix"></div>
                                        
                                         <div class="vc_row-full-width-before"></div>
                                         <div id="vc_row-62986ef231b7c" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid z-index wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight vc_custom_1600125432050 vc_row-has-fill">
@@ -1381,7 +1414,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
           <div class="carousel-item @if($key ==0) active @endif"  >
             @foreach ($item as $chunk)
             <div class="col-md-3 mb-3">
-              <div class="card">
+              <div class="card" style="border-radius: 20px;">
                 <img class="img-fluid" src="http://foryougo.foryougo.net/images/brand/{{ $chunk->image }}" style="width: 200px;height: 150px; margin-right: 15px;"
                 @if(get_lang() == 'ar') alt="{{ $chunk->name_ar }}" @else alt="{{ $chunk->name_en }}" @endif>
               </div>
