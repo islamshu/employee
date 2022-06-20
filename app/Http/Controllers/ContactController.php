@@ -61,7 +61,7 @@ class ContactController extends Controller
             'name'          => 'required',
             'email'         => 'required|email',
             'mobile'        => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:10',
-            'co_register'       => 'required',
+            'co_register'       => 'required|numeric',
         ]);
 
 
