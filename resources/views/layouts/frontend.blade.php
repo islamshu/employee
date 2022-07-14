@@ -1863,7 +1863,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                         <div class="textwidget custom-html-widget"><img class="aligncenter" style="margin: 25px 0 15px 0;" data-tgpli-src="{{ asset('uploads/'.get_general_value('header_logo')) }}" alt="" width="190" data-tgpli-inited data-tgpli-image-inited id="tgpli-62986ef24458c"
                             />
                             
-                            <img  src="{{ asset('uploads/'.get_general_value('header_logo')) }}" height="100" class="aligncenter" style=" height: 200px;" alt="">
+                            <img  src="{{ asset('uploads/'.get_general_value('header_logo')) }}" height="100" class="aligncenter" style=" height: 150px;" alt="">
                             {{-- {!!  get_general_value('desc_'.app()->getLocale()) !!} --}}
                         </div>
                     </div>
