@@ -1441,7 +1441,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
             @foreach ($item as $chunk)
             <div class="col-md-3 mb-3">
               <div class="card" style="border-radius: 20px;">
-                <img class="img-fluid" src="http://foryougo.foryougo.net/images/brand/{{ $chunk->image }}" style="width: 200px;height: 150px; margin-right: 15px;"
+                <img class="img-fluid" src="http://foryougo.foryougo.net/images/brand/{{ $chunk->image }}" style="width: 200px;height: 100px; margin-right: 15px;"
                 @if(get_lang() == 'ar') alt="{{ $chunk->name_ar }}" @else alt="{{ $chunk->name_en }}" @endif>
               </div>
             </div>
