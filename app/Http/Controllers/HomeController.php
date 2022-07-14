@@ -24,12 +24,12 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
-    public function index()
+    public function index(Request $request)
     {
         $ip = $request->ip();
         $data = \Location::get($ip);
         dd($data);
-        
+
         return view('layouts.frontend')
         ->with('first_se',FirstSection::first())
         ->with('partners',Partner::where('status','active')->where('deleted_at',null)->get())
