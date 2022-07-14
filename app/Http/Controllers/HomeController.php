@@ -29,6 +29,7 @@ class HomeController extends Controller
         $ip = $request->ip();
         $data = \Location::get($ip);
         dd($data);
+        
         return view('layouts.frontend')
         ->with('first_se',FirstSection::first())
         ->with('partners',Partner::where('status','active')->where('deleted_at',null)->get())
