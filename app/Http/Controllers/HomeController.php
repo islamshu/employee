@@ -28,6 +28,7 @@ class HomeController extends Controller
     {
         $ip = $request->ip();
         $country = \Location::get($ip)->countryName;
+        dd($country);
        ;
 
         return view('layouts.frontend')
