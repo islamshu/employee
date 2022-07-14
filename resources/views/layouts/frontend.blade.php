@@ -908,7 +908,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                     </div>
                     <div class="top-area-block top-area-socials socials-colored-hover" style="margin-right: 60%">
                         <div class="socials inline-inside">
-                            @if($country == 'SA' || $country == 'OM' )
+                            @if($country == 'SA' || $country == 'RO' )
                             <a class="socials-item" ><img src="https://cdn.britannica.com/79/5779-004-DC479508/Flag-Saudi-Arabia.jpg" width="60" height="30"  alt=""></i></a>
                             @elseif($country == 'EG')
                             <a class="socials-item" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/188px-Flag_of_Egypt.svg.png" width="60" height="30"  alt=""></i></a>
