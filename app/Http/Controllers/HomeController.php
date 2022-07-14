@@ -9,6 +9,7 @@ use App\Statistic;
 use App\ThirdSection;
 use Session;
 use Illuminate\Http\Request;
+use CountryFlag;
 
 class HomeController extends Controller
 {
@@ -33,6 +34,7 @@ class HomeController extends Controller
 
         }
         $country = \Location::get($ip)->countryCode;
+        echo CountryFlag::get($country); // "🇳🇱"
 
         return view('layouts.frontend')
         ->with('first_se',FirstSection::first())
