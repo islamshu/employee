@@ -69,7 +69,7 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <label>اضف صورة * </label>
-                                            <input type="file" name="image" class="form-control" required >
+                                            <input type="file" name="image" class="form-control"  >
                                         </div>
                                        
                                     </div>
