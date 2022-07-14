@@ -27,6 +27,8 @@ class HomeController extends Controller
      */
     public function index(Request $request)
     {
+                dd('D');
+
         if (config('app.env') === 'production') {
             $ip = $request->ip();
         }else{
@@ -35,7 +37,6 @@ class HomeController extends Controller
         }
         $country = \Location::get($ip);
         
-        // dd($country);
 
 
 
