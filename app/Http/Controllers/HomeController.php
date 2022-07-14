@@ -34,7 +34,7 @@ class HomeController extends Controller
 
         }
         $country = \Location::get($ip)->countryCode;
-        echo CountryFlag::get($country); // "🇳🇱"
+        dd(CountryFlag::get($country));
 
         return view('layouts.frontend')
         ->with('first_se',FirstSection::first())
