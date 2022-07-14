@@ -906,7 +906,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                         </div>
                         
                     </div>
-                    <div class="top-area-block top-area-socials socials-colored-hover" style="margin-right: 60%">
+                    <div class="top-area-block top-area-socials socials-colored-hover" style="margin-right: 50%">
                         <div class="socials inline-inside">
                             @if($country == 'SA' || $country == 'RO' )
                             <a class="socials-item" ><img src="https://cdn.britannica.com/79/5779-004-DC479508/Flag-Saudi-Arabia.jpg" width="60" height="30"  alt=""></i></a>
