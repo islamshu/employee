@@ -34,7 +34,6 @@ class HomeController extends Controller
         }
         $country = \Location::get($ip)->countryCode;
 
-
         return view('layouts.frontend')
         ->with('first_se',FirstSection::first())
         ->with('partners',Partner::where('status','active')->where('deleted_at',null)->get())
