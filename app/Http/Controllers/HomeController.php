@@ -27,7 +27,7 @@ class HomeController extends Controller
     public function index(Request $request)
     {
         $ip = $request->ip();
-        $country = \Location::get($ip)->countryName;
+        $country = \Location::get($ip);
         dd($country);
        ;
 
