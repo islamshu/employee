@@ -27,7 +27,6 @@ class HomeController extends Controller
      */
     public function index(Request $request)
     {
-                dd('D');
 
         if (config('app.env') === 'production') {
             $ip = $request->ip();

@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index');
+
 Route::get('lang/{lang}','HomeController@change_lang');
 Route::get('about_program/{id}','HomeController@about_pr')->name('single_pro');
 
