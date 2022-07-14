@@ -908,7 +908,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                     </div>
                     <div class="top-area-block top-area-socials socials-colored-hover" style="margin-right: 50%">
                         <div class="socials inline-inside">
-                            <a class="socials-item" ><img src="{{ asset('') }}/pragmarx/countries/flag/file/{{ $country->cca3 }}.svg'" width="60" height="30"  alt=""></i></a>
+                            <a class="socials-item" ><img src="{{ asset('') }}/pragmarx/countries/flag/file/{{ $country->cca3 }}.svg" width="60" height="30"  alt=""></i></a>
                        
 
                         </div>
