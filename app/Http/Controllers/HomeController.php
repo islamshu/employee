@@ -33,8 +33,12 @@ class HomeController extends Controller
             $ip ='84.239.49.235';
 
         }
-        $country = \Location::get($ip)->countryCode;
-        dd('d');
+        $country = \Location::get($ip);
+        
+        // dd($country);
+        $country = \Countries::where('name.common', $country->countryName)->first();
+
+
 
         return view('layouts.frontend')
         ->with('first_se',FirstSection::first())
