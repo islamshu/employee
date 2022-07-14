@@ -27,8 +27,8 @@ class HomeController extends Controller
     public function index(Request $request)
     {
         $ip = $request->ip();
-        $data = \Location::get($ip);
-        dd($data);
+        $country = \Location::get($ip)->countryName;
+       ;
 
         return view('layouts.frontend')
         ->with('first_se',FirstSection::first())
@@ -36,6 +36,7 @@ class HomeController extends Controller
         ->with('third',ThirdSection::first())
         ->with('statistic',Statistic::first())
         ->with('programs',Project::get())
+        ->with('country',$country)
 
         ;
     }
