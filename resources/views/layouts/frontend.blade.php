@@ -1126,7 +1126,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                         
                                        
                                         <div class="vc_row-full-width-before"></div>
-                                        <div id="vc_row-62986ef231b7c" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid z-index wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight vc_custom_1600125432050 vc_row-has-fill">
+                                        <div style="display: none" id="vc_row-62986ef231b7c" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid z-index wpb_animate_when_almost_visible wpb_fadeInRight fadeInRight vc_custom_1600125432050 vc_row-has-fill">
                                             <script type="text/javascript">
                                                 if (typeof(gem_fix_fullwidth_position) == "function") {
                                                     gem_fix_fullwidth_position(document.getElementById("vc_row-62986ef231b7c"));
