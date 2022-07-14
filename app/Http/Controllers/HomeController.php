@@ -26,10 +26,14 @@ class HomeController extends Controller
      */
     public function index(Request $request)
     {
-        $ip = $request->ip();
-        $country = \Location::get($ip);
-        dd($country);
-       ;
+        if (config('app.env') === 'production') {
+            $ip = $request->ip();
+        }else{
+            $ip ='84.239.49.235';
+
+        }
+        $country = \Location::get($ip)->countryCode;
+
 
         return view('layouts.frontend')
         ->with('first_se',FirstSection::first())
