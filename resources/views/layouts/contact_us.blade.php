@@ -1371,29 +1371,22 @@
         aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
-            <div class="modal-header text-center">
-              <h4 class="modal-title w-100 font-weight-bold">Subscribe</h4>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body mx-3">
-              <div class="md-form mb-5">
-                <i class="fas fa-user prefix grey-text"></i>
-                <input type="text" id="form3" class="form-control validate">
-                <label data-error="wrong" data-success="right" for="form3">Your name</label>
-              </div>
-      
-              <div class="md-form mb-4">
-                <i class="fas fa-envelope prefix grey-text"></i>
-                <input type="email" id="form2" class="form-control validate">
-                <label data-error="wrong" data-success="right" for="form2">Your email</label>
-              </div>
-      
-            </div>
-            <div class="modal-footer d-flex justify-content-center">
-              <button class="btn btn-indigo">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
-            </div>
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
           </div>
         </div>
       </div>
