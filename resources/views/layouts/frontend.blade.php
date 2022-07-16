@@ -16,6 +16,17 @@
     right: 0;
     z-index: 30;
 }
+.wrapper {
+    width: 250px;
+    height: 80px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
         .tgpli-background-inited {
             background-image: none !important;
         }
