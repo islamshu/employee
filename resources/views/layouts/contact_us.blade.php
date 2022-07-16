@@ -1186,10 +1186,8 @@
                                                                             </div>
 
                                                                         </div>
-                                                                        <div class="text-center">
                                                                             <button class="btn btn-info">{{ __('Be A vendor') }}</button>
                                                                            
-                                                                          </div>
 
                                                                     </div>
                                                                 </div>
