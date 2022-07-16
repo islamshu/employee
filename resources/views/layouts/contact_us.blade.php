@@ -913,7 +913,6 @@
                                 <a class="socials-item" href="{{ get_general_value('facebook') }}" target="_blank"
                                     title="facebook"><i class="socials-item-icon facebook "></i></a>
                             @endif
-                            <button class="btn btn-info">انضم كتاجر</button>
 
                         </div>
                     </div>
@@ -1114,6 +1113,8 @@
 
 
                                                                             </div>
+                                                                            <button class="btn btn-info">انضم كتاجر</button>
+
                                                                         </div>
                                                                     </div>
                                                                 </div>
