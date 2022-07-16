@@ -21,7 +21,7 @@
 #loading-image {
   position: absolute;
   top: 100px;
-  left: 240px;
+  /* left: 240px; */
   z-index: 100;
 }
         .tgpli-background-inited {
@@ -889,7 +889,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
         <div class="page-preloader-spin"></div>
     </div> --}}
     <div id="loading">
-        <img id="loading-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/loader-spinner.png" alt="Loading..." />
+        <img id="loading-image" src="https://cdn1.iconfinder.com/data/icons/system-preferences/320/loading_loader_progress_wait_spinner_load-512.png" alt="Loading..." />
       </div>
 
 
