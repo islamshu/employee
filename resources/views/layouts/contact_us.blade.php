@@ -1378,7 +1378,47 @@
                   </button>
                 </div>
                 <div class="modal-body">
-                  ...
+                    <div class="container" style="width: 50%">
+                        <div class="alert alert-success" role="alert" id="successMsg" style="display: none">
+                           شكرا لانضمامك لنا سيتم التواصل معك قريبا 
+                          </div>
+                          <form id="SubmitForm" style="color: white">
+                            <div class="mb-3">
+                                <label for="compname" class="form-label">اسم المنشأة</label>
+                                <input type="text" style="height: 50px;font-size: 18px;" class="form-control" id="compname">
+                                <span class="text-danger" id="COMPErrorMsg"></span>
+                              </div>
+                            <div class="mb-3">
+                              <label for="InputName" class="form-label">الاسم</label>
+                              <input type="text" style="height: 50px;font-size: 18px;" class="form-control" id="InputName">
+                              <span class="text-danger" id="nameErrorMsg"></span>
+                            </div>
+                      
+                            <div class="mb-3">
+                              <label for="InputEmail" class="form-label">البريد اللإلكتروني</label>
+                              <input type="email" style="height: 50px;font-size: 18px;" class="form-control" id="InputEmail">
+                              <span class="text-danger" id="emailErrorMsg"></span>
+                            </div>
+                      
+                            <div class="mb-3">
+                              <label for="InputMobile" class="form-label">الهاتف المحمول</label>
+                              <input type="number" style="height: 50px;font-size: 18px;" class="form-control" id="InputMobile">
+                              <span class="text-danger" id="mobileErrorMsg"></span> 
+                            </div>
+                      
+                            <div class="mb-3">
+                                <label for="InputMobile" class="form-label">السجل التجاري</label>
+                                <input type="text" style="height: 50px;font-size: 18px;" class="form-control" id="co_register">
+                                <span class="text-danger" id="CoErrorMsg"></span> 
+                              </div>
+                            
+                            
+                            <button style="    font-size: 17px;
+                            height: 40px;
+                            background: #DE4F76;
+                            width: 100px;" type="submit" class="btn btn-primary">ارسال</button>
+                          </form>
+                      </div>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
