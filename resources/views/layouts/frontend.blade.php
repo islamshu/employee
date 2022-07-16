@@ -2016,12 +2016,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
         setTimeout(function() {
             $('.wrapper-cover').fadeOut("slow"); 
         }, 2000);
-        $(document).ready(function($) {
-        $('.count-number').counterUp({
-            delay: 10,
-            time: 10000
-        });
- });
+     
         // $(window).on("load", function() {
         //       $('.wrapper-cover').fadeOut("slow"); 
   
@@ -2140,6 +2135,14 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                 }, 300);
             });
         })();
+    </script>
+    <script>
+           $(document).ready(function($) {
+        $('.count-number').counterUp({
+            delay: 10,
+            time: 10000
+        });
+ });
     </script>
 </body>
 
