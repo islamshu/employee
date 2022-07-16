@@ -855,19 +855,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
             padding-top: 0px !important;
             padding-bottom: 0px !important;
         }
-        #loading {
-        /* (A1) COVER FULL PAGE */
-        position: fixed;
-        top: 0; left: 0; z-index: 999;
-        width: 100vw; height: 100vh;
         
-        /* (A2) SPINNER IMAGE */
-        background-color: black;
-        background-image: url("ajax-loader.gif");
-        background-position: center;
-        background-repeat: no-repeat;
-        }
-
        
     </style>
   
@@ -877,11 +865,10 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
 
 <body class="rtl home page-template-default page page-id-1016 wpb-js-composer js-comp-ver-6.6.0 vc_responsive">
 
-{{-- 
+
     <div id="page-preloader">
         <div class="page-preloader-spin"></div>
-    </div> --}}
-    <div id="loading"></div>
+    </div>
 
 
 
@@ -1945,36 +1932,6 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
     <script type='text/javascript' src='wp_content/themes/thegem/js/counters-effects647e.js?ver=5.5.9' id='thegem-counters-effects-js'></script>
     <script type='text/javascript' src='wp_content/themes/thegem/js/thegem-counters647e.js?ver=5.5.9' id='thegem-counter-js'></script>
     <script type='text/javascript' src='wp_content/themes/thegem/js/isotope.min647e.js?ver=5.5.9' id='isotope-js-js'></script>
-   <script>
-    function loader (css, js) {
-  // (A) TOTAL NUMBER OF SCRIPTS
-  var total = css.length + js.length,
-  now = 0, s;
- 
-  // (B) READY?
-  var ready = () => {
-    now++;
-    if (now==total) { document.getElementById("loading").remove(); }
-  };
- 
-  // (C) INSERT <LINK> INTO <HEAD>
-  css.forEach((url, i) => {
-    s = document.createElement("link");
-    s.rel = "stylesheet";
-    s.href = url;
-    s.onload = ready; s.onerror = ready;
-    document.head.appendChild(s);
-  });
- 
-  // (D) INSERT <SCRIPT> INTO <HEAD>
-  js.forEach((url, i) => {
-    s = document.createElement("script");
-    s.src = url;
-    s.onload = ready; s.onerror = ready;
-    document.head.appendChild(s);
-  });
-}
-   </script>
    <script>
         $('#SubmitForm').on('submit',function(e){
             e.preventDefault();
