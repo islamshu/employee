@@ -1371,12 +1371,16 @@
         aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
+            <div class="wpb_wrapper">
+                <h2 style="text-align: center;"><span style="color: #ffffff;">{{ __('Start your journey with us now') }}</span></h2>
+
+            </div>
                 
-            <div class="container"  style="width: 50%">
+            <div class="container"  style="width: 100%">
                 <div class="alert alert-success" role="alert" id="successMsg" style="display: none" >
                    {{ __('Thank you for joining us') }} 
                   </div>
-                  <form id="SubmitForm" style="color: white">
+                  <form id="SubmitForm" style="color: black">
                     <div class="mb-3">
                         <label for="compname" class="form-label">{{ __('Facility Name') }}</label>
                         <input type="text" style="height: 50px;font-size: 18px;" class="form-control" id="compname">
