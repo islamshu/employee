@@ -1223,8 +1223,9 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                             }
                                             
                                             #vc_row-62986ef229645 .gem-alert-box-buttons {
-                                                display: flex;
+                                                /* display: flex; */
                                                 align-items: center;
+                                                margin-left: 16%;
                                                 justify-content: flex-start;
                                             }
                                             
