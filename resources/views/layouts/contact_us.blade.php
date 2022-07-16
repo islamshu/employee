@@ -915,6 +915,7 @@
                             @endif
 
                         </div>
+                        <button class="btn btn-info">انضم كتاجر</button>
                     </div>
 
                 </div>
