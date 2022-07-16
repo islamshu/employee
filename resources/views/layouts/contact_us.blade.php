@@ -1372,7 +1372,7 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="wpb_wrapper">
-                <h2 style="text-align: center;"><span style="color: #ffffff;">{{ __('Start your journey with us now') }}</span></h2>
+                <h2 style="text-align: center;"><span style="color: #000;">{{ __('Start your journey with us now') }}</span></h2>
 
             </div>
                 
