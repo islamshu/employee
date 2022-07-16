@@ -1371,24 +1371,48 @@
         aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
-            <div>
-            <form>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
-            </div>
+                
+            <div class="container"  style="width: 50%">
+                <div class="alert alert-success" role="alert" id="successMsg" style="display: none" >
+                   {{ __('Thank you for joining us') }} 
+                  </div>
+                  <form id="SubmitForm" style="color: white">
+                    <div class="mb-3">
+                        <label for="compname" class="form-label">{{ __('Facility Name') }}</label>
+                        <input type="text" style="height: 50px;font-size: 18px;" class="form-control" id="compname">
+                        <span class="text-danger" id="COMPErrorMsg"></span>
+                      </div>
+                    <div class="mb-3">
+                      <label for="InputName" class="form-label">{{ __('Name') }}</label>
+                      <input type="text" style="height: 50px;font-size: 18px;" class="form-control" id="InputName">
+                      <span class="text-danger" id="nameErrorMsg"></span>
+                    </div>
+              
+                    <div class="mb-3">
+                      <label for="InputEmail" class="form-label">{{ __('Email address') }}</label>
+                      <input type="email"  style="height: 50px;font-size: 18px;" class="form-control" id="InputEmail">
+                      <span class="text-danger" id="emailErrorMsg"></span>
+                    </div>
+              
+                    <div class="mb-3">
+                      <label for="InputMobile" class="form-label">{{ __('Mobile') }}</label>
+                      <input type="number"  style="height: 50px;font-size: 18px;" class="form-control" id="InputMobile">
+                      <span class="text-danger" id="mobileErrorMsg"></span> 
+                    </div>
+              
+                    <div class="mb-3">
+                        <label for="InputMobile" class="form-label">{{ __('Commercial Register') }}</label>
+                        <input type="text"  style="height: 50px;font-size: 18px;" class="form-control" id="co_register">
+                        <span class="text-danger" id="CoErrorMsg"></span> 
+                      </div>
+                    
+                    
+                    <button style="    font-size: 17px;
+                    height: 40px;
+                    background: #DE4F76;
+                    width: 100px;" type="submit" class="btn btn-primary">{{ __('Submit') }}</button>
+                  </form>
+              </div>
           </div>
         </div>
       </div>
