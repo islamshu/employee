@@ -5,54 +5,34 @@
     <meta charset="UTF-8">
 
     <style>
-        .statistic-section {
-     padding-top: 70px;
-     padding-bottom: 70px;
-     background: #00c6ff;  /* fallback for old browsers */
-     background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
-     background: linear-gradient(to right, #0072ff, #00c6ff); 
+       @import url(https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+
+body {
+	background: #40E0D0;
 }
 
-.count-title {
-    font-size: 50px;
-    font-weight: normal;
-    margin-top: 10px;
-    margin-bottom: 0;
-	  text-align: center;
-	  font-weight: bold;
-    color: #fff;
+/*/ start count stats /*/
+
+section#counter-stats {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
 }
 
-.stats-text {
-    font-size: 15px;
-    font-weight: normal;
-    margin-top: 15px;
-    margin-bottom: 0;
-    text-align: center;
-	  color: #fff;
-	  text-transform: uppercase;
-	  font-weight: bold;
+.stats {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.stats-line-black {
-	margin: 12px auto 0;
-    width: 55px;
-    height: 2px;
-    background-color: #fff;
-}
-.stats-icon {
-	  font-size: 35px;
-	  margin: 0 auto;
-    float: none;
-    display: table;
-    color: #fff;
+.stats .fa {
+  color: #008080;
+  font-size: 60px;
 }
 
-@media (max-width: 992px) {
-	.counter {
-		margin-bottom: 40px;
-	}
-}
+/*/ end count stats /*/
    .wrapper-cover {
     padding: 0;
     margin: 0;
@@ -1696,45 +1676,42 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                     </div>
                                                 </div>
                                             </div>
-                                            <section id="statistic" class="statistic-section one-page-section">
+                                            <section id="counter-stats" class="wow fadeInRight" data-wow-duration="1.4s">
                                                 <div class="container">
-                                                    <div class="row text-center">
-                                                        <div class="col-xs-12 col-md-3">
-                                                            <div class="counter">
-                                                                <i class="fa fa-coffee fa-2x stats-icon"></i>
-                                                                <h2 class="timer count-title count-number">999</h2>
-                                                                <div class="stats-line-black"></div>
-                                                                <p class="stats-text">Coffee Cups</p>
-                                                            </div>
+                                                    <div class="row">
+                                            
+                                                        <div class="col-lg-3 stats">
+                                                            <i class="fa fa-code" aria-hidden="true"></i>
+                                                            <div class="counting" data-count="900000">0</div>
+                                                            <h5>Lines of code</h5>
                                                         </div>
-                                                        <div class="col-xs-12 col-md-3">
-                                                            <div class="counter">
-                                                                <i class="fa fa-code fa-2x stats-icon"></i>
-                                                                <h2 class="timer count-title count-number">10000
-                                                                </h2>
-                                                                <div class="stats-line-black"></div>
-                                                                <p class="stats-text">Line Code</p>
-                                                            </div>
+                                            
+                                                        <div class="col-lg-3 stats">
+                                                            <i class="fa fa-check" aria-hidden="true"></i>
+                                                            <div class="counting" data-count="280">0</div>
+                                                            <h5>Projects done</h5>
                                                         </div>
-                                                        <div class="col-xs-12 col-md-3">
-                                                            <div class="counter">
-                                                                <i class="fa fa-clock-o fa-2x stats-icon"></i>
-                                                                <h2 class="timer count-title count-number">6</h2>
-                                                                <div class="stats-line-black"></div>
-                                                                <p class="stats-text">Years Experience</p>
-                                                            </div>
+                                            
+                                                        <div class="col-lg-3 stats">
+                                                            <i class="fa fa-user" aria-hidden="true"></i>
+                                                            <div class="counting" data-count="75">0</div>
+                                                            <h5>Happy clients</h5>
                                                         </div>
-                                                        <div class="col-xs-12 col-md-3">
-                                                            <div class="counter">
-                                                                <i class="fa fa-laptop fa-2x stats-icon"></i>
-                                                                <h2 class="timer count-title count-number">12</h2>
-                                                                <div class="stats-line-black"></div>
-                                                                <p class="stats-text">Project</p>
-                                                            </div>
+                                            
+                                                        <div class="col-lg-3 stats">
+                                                            <i class="fa fa-coffee" aria-hidden="true"></i>
+                                                            <div class="counting" data-count="999">0</div>
+                                                            <h5>Cups of coffee</h5>
                                                         </div>
+                                            
+                                            
                                                     </div>
+                                                    <!-- end row -->
                                                 </div>
+                                                <!-- end container -->
+                                            
                                             </section>
+                                            
                                         
                                         </div>
                                         <div class="vc_row-full-width vc_clearfix"></div>
@@ -2138,10 +2115,30 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
     </script>
     <script>
            $(document).ready(function($) {
-        $('.count-number').counterUp({
-            delay: 10,
-            time: 10000
-        });
+            $('.counting').each(function() {
+  var $this = $(this),
+      countTo = $this.attr('data-count');
+  
+  $({ countNum: $this.text()}).animate({
+    countNum: countTo
+  },
+
+  {
+
+    duration: 3000,
+    easing:'linear',
+    step: function() {
+      $this.text(Math.floor(this.countNum));
+    },
+    complete: function() {
+      $this.text(this.countNum);
+      //alert('finished');
+    }
+
+  });  
+  
+
+});
  });
     </script>
 </body>
