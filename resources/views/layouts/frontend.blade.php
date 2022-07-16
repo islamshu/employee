@@ -9,7 +9,7 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 
 body {
-	background: #40E0D0;
+	background: #69489D;
 }
 
 /*/ start count stats /*/
