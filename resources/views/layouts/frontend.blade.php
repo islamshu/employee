@@ -1605,7 +1605,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                     gem_fix_fullwidth_position(document.getElementById("vc_row-62986ef239c0f"));
                                                 }
                                             </script>
-                                            <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6">
+                                            <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-12 vc_col-md-12">
                                                 <div class="vc_column-inner vc_custom_1589911199704">
                                                     <div class="wpb_wrapper">
                                                         <div class="wpb_text_column wpb_content_element ">
