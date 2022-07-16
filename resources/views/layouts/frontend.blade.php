@@ -1635,7 +1635,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                         <div class="clearboth"></div>
                                                         <div class="gem-divider " style="margin-top: 25px;"></div>
                                                         <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1601550661897">
-                                                            <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-has-fill">
+                                                            <div class="wpb_column vc_column_container vc_col-sm-3 vc_col-has-fill">
                                                                 <div class="vc_column-inner vc_custom_1601550931002">
                                                                     <div class="wpb_wrapper">
                                                                         <div data-number-format="(ddd).ddd" class="gem-counter-box row inline-row inline-row-center gem-counter-style-1 lazy-loading lazy-loading-not-hide">
@@ -1656,7 +1656,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                            <div class="wpb_column vc_column_container vc_col-sm-3">
                                                                 <div class="vc_column-inner vc_custom_1589910971774">
                                                                     <div class="wpb_wrapper">
                                                                         <div data-number-format="(ddd).ddd" class="gem-counter-box row inline-row inline-row-center gem-counter-style-1 lazy-loading lazy-loading-not-hide">
@@ -1671,6 +1671,49 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                                                     <div class="gem-counter-number" style="color: #3c3950">
                                                                                         <div class="gem-counter-odometer" data-to="{{ $statistic->number2 }}">0</div><span class="gem-counter-suffix">+</span></div>
                                                                                     <div class="gem-counter-text styled-subtitle" style="color: #5f727f">{{ $statistic->title2 }}  </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="wpb_column vc_column_container vc_col-sm-3 vc_col-has-fill">
+                                                                <div class="vc_column-inner vc_custom_1589910960814">
+                                                                    <div class="wpb_wrapper">
+                                                                        <div data-number-format="(ddd).ddd" class="gem-counter-box row inline-row inline-row-center gem-counter-style-1 lazy-loading lazy-loading-not-hide">
+                                                                            <div class="gem-counter col-xs-12 inline-column gem-counter-effect-border-reverse">
+                                                                                <div class="gem-counter-inner">
+                                                                                    <div class="gem-counter-icon">
+                                                                                        <div class="gem-icon gem-icon-pack-material gem-icon-size-small  gem-icon-shape-circle" style="border-color: #8f6cff;opacity: 1;height: 60px;">
+                                                                                            <div class="gem-icon-inner" style=""><span class="gem-icon-half-1" style="color: #8f6cff;"><span class="back-angle">&#{!! $statistic->icon3 !!};</span></span><span class="gem-icon-half-2" style="color: #8f6cff;"><span class="back-angle">&#{!! $statistic->icon3 !!};</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="gem-counter-number" style="color: #3c3950">
+                                                                                        <div class="gem-counter-odometer" data-to="{{ $statistic->number3 }}">0</div><span class="gem-counter-suffix">+</span></div>
+                                                                                    <div class="gem-counter-text styled-subtitle" style="color: #5f727f">{{ $statistic->title3 }} </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="wpb_column vc_column_container vc_col-sm-3 vc_col-has-fill">
+                                                                <div class="vc_column-inner vc_custom_1589910976390">
+                                                                    <div class="wpb_wrapper">
+                                                                        <div data-number-format="(ddd).ddd" class="gem-counter-box row inline-row inline-row-center gem-counter-style-1 lazy-loading lazy-loading-not-hide">
+                                                                            <div class="gem-counter col-xs-12 inline-column gem-counter-effect-border-reverse">
+                                                                                <div class="gem-counter-inner">
+                                                                                    <div class="gem-counter-icon">
+                                                                                        <div class="gem-icon gem-icon-pack-material gem-icon-size-small  gem-icon-shape-circle" style="border-color: #3f99ff;opacity: 1;height: 60px;">
+                                                                                            <div class="gem-icon-inner" style=""><span class="gem-icon-half-1" style="color: #3f99ff;"><span class="back-angle">&#{!! $statistic->icon4 !!};</span></span>
+                                                                                                <span class="gem-icon-half-2" style="color: #3f99ff;"><span class="back-angle">&#{!! $statistic->icon4 !!};</span></span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="gem-counter-number" style="color: #3c3950">
+                                                                                        <div class="gem-counter-odometer" data-to="{{ $statistic->number4 }}">0</div><span class="gem-counter-suffix"></span></div>
+                                                                                    <div class="gem-counter-text styled-subtitle" style="color: #5f727f">{{ $statistic->title4 }}</div>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
