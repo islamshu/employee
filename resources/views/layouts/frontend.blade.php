@@ -82,6 +82,17 @@
     padding-left: 1.1rem;
     padding-right: 1.1rem;
   }
+  .no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
+}
 }
         
 
@@ -863,10 +874,12 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
 
 <body class="rtl home page-template-default page page-id-1016 wpb-js-composer js-comp-ver-6.6.0 vc_responsive">
 
-
+{{-- 
     <div id="page-preloader">
         <div class="page-preloader-spin"></div>
-    </div>
+    </div> --}}
+    <div class="se-pre-con"></div>
+
 
 
     <div id="page" class="layout-fullwidth header-style-1">
@@ -1929,7 +1942,17 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
     <script type='text/javascript' src='wp_content/themes/thegem/js/counters-effects647e.js?ver=5.5.9' id='thegem-counters-effects-js'></script>
     <script type='text/javascript' src='wp_content/themes/thegem/js/thegem-counters647e.js?ver=5.5.9' id='thegem-counter-js'></script>
     <script type='text/javascript' src='wp_content/themes/thegem/js/isotope.min647e.js?ver=5.5.9' id='isotope-js-js'></script>
-   <script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+    
+    <script>
+        $(window).load(function() {
+            // Animate loader off screen
+            $(".se-pre-con").fadeOut("slow");;
+        });
+    </script>
+        
+ <script>
         $('#SubmitForm').on('submit',function(e){
             e.preventDefault();
             let co_name = $('#compname').val();
