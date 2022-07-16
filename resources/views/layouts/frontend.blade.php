@@ -18,6 +18,7 @@ section#counter-stats {
 	display: flex;
 	justify-content: center;
 	margin-top: 100px;
+    margin-bottom: 10% 
 }
 
 .stats {
