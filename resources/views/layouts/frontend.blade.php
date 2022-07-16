@@ -5,6 +5,25 @@
     <meta charset="UTF-8">
 
     <style>
+        #loading {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  text-align: center;
+  opacity: 0.7;
+  background-color: #fff;
+  z-index: 99;
+}
+
+#loading-image {
+  position: absolute;
+  top: 100px;
+  left: 240px;
+  z-index: 100;
+}
         .tgpli-background-inited {
             background-image: none !important;
         }
@@ -866,9 +885,12 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
 <body class="rtl home page-template-default page page-id-1016 wpb-js-composer js-comp-ver-6.6.0 vc_responsive">
 
 
-    <div id="page-preloader">
+    {{-- <div id="page-preloader">
         <div class="page-preloader-spin"></div>
-    </div>
+    </div> --}}
+    <div id="loading">
+        <img id="loading-image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/loader-spinner.png" alt="Loading..." />
+      </div>
 
 
 
@@ -1922,6 +1944,11 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
         };
         /* ]]> */
     </script>
+    <script>
+        $(window).on('load', function () {
+          $('#loading').hide();
+        }) 
+      </script>
 
 
     <script type='text/javascript' src='wp-includes/js/wp-embed.min647e.js?ver=5.5.9' id='wp-embed-js'></script>
