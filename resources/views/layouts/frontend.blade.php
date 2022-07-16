@@ -885,8 +885,21 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
 <body class="rtl home page-template-default page page-id-1016 wpb-js-composer js-comp-ver-6.6.0 vc_responsive">
 
 
-    <div id="page-preloader">
+    {{-- <div id="page-preloader">
         <div class="page-preloader-spin"></div>
+    </div> --}}
+    <div class="wrapper-cover">
+
+        <div class="wrapper">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            <span>Loading...</span>
+        </div>
+
     </div>
     {{-- <div id="loading">
         <img id="loading-image" src="https://cdn1.iconfinder.com/data/icons/system-preferences/320/loading_loader_progress_wait_spinner_load-512.png" alt="Loading..." />
@@ -1959,6 +1972,12 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
     <script type='text/javascript' src='wp_content/themes/thegem/js/counters-effects647e.js?ver=5.5.9' id='thegem-counters-effects-js'></script>
     <script type='text/javascript' src='wp_content/themes/thegem/js/thegem-counters647e.js?ver=5.5.9' id='thegem-counter-js'></script>
     <script type='text/javascript' src='wp_content/themes/thegem/js/isotope.min647e.js?ver=5.5.9' id='isotope-js-js'></script>
+   <script>
+      $(window).on("load", function() {
+            $('.wrapper-cover').fadeOut("slow"); 
+
+        });
+   </script>
    <script>
         $('#SubmitForm').on('submit',function(e){
             e.preventDefault();
