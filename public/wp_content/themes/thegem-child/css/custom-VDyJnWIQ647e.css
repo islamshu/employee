@@ -4680,13 +4680,13 @@ select.wpcf7-form-control.wpcf7-select {
 #page-preloader .page-preloader-spin,
 .block-preloader .page-preloader-spin,
 .preloader-spin {
-    border-top-color: #69489D;
+    border-top-color: #007396;
 }
 
 #page-preloader .page-preloader-spin:before,
 .block-preloader .page-preloader-spin:before,
 .preloader-spin:before {
-    border-top-color: #DE4F76;
+    border-top-color: #DF7242;
 }
 
 #page-preloader .page-preloader-spin:after,
