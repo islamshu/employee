@@ -1989,7 +1989,12 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                 <div class="shadow"></div>
                 <div class="shadow"></div>
                 <div class="shadow"></div>
-                <span>Loading...</span>
+                @if(get_lang() == 'ar')
+                <span>... جاري التحميل  </span>
+                @else
+                <span> Loading ...  </span>
+
+                @endif
             </div>
     
         </div>
