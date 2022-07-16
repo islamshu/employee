@@ -1186,10 +1186,10 @@
                                                                             </div>
 
                                                                         </div>
-                                                                        <button class="btn btn-info"
-                                                                            data-toggle="modal"
-                                                                            data-target="#exampleModal">انضم
-                                                                            كتاجر</button>
+                                                                        <div class="text-center">
+                                                                            <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalSubscriptionForm">Launch
+                                                                              Modal Subscription Form</a>
+                                                                          </div>
 
                                                                     </div>
                                                                 </div>
@@ -1367,66 +1367,37 @@
             </div>
 
         </div>
-
-        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                    <div class="container" style="width: 50%">
-                        <div class="alert alert-success" role="alert" id="successMsg" style="display: none">
-                           شكرا لانضمامك لنا سيتم التواصل معك قريبا 
-                          </div>
-                          <form id="SubmitForm" style="color: white">
-                            <div class="mb-3">
-                                <label for="compname" class="form-label">اسم المنشأة</label>
-                                <input type="text" style="height: 50px;font-size: 18px;" class="form-control" id="compname">
-                                <span class="text-danger" id="COMPErrorMsg"></span>
-                              </div>
-                            <div class="mb-3">
-                              <label for="InputName" class="form-label">الاسم</label>
-                              <input type="text" style="height: 50px;font-size: 18px;" class="form-control" id="InputName">
-                              <span class="text-danger" id="nameErrorMsg"></span>
-                            </div>
-                      
-                            <div class="mb-3">
-                              <label for="InputEmail" class="form-label">البريد اللإلكتروني</label>
-                              <input type="email" style="height: 50px;font-size: 18px;" class="form-control" id="InputEmail">
-                              <span class="text-danger" id="emailErrorMsg"></span>
-                            </div>
-                      
-                            <div class="mb-3">
-                              <label for="InputMobile" class="form-label">الهاتف المحمول</label>
-                              <input type="number" style="height: 50px;font-size: 18px;" class="form-control" id="InputMobile">
-                              <span class="text-danger" id="mobileErrorMsg"></span> 
-                            </div>
-                      
-                            <div class="mb-3">
-                                <label for="InputMobile" class="form-label">السجل التجاري</label>
-                                <input type="text" style="height: 50px;font-size: 18px;" class="form-control" id="co_register">
-                                <span class="text-danger" id="CoErrorMsg"></span> 
-                              </div>
-                            
-                            
-                            <button style="    font-size: 17px;
-                            height: 40px;
-                            background: #DE4F76;
-                            width: 100px;" type="submit" class="btn btn-primary">ارسال</button>
-                          </form>
-                      </div>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
+        <div class="modal fade" id="modalSubscriptionForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header text-center">
+              <h4 class="modal-title w-100 font-weight-bold">Subscribe</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body mx-3">
+              <div class="md-form mb-5">
+                <i class="fas fa-user prefix grey-text"></i>
+                <input type="text" id="form3" class="form-control validate">
+                <label data-error="wrong" data-success="right" for="form3">Your name</label>
               </div>
+      
+              <div class="md-form mb-4">
+                <i class="fas fa-envelope prefix grey-text"></i>
+                <input type="email" id="form2" class="form-control validate">
+                <label data-error="wrong" data-success="right" for="form2">Your email</label>
+              </div>
+      
+            </div>
+            <div class="modal-footer d-flex justify-content-center">
+              <button class="btn btn-indigo">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
             </div>
           </div>
+        </div>
+      </div>
+      
         <!-- #colophon -->
 
 
