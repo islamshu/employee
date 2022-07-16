@@ -29,7 +29,7 @@ section#counter-stats {
 }
 
 .stats .fa {
-  color: #69489D;
+  color: #DE4F76;
   margin-bottom: 30px;
   font-size: 60px;
 }
