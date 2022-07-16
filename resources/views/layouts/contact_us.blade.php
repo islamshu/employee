@@ -1186,7 +1186,7 @@
                                                                             </div>
 
                                                                         </div>
-                                                                        <button class="btn btn-info" style="background: #DE4F76" data-toggle="modal" data-target="#modalSubscriptionForm">{{ __('Be A vendor') }}</button>
+                                                                        <button class="btn btn-info" style="background: " data-toggle="modal" data-target="#modalSubscriptionForm">{{ __('Be A vendor') }}</button>
 
 
                                                                     </div>
@@ -1251,11 +1251,11 @@
 
 
                                                                                         <button
-                                                                                            style="    font-size: 17px;
+                                                                                            style="    font-size: 17px;background: #69489D;
                                                                                         height: 40px;
                                                                                         width: 100px;"
                                                                                             type="submit"
-                                                                                            class="btn btn-primary" style="background: #69489D">{{ __('Submit') }}</button>
+                                                                                            class="btn btn-primary" >{{ __('Submit') }}</button>
                                                                                     </form>
                                                                                 </div>
                                                                             </div>
