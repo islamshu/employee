@@ -885,12 +885,12 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
 <body class="rtl home page-template-default page page-id-1016 wpb-js-composer js-comp-ver-6.6.0 vc_responsive">
 
 
-    {{-- <div id="page-preloader">
+    <div id="page-preloader">
         <div class="page-preloader-spin"></div>
-    </div> --}}
-    <div id="loading">
+    </div>
+    {{-- <div id="loading">
         <img id="loading-image" src="https://cdn1.iconfinder.com/data/icons/system-preferences/320/loading_loader_progress_wait_spinner_load-512.png" alt="Loading..." />
-      </div>
+      </div> --}}
 
 
 
