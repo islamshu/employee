@@ -14,7 +14,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 30;
+    z-index: 1555;
 }
 .wrapper {
     width: 250px;
