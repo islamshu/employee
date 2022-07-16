@@ -1145,7 +1145,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                             <div class="wpb_column vc_column_container vc_col-sm-12" @if(get_lang() == 'en')
                                                 style="    transform: scaleX(-1);"
                                                 @else
-                                                style="    text-align: right;"
+                                                style="    text-align: center;"
                                             @endif>
                                                 <div class="vc_column-inner vc_custom_1601299991278">
                                                     <div class="wpb_wrapper">
