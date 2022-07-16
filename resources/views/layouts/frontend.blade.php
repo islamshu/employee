@@ -1686,27 +1686,27 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                     <div class="row">
                                             
                                                         <div class="col-lg-3 stats">
-                                                            <i class="fa fa-code" aria-hidden="true"></i>
-                                                            <div class="counting" data-count="900000">0</div>
-                                                            <h5>Lines of code</h5>
+                                                            <i class="{{ $statistic->icon1 }}" aria-hidden="true"></i>
+                                                            <div class="counting" data-count="{{ $statistic->number1 }}">0</div>
+                                                            <h5>{{ $statistic->title1 }}</h5>
                                                         </div>
                                             
                                                         <div class="col-lg-3 stats">
-                                                            <i class="fa fa-check" aria-hidden="true"></i>
-                                                            <div class="counting" data-count="280">0</div>
-                                                            <h5>Projects done</h5>
+                                                            <i class="{{ $statistic->icon2 }}" aria-hidden="true"></i>
+                                                            <div class="counting" data-count="{{ $statistic->number2 }}">0</div>
+                                                            <h5>{{ $statistic->title2 }}</h5>
                                                         </div>
                                             
                                                         <div class="col-lg-3 stats">
-                                                            <i class="fa fa-user" aria-hidden="true"></i>
-                                                            <div class="counting" data-count="75">0</div>
-                                                            <h5>Happy clients</h5>
+                                                            <i class="{{ $statistic->icon3 }}" aria-hidden="true"></i>
+                                                            <div class="counting" data-count="{{ $statistic->number3 }}">0</div>
+                                                            <h5>{{ $statistic->title3 }}</h5>
                                                         </div>
                                             
                                                         <div class="col-lg-3 stats">
-                                                            <i class="fa fa-coffee" aria-hidden="true"></i>
-                                                            <div class="counting" data-count="999">0</div>
-                                                            <h5>Cups of coffee</h5>
+                                                            <i class="{{ $statistic->icon4 }}" aria-hidden="true"></i>
+                                                            <div class="counting" data-count="{{ $statistic->number4 }}">0</div>
+                                                            <h5>{{ $statistic->title4 }}</h5>
                                                         </div>
                                             
                                             
