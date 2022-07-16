@@ -4680,20 +4680,20 @@ select.wpcf7-form-control.wpcf7-select {
 #page-preloader .page-preloader-spin,
 .block-preloader .page-preloader-spin,
 .preloader-spin {
-    border-top-color: #007396;
+    border-top-color: #000;
 }
 
 #page-preloader .page-preloader-spin:before,
 .block-preloader .page-preloader-spin:before,
 .preloader-spin:before {
-    border-top-color: #DF7242;
+    border-top-color: #000;
 }
 
 #page-preloader .page-preloader-spin:after,
 .block-preloader .page-preloader-spin:after,
 .preloader-spin:after,
 .gem-fancybox-preloader .preloader-spin:after {
-    border-top-color: #00C387;
+    border-top-color: #000;
 }
 
 .products .product .product-inner:not(:hover) .product-info .product-title,
