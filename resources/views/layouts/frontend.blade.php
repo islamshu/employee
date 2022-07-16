@@ -102,7 +102,7 @@
 .wrapper span{
     position: absolute;
     top:75px;
-    font-size: 26px;
+    font-size: 20px;
     letter-spacing: 5px;
     color: #fff;
     left:10%;
