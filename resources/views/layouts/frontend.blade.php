@@ -1163,7 +1163,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                         <div class="gem-divider " style="margin-top: 50px;"></div>
                                                         <div class="wpb_text_column wpb_content_element  vc_custom_1601208748564">
                                                             <div class="wpb_wrapper">
-                                                                <div class="styled-subtitle" style="max-width: 670px;">
+                                                                <div class="styled-subtitle" style="max-width: 100%;">
                                                                     {!! $first_se->secand_title !!}
                                                                 </div>
 
