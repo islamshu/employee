@@ -1186,7 +1186,7 @@
                                                                             </div>
 
                                                                         </div>
-                                                                        <button class="btn btn-info" style="background: " data-toggle="modal" data-target="#modalSubscriptionForm">{{ __('Be A vendor') }}</button>
+                                                                        <button class="btn btn-info" style="background:#DE4F76 " data-toggle="modal" data-target="#modalSubscriptionForm">{{ __('Be A vendor') }}</button>
 
 
                                                                     </div>
