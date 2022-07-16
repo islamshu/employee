@@ -2120,31 +2120,33 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
     </script>
     <script>
            $(document).ready(function($) {
+            $(document).scroll(function () {
             $('.counting').each(function() {
-  var $this = $(this),
-      countTo = $this.attr('data-count');
-  
-  $({ countNum: $this.text()}).animate({
-    countNum: countTo
-  },
+                var $this = $(this),
+                    countTo = $this.attr('data-count');
+                
+                $({ countNum: $this.text()}).animate({
+                    countNum: countTo
+                },
 
-  {
+                {
 
-    duration: 3000,
-    easing:'linear',
-    step: function() {
-      $this.text(Math.floor(this.countNum));
-    },
-    complete: function() {
-      $this.text(this.countNum);
-      //alert('finished');
-    }
+                    duration: 3000,
+                    easing:'linear',
+                    step: function() {
+                    $this.text(Math.floor(this.countNum));
+                    },
+                    complete: function() {
+                    $this.text(this.countNum);
+                    //alert('finished');
+                    }
 
-  });  
-  
+                });  
+                
 
-});
- });
+                });
+            });
+                });
     </script>
 </body>
 
