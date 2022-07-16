@@ -5,24 +5,16 @@
     <meta charset="UTF-8">
 
     <style>
-        #loading {
-  position: fixed;
-  display: block;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  text-align: center;
-  opacity: 0.7;
-  background-color: #fff;
-  z-index: 99;
-}
-
-#loading-image {
-  position: block;
-  top: 100px;
-  /* left: 240px; */
-  z-index: 100;
+   .wrapper-cover {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(#70d8eb, #17a2b8) !important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 30;
 }
         .tgpli-background-inited {
             background-image: none !important;
