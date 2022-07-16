@@ -2068,7 +2068,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
     <script>
         setTimeout(function() {
             $('.wrapper-cover').fadeOut("slow"); 
-        }, 5000);
+        }, 2000);
         // $(window).on("load", function() {
         //       $('.wrapper-cover').fadeOut("slow"); 
   
