@@ -1942,8 +1942,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
     <script type='text/javascript' src='wp_content/themes/thegem/js/counters-effects647e.js?ver=5.5.9' id='thegem-counters-effects-js'></script>
     <script type='text/javascript' src='wp_content/themes/thegem/js/thegem-counters647e.js?ver=5.5.9' id='thegem-counter-js'></script>
     <script type='text/javascript' src='wp_content/themes/thegem/js/isotope.min647e.js?ver=5.5.9' id='isotope-js-js'></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+
     
     <script>
         $(window).load(function() {
