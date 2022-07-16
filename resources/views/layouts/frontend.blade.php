@@ -10,7 +10,7 @@
     margin: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(#70d8eb, #17a2b8) !important;
+    background: radial-gradient(#69489D, #DE4F76) !important;
     position: fixed;
     top: 0;
     right: 0;
