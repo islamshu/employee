@@ -5,6 +5,109 @@
     <meta charset="UTF-8">
 
     <style>
+          .wrapper-cover {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(#69489D, #DE4F76) !important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1555;
+}
+.wrapper {
+    width: 250px;
+    height: 80px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    width:30px;
+    height:30px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #fff;
+    left:10%;
+    transform-origin: 50%;
+    animation: circle .5s alternate infinite ease;
+}
+
+@keyframes circle{
+    0%{
+        top:60px;
+        height:5px;
+        border-radius: 50px 50px 25px 25px;
+        transform: scaleX(1.7);
+    }
+    40%{
+        height:20px;
+        border-radius: 50%;
+        transform: scaleX(1);
+    }
+    100%{
+        top:0%;
+    }
+}
+.circle:nth-child(2){
+    left:45%;
+    animation-delay: .2s;
+}
+.circle:nth-child(3){
+    left:auto;
+    right:15%;
+    animation-delay: .3s;
+}
+.shadow{
+    width:30px;
+    height:4px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top:62px;
+    transform-origin: 50%;
+    z-index: -1;
+    left:15%;
+    filter: blur(1px);
+    animation: shadow .5s alternate infinite ease;
+}
+
+@keyframes shadow{
+    0%{
+        transform: scaleX(1.5);
+    }
+    40%{
+        transform: scaleX(1);
+        opacity: .7;
+    }
+    100%{
+        transform: scaleX(.2);
+        opacity: .4;
+    }
+}
+.shadow:nth-child(4){
+    left: 45%;
+    animation-delay: .2s
+}
+.shadow:nth-child(5){
+    left:auto;
+    right:15%;
+    animation-delay: .3s;
+}
+.wrapper span{
+    position: absolute;
+    top:75px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #fff;
+    left:10%;
+    font-weight: 600;
+}
         .tgpli-background-inited {
             background-image: none !important;
         }
@@ -780,9 +883,7 @@
 <body class="rtl home page-template-default page page-id-1016 wpb-js-composer js-comp-ver-6.6.0 vc_responsive">
 
 
-    <div id="page-preloader">
-        <div class="page-preloader-spin"></div>
-    </div>
+  
 
 
     <div id="page" class="layout-fullwidth header-style-1">
@@ -1103,49 +1204,54 @@
             <div class="container">
 
                 <div class="row inline-row footer-widget-area" role="complementary">
-                    <div id="custom_html-3"
-                        class="widget_text widget inline-column col-md-4 col-sm-6 col-xs-12 count-3 widget_custom_html">
+                    <div id="custom_html-3" class="widget_text widget inline-column col-md-4 col-sm-6 col-xs-12 count-3 widget_custom_html">
                         <div class="textwidget custom-html-widget">&nbsp;
                             <p style="text-align: right;"><strong>{{ __('contact us') }}:   </strong></p>
-                            <p style="text-align: right;">{{ __('address') }} :
-                                {{ get_general_value('address_' . app()->getLocale()) }}</p>
-                            <p style="text-align: right;">{{ __('Email address') }} :
-                                {{ get_general_value('email') }} </p>
-                            <p style="text-align: right;">{{ __('Mobile') }} : {{ get_general_value('phone') }}
-                            </p>
+                            <p style="text-align: right;">{{ __('address') }} : {{ get_general_value('address_'.app()->getLocale()) }}</p>
+                            <p style="text-align: right;">{{ __('Email address') }} : {{ get_general_value('email') }} </p>
+                            <p style="text-align: right;">{{ __('Mobile') }}  : {{ get_general_value('phone') }} </p>
                         </div>
                     </div>
-                    <div id="custom_html-2"
-                        class="widget_text widget inline-column col-md-4 col-sm-6 col-xs-12 count-3 widget_custom_html">
+                    <div id="custom_html-2" class="widget_text widget inline-column col-md-4 col-sm-6 col-xs-12 count-3 widget_custom_html">
                         <h3 class="widget-title">{{ __('usful links') }}</h3>
                         <div class="textwidget custom-html-widget">
-                            <p dir="rtl" style="text-align: right;"><a
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-1451 megamenu-first-element"
-                                    href="{{ route('home') }}/#vc_row-62986ef229645">{{ __('Home') }}</a></p>
+                            <p dir="rtl" style="text-align: right;"><a class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-1451 megamenu-first-element" href="#vc_row-62986ef229645">{{__('Home') }}</a></p>
                             <p dir="rtl" style="text-align: right;">
-                                <a href="#vc_row-62986ef22f13e">{{ __('Partners') }}</a>
-                            </p>
+                                <a href="#vc_row-62986ef22f13e">{{__('Partners') }}</a></p>
                             <p dir="rtl" style="text-align: right;">
-                                <a href="#programs">{{ __('Our programs') }}</a>
-                            </p>
+                                <a href="#programs">{{__('Our programs') }}</a></p>
                         </div>
                     </div>
-                    <div id="custom_html-7"
-                        class="widget_text widget inline-column col-md-4 col-sm-6 col-xs-12 count-3 widget_custom_html">
-                        <div class="textwidget custom-html-widget"><img class="aligncenter"
-                                style="margin: 25px 0 15px 0;"
-                                data-tgpli-src="{{ asset('uploads/' . get_general_value('header_logo')) }}" alt=""
-                                width="190" data-tgpli-inited data-tgpli-image-inited id="tgpli-62986ef24458c" />
-
-                            <img src="{{ asset('uploads/' . get_general_value('header_logo')) }}" height="100"
-                                class="aligncenter" style=" height: 200px;" alt="">
-                            {{-- {!! get_general_value('desc_' . app()->getLocale()) !!} --}}
+                    <div id="custom_html-7" class="widget_text widget inline-column col-md-4 col-sm-6 col-xs-12 count-3 widget_custom_html">
+                        <div class="textwidget custom-html-widget"><img class="aligncenter" style="margin: 25px 0 15px 0;" data-tgpli-src="{{ asset('uploads/'.get_general_value('header_logo')) }}" alt="" width="190" data-tgpli-inited data-tgpli-image-inited id="tgpli-62986ef24458c"
+                            />
+                            
+                            <img  src="{{ asset('uploads/'.get_general_value('header_logo')) }}" height="100" class="aligncenter" style=" height: 150px;" alt="">
+                            {{-- {!!  get_general_value('desc_'.app()->getLocale()) !!} --}}
                         </div>
                     </div>
                 </div>
                 <!-- .footer-widget-area -->
             </div>
         </footer>
+        <div class="wrapper-cover">
+
+            <div class="wrapper">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="shadow"></div>
+                <div class="shadow"></div>
+                <div class="shadow"></div>
+                @if(get_lang() == 'ar')
+                <span>... جاري التحميل  </span>
+                @else
+                <span> Loading ...  </span>
+
+                @endif
+            </div>
+    
+        </div>
         <!-- #colophon -->
 
 
@@ -1230,6 +1336,12 @@
         id='thegem-counter-js'></script>
     <script type='text/javascript' src='wp_content/themes/thegem/js/isotope.min647e.js?ver=5.5.9' id='isotope-js-js'>
     </script>
+       <script>
+        $(window).on("load", function() {
+              $('.wrapper-cover').fadeOut("slow"); 
+  
+          });
+     </script>
     <script>
         $('#SubmitForm').on('submit', function(e) {
             e.preventDefault();
