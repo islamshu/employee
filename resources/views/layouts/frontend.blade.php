@@ -5,24 +5,25 @@
     <meta charset="UTF-8">
 
     <style>
-        #loading {
-  position: fixed;
-  display: block;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  text-align: center;
-  opacity: 0.7;
-  background-color: #fff;
-  z-index: 99;
+#loading {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
 }
 
-#loading-image {
-  position: absolute;
-  top: 100px;
-  /* left: 240px; */
-  z-index: 100;
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
         .tgpli-background-inited {
             background-image: none !important;
@@ -888,9 +889,8 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
     {{-- <div id="page-preloader">
         <div class="page-preloader-spin"></div>
     </div> --}}
-    <div id="loading">
-        <img id="loading-image" src="https://cdn1.iconfinder.com/data/icons/system-preferences/320/loading_loader_progress_wait_spinner_load-512.png" alt="Loading..." />
-      </div>
+    <div id="loading"></div>
+
 
 
 
