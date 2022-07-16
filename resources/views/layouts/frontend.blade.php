@@ -970,6 +970,24 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
 <body class="rtl home page-template-default page page-id-1016 wpb-js-composer js-comp-ver-6.6.0 vc_responsive">
 
 
+    <div class="wrapper-cover">
+
+        <div class="wrapper">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            <div class="shadow"></div>
+            @if(get_lang() == 'ar')
+            <span>... جاري التحميل  </span>
+            @else
+            <span> Loading ...  </span>
+
+            @endif
+        </div>
+
+    </div>
     {{-- <div id="page-preloader">
         <div class="page-preloader-spin"></div>
     </div> --}}
@@ -2023,24 +2041,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                 <!-- .footer-widget-area -->
             </div>
         </footer>
-        <div class="wrapper-cover">
-
-            <div class="wrapper">
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="shadow"></div>
-                <div class="shadow"></div>
-                <div class="shadow"></div>
-                @if(get_lang() == 'ar')
-                <span>... جاري التحميل  </span>
-                @else
-                <span> Loading ...  </span>
-
-                @endif
-            </div>
     
-        </div>
         <!-- #colophon -->
 
 
