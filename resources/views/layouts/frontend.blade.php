@@ -1682,7 +1682,9 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                             
                                                         <div class="col-lg-3 stats">
                                                             <i class="fa fa-code" aria-hidden="true"></i>
+                                                            <br>
                                                             <div class="counting" data-count="900000">0</div>
+                                                            <br>
                                                             <h5>Lines of code</h5>
                                                         </div>
                                             
