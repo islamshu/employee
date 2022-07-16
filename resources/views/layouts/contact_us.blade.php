@@ -1368,7 +1368,7 @@
         <div class="modal fade" id="modalSubscriptionForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
-          <div class="modal-content">
+          <div class="modal-content" style="padding: 20px">
             <div class="wpb_wrapper">
                 <h2 style="text-align: center;"><span style="color: #000;">{{ __('Start your journey with us now') }}</span></h2>
 
