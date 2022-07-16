@@ -1377,10 +1377,10 @@
             </div>
                 
             <div class="container"  style="width: 100%">
-                <div class="alert alert-success" role="alert" id="successMsg" style="display: none" >
+                <div class="alert alert-success" role="alert" id="successMsgnew" style="display: none" >
                    {{ __('Thank you for joining us') }} 
                   </div>
-                  <form id="SubmitForm" style="color: black">
+                  <form id="SubmitFormnew" style="color: black">
                     <div class="mb-3">
                         <label for="compname" class="form-label">{{ __('Facility Name') }}</label>
                         <input type="text" style="height: 50px;font-size: 18px;" class="form-control" id="compname">
@@ -1388,20 +1388,20 @@
                       </div>
                     <div class="mb-3">
                       <label for="InputName" class="form-label">{{ __('Name') }}</label>
-                      <input type="text" style="height: 50px;font-size: 18px;" class="form-control" id="InputName">
-                      <span class="text-danger" id="nameErrorMsg"></span>
+                      <input type="text" style="height: 50px;font-size: 18px;" class="form-control" id="InputNamenew">
+                      <span class="text-danger" id="nameErrorMsgnew"></span>
                     </div>
               
                     <div class="mb-3">
                       <label for="InputEmail" class="form-label">{{ __('Email address') }}</label>
-                      <input type="email"  style="height: 50px;font-size: 18px;" class="form-control" id="InputEmail">
-                      <span class="text-danger" id="emailErrorMsg"></span>
+                      <input type="email"  style="height: 50px;font-size: 18px;" class="form-control" id="InputEmailnew">
+                      <span class="text-danger" id="emailErrorMsgnew"></span>
                     </div>
               
                     <div class="mb-3">
                       <label for="InputMobile" class="form-label">{{ __('Mobile') }}</label>
-                      <input type="number"  style="height: 50px;font-size: 18px;" class="form-control" id="InputMobile">
-                      <span class="text-danger" id="mobileErrorMsg"></span> 
+                      <input type="number"  style="height: 50px;font-size: 18px;" class="form-control" id="InputMobilenew">
+                      <span class="text-danger" id="mobileErrorMsgnew"></span> 
                     </div>
               
                     <div class="mb-3">
@@ -1551,6 +1551,51 @@
                 },
             });
         });
+        $('#SubmitFormnew').on('submit',function(e){
+            e.preventDefault();
+            let co_name = $('#compname').val();
+            let name = $('#InputNamenew').val();
+            let email = $('#InputEmailnew').val();
+            let mobile = $('#InputMobilenew').val();
+            let co_register = $('#co_register').val();
+
+
+            
+            
+            $.ajax({
+              url: "/submit-form-partner",
+              type:"POST",
+              data:{
+                "_token": "{{ csrf_token() }}",
+                name:name,
+                email:email,
+                mobile:mobile,
+                co_register:co_register,
+                co_name:co_name
+              },
+              success:function(response){
+                $('#successMsgnew').show();
+                    $('#nameErrorMsgnew').hide();
+                    $('#emailErrorMsgnew').hide();
+                    $('#mobileErrorMsgnew').hide();
+                    $('#CoErrorMsg').hide();
+                    $('#COMPErrorMsg').hide();
+                    $('#InputName').val('');
+                    $('#InputEmail').val('');
+                    $('#InputMobile').val('');
+                    $('#co_register').val('');
+                    $('#compname').val('');
+              },
+              error: function(response) {
+                $('#nameErrorMsgnew').text(response.responseJSON.errors.name);
+                $('#emailErrorMsgnew').text(response.responseJSON.errors.email);
+                $('#mobileErrorMsgnew').text(response.responseJSON.errors.mobile);
+                $('#CoErrorMsg').text(response.responseJSON.errors.co_register);
+                $('#COMPErrorMsg').text(response.responseJSON.errors.co_name);
+              },               
+
+              });
+            });
         $(function() {
             var selectedClass = "";
             $(".filter").click(function() {
