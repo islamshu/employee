@@ -9,7 +9,7 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 
 body {
-	background: #69489D;
+	background: #40E0D0;
 }
 
 /*/ start count stats /*/
@@ -28,7 +28,7 @@ section#counter-stats {
 }
 
 .stats .fa {
-  color: #008080;
+  color: #69489D;
   margin-bottom: 30px;
   font-size: 60px;
 }
