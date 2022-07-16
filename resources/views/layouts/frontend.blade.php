@@ -2130,7 +2130,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
 
                 {
 
-                    duration: 3000,
+                    duration: 1500,
                     easing:'linear',
                     step: function() {
                     $this.text(Math.floor(this.countNum));
