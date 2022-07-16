@@ -5,109 +5,122 @@
     <meta charset="UTF-8">
 
     <style>
-          .wrapper-cover {
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    background: radial-gradient(#69489D, #DE4F76) !important;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1555;
-}
-.wrapper {
-    width: 250px;
-    height: 80px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.circle{
-    width:30px;
-    height:30px;
-    position: absolute;
-    border-radius: 50%;
-    background-color: #fff;
-    left:10%;
-    transform-origin: 50%;
-    animation: circle .5s alternate infinite ease;
-}
+        .wrapper-cover {
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(#69489D, #DE4F76) !important;
+            position: fixed;
+            top: 0;
+            right: 0;
+            z-index: 1555;
+        }
 
-@keyframes circle{
-    0%{
-        top:60px;
-        height:5px;
-        border-radius: 50px 50px 25px 25px;
-        transform: scaleX(1.7);
-    }
-    40%{
-        height:20px;
-        border-radius: 50%;
-        transform: scaleX(1);
-    }
-    100%{
-        top:0%;
-    }
-}
-.circle:nth-child(2){
-    left:45%;
-    animation-delay: .2s;
-}
-.circle:nth-child(3){
-    left:auto;
-    right:15%;
-    animation-delay: .3s;
-}
-.shadow{
-    width:30px;
-    height:4px;
-    border-radius: 50%;
-    background-color: rgba(0,0,0,.5);
-    position: absolute;
-    top:62px;
-    transform-origin: 50%;
-    z-index: -1;
-    left:15%;
-    filter: blur(1px);
-    animation: shadow .5s alternate infinite ease;
-}
+        .wrapper {
+            width: 250px;
+            height: 80px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-@keyframes shadow{
-    0%{
-        transform: scaleX(1.5);
-    }
-    40%{
-        transform: scaleX(1);
-        opacity: .7;
-    }
-    100%{
-        transform: scaleX(.2);
-        opacity: .4;
-    }
-}
-.shadow:nth-child(4){
-    left: 45%;
-    animation-delay: .2s
-}
-.shadow:nth-child(5){
-    left:auto;
-    right:15%;
-    animation-delay: .3s;
-}
-.wrapper span{
-    position: absolute;
-    top:75px;
-    font-size: 20px;
-    letter-spacing: 5px;
-    color: #fff;
-    left:10%;
-    font-weight: 600;
-}
+        .circle {
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            border-radius: 50%;
+            background-color: #fff;
+            left: 10%;
+            transform-origin: 50%;
+            animation: circle .5s alternate infinite ease;
+        }
+
+        @keyframes circle {
+            0% {
+                top: 60px;
+                height: 5px;
+                border-radius: 50px 50px 25px 25px;
+                transform: scaleX(1.7);
+            }
+
+            40% {
+                height: 20px;
+                border-radius: 50%;
+                transform: scaleX(1);
+            }
+
+            100% {
+                top: 0%;
+            }
+        }
+
+        .circle:nth-child(2) {
+            left: 45%;
+            animation-delay: .2s;
+        }
+
+        .circle:nth-child(3) {
+            left: auto;
+            right: 15%;
+            animation-delay: .3s;
+        }
+
+        .shadow {
+            width: 30px;
+            height: 4px;
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, .5);
+            position: absolute;
+            top: 62px;
+            transform-origin: 50%;
+            z-index: -1;
+            left: 15%;
+            filter: blur(1px);
+            animation: shadow .5s alternate infinite ease;
+        }
+
+        @keyframes shadow {
+            0% {
+                transform: scaleX(1.5);
+            }
+
+            40% {
+                transform: scaleX(1);
+                opacity: .7;
+            }
+
+            100% {
+                transform: scaleX(.2);
+                opacity: .4;
+            }
+        }
+
+        .shadow:nth-child(4) {
+            left: 45%;
+            animation-delay: .2s
+        }
+
+        .shadow:nth-child(5) {
+            left: auto;
+            right: 15%;
+            animation-delay: .3s;
+        }
+
+        .wrapper span {
+            position: absolute;
+            top: 75px;
+            font-size: 20px;
+            letter-spacing: 5px;
+            color: #fff;
+            left: 10%;
+            font-weight: 600;
+        }
+
         .tgpli-background-inited {
             background-image: none !important;
         }
@@ -251,7 +264,8 @@
             href='http://fonts.googleapis.com/css?family=Tajawal%3A700%2Cregular%2C300%7CMontserrat%3A700%2Cregular%7CSource+Sans+Pro%3Aregular%2C300&amp;subset=arabic%2Clatin%2Ccyrillic%2Ccyrillic-ext%2Clatin-ext%2Cvietnamese%2Cgreek%2Cgreek-ext&amp;ver=5.5.9'
             type='text/css' media='all' />
         <link rel='stylesheet' id='thegem-custom-css'
-            href='wp_content/themes/thegem-child/css/custom-VDyJnWIQ647e.css?ver=5.5.9' type='text/css' media='all' />
+            href='wp_content/themes/thegem-child/css/custom-VDyJnWIQ647e.css?ver=5.5.9' type='text/css'
+            media='all' />
         <link rel='stylesheet' id='thegem-rtl-css' href='wp_content/themes/thegem/css/rtl647e.css?ver=5.5.9'
             type='text/css' media='all' />
         <link rel='stylesheet' id='js_composer_front-css'
@@ -264,20 +278,23 @@
             href='wp_content/themes/thegem/js/fancyBox/jquery.fancybox.min647e.css?ver=5.5.9' type='text/css'
             media='all' />
         <link rel='stylesheet' id='thegem-vc_elements-css'
-            href='wp_content/themes/thegem/css/thegem-vc_elements647e.css?ver=5.5.9' type='text/css' media='all' />
+            href='wp_content/themes/thegem/css/thegem-vc_elements647e.css?ver=5.5.9' type='text/css'
+            media='all' />
         <link rel='stylesheet' id='wp-block-library-rtl-css'
-            href='wp-includes/css/dist/block-library/style-rtl.min647e.css?ver=5.5.9' type='text/css' media='all' />
+            href='wp-includes/css/dist/block-library/style-rtl.min647e.css?ver=5.5.9' type='text/css'
+            media='all' />
         <link rel='stylesheet' id='wp-components-rtl-css'
             href='wp-includes/css/dist/components/style-rtl.min647e.css?ver=5.5.9' type='text/css' media='all' />
         <link rel='stylesheet' id='wp-editor-font-css'
             href='https://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&amp;ver=5.5.9'
             type='text/css' media='all' />
         <link rel='stylesheet' id='wp-block-editor-rtl-css'
-            href='wp-includes/css/dist/block-editor/style-rtl.min647e.css?ver=5.5.9' type='text/css' media='all' />
+            href='wp-includes/css/dist/block-editor/style-rtl.min647e.css?ver=5.5.9' type='text/css'
+            media='all' />
         <link rel='stylesheet' id='wp-nux-rtl-css' href='wp-includes/css/dist/nux/style-rtl.min647e.css?ver=5.5.9'
             type='text/css' media='all' />
-        <link rel='stylesheet' id='wp-editor-rtl-css' href='wp-includes/css/dist/editor/style-rtl.min647e.css?ver=5.5.9'
-            type='text/css' media='all' />
+        <link rel='stylesheet' id='wp-editor-rtl-css'
+            href='wp-includes/css/dist/editor/style-rtl.min647e.css?ver=5.5.9' type='text/css' media='all' />
         <link rel='stylesheet' id='formbuilder-123-block-style-css-css'
             href='wp_content/plugins/123contactform-for-wordpress/admin/gutenberg/blocks.style.build647e.css?ver=5.5.9'
             type='text/css' media='all' />
@@ -290,19 +307,24 @@
     @endif
     @if (get_lang() == 'en')
         <link rel='stylesheet' id='thegem-reset-css'
-            href='wp_content_english/themes/thegem/css/thegem-reset647e.css?ver=5.5.9' type='text/css' media='all' />
+            href='wp_content_english/themes/thegem/css/thegem-reset647e.css?ver=5.5.9' type='text/css'
+            media='all' />
         <link rel='stylesheet' id='thegem-grid-css'
-            href='wp_content_english/themes/thegem/css/thegem-grid647e.css?ver=5.5.9' type='text/css' media='all' />
+            href='wp_content_english/themes/thegem/css/thegem-grid647e.css?ver=5.5.9' type='text/css'
+            media='all' />
         <link rel='stylesheet' id='thegem-style-css' href='wp_content_english/themes/thegem/style647e.css?ver=5.5.9'
             type='text/css' media='all' />
         <link rel='stylesheet' id='thegem-child-style-css'
             href='wp_content_english/themes/thegem-child/style647e.css?ver=5.5.9' type='text/css' media='all' />
         <link rel='stylesheet' id='thegem-header-css'
-            href='wp_content_english/themes/thegem/css/thegem-header647e.css?ver=5.5.9' type='text/css' media='all' />
+            href='wp_content_english/themes/thegem/css/thegem-header647e.css?ver=5.5.9' type='text/css'
+            media='all' />
         <link rel='stylesheet' id='thegem-widgets-css'
-            href='wp_content_english/themes/thegem/css/thegem-widgets647e.css?ver=5.5.9' type='text/css' media='all' />
+            href='wp_content_english/themes/thegem/css/thegem-widgets647e.css?ver=5.5.9' type='text/css'
+            media='all' />
         <link rel='stylesheet' id='thegem-new-css-css'
-            href='wp_content_english/themes/thegem/css/thegem-new-css647e.css?ver=5.5.9' type='text/css' media='all' />
+            href='wp_content_english/themes/thegem/css/thegem-new-css647e.css?ver=5.5.9' type='text/css'
+            media='all' />
         <link rel='stylesheet' id='perevazka-css-css-css'
             href='wp_content_english/themes/thegem/css/thegem-perevazka-css647e.css?ver=5.5.9' type='text/css'
             media='all' />
@@ -325,18 +347,21 @@
             href='wp_content_english/themes/thegem/css/thegem-vc_elements647e.css?ver=5.5.9' type='text/css'
             media='all' />
         <link rel='stylesheet' id='wp-block-library-css'
-            href='wp-includes_english/css/dist/block-library/style.min647e.css?ver=5.5.9' type='text/css' media='all' />
+            href='wp-includes_english/css/dist/block-library/style.min647e.css?ver=5.5.9' type='text/css'
+            media='all' />
         <link rel='stylesheet' id='wp-components-css'
-            href='wp-includes_english/css/dist/components/style.min647e.css?ver=5.5.9' type='text/css' media='all' />
+            href='wp-includes_english/css/dist/components/style.min647e.css?ver=5.5.9' type='text/css'
+            media='all' />
         <link rel='stylesheet' id='wp-editor-font-css'
             href='https://fonts.googleapis.com/css?family=Noto+Serif%3A400%2C400i%2C700%2C700i&amp;ver=5.5.9'
             type='text/css' media='all' />
         <link rel='stylesheet' id='wp-block-editor-css'
-            href='wp-includes_english/css/dist/block-editor/style.min647e.css?ver=5.5.9' type='text/css' media='all' />
+            href='wp-includes_english/css/dist/block-editor/style.min647e.css?ver=5.5.9' type='text/css'
+            media='all' />
         <link rel='stylesheet' id='wp-nux-css' href='wp-includes_english/css/dist/nux/style.min647e.css?ver=5.5.9'
             type='text/css' media='all' />
-        <link rel='stylesheet' id='wp-editor-css' href='wp-includes_english/css/dist/editor/style.min647e.css?ver=5.5.9'
-            type='text/css' media='all' />
+        <link rel='stylesheet' id='wp-editor-css'
+            href='wp-includes_english/css/dist/editor/style.min647e.css?ver=5.5.9' type='text/css' media='all' />
         <link rel='stylesheet' id='formbuilder-123-block-style-css-css'
             href='wp_content_english/plugins/123contactform-for-wordpress/admin/gutenberg/blocks.style.build647e.css?ver=5.5.9'
             type='text/css' media='all' />
@@ -874,7 +899,7 @@
             }
         }
     </style>
-  
+
 
 
 </head>
@@ -883,7 +908,7 @@
 <body class="rtl home page-template-default page page-id-1016 wpb-js-composer js-comp-ver-6.6.0 vc_responsive">
 
 
-  
+
 
 
     <div id="page" class="layout-fullwidth header-style-1">
@@ -936,21 +961,20 @@
                                         <span class="logo"><img
                                                 data-tgpli-src="{{ asset('uploads/' . get_general_value('header_logo')) }}"
                                                 data-tgpli-srcset="{{ asset('uploads/' . get_general_value('header_logo')) }} 1x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_2x.png 2x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_3x.png 3x"
-                                                alt="ولاء بلس" style="width:180px;" class="default"
-                                                data-tgpli-inited data-tgpli-image-inited id="tgpli-62986ef2444d3" />
+                                                alt="ولاء بلس" style="width:180px;" class="default" data-tgpli-inited
+                                                data-tgpli-image-inited id="tgpli-62986ef2444d3" />
                                             <img src="wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_1x.png"
                                                 srcset="{{ asset('uploads/' . get_general_value('header_logo')) }} 1x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_2x.png 2x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_3x.png 3x"
-                                                alt="ولاء بلس" style="width:180px;"
-                                                class="default" /></noscript><img
+                                                alt="ولاء بلس" style="width:180px;" class="default" /></noscript><img
                                                 data-tgpli-src="{{ asset('uploads/' . get_general_value('header_logo')) }}"
                                                 data-tgpli-srcset="{{ asset('uploads/' . get_general_value('header_logo')) }} 1x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_2x.png 2x,https://walaplus.com/wp_content/uploads/thegem-logos/logo_8c4676c76b0e25450e8e77c212e4cbee_3x.png 3x"
-                                                alt="ولاء بلس" style="width:100px;" class="small"
-                                                data-tgpli-inited data-tgpli-image-inited
-                                                id="tgpli-62986ef2444ea" /></span>
+                                                alt="ولاء بلس" style="width:100px;" class="small" data-tgpli-inited
+                                                data-tgpli-image-inited id="tgpli-62986ef2444ea" /></span>
                                     </a>
                                 </div>
                             </div>
-                            <nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+                            <nav id="primary-navigation" class="site-navigation primary-navigation"
+                                role="navigation">
                                 <button class="menu-toggle dl-trigger">Primary Menu<span
                                         class="menu-line-1"></span><span class="menu-line-2"></span><span
                                         class="menu-line-3"></span></button>
@@ -959,13 +983,14 @@
 
                                     <li id="menu-item-1451"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-1451 megamenu-first-element">
-                                        <a href="{{ route('home') }}/#vc_row-62986ef229645">{{ __('Home') }} </a><span
-                                            class="menu-item-parent-toggle"></span>
+                                        <a href="{{ route('home') }}/#vc_row-62986ef229645">{{ __('Home') }}
+                                        </a><span class="menu-item-parent-toggle"></span>
 
                                     </li>
                                     <li id="menu-item-1451"
                                         class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-1451 megamenu-first-element">
-                                        <a href="{{ route('home') }}/#vc_row-62986ef22f13e">{{ __('Partners') }}</a><span
+                                        <a
+                                            href="{{ route('home') }}/#vc_row-62986ef22f13e">{{ __('Partners') }}</a><span
                                             class="menu-item-parent-toggle"></span>
 
                                     </li>
@@ -995,7 +1020,8 @@
                                     @if (get_lang() == 'ar')
                                         <li id="menu-item-wpml-ls-50-ar"
                                             class="menu-item wpml-ls-slot-50 wpml-ls-item wpml-ls-item-ar wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children menu-item-wpml-ls-50-ar megamenu-first-element">
-                                            <a title="العربية" href="/"><span class="wpml-ls-display">العربية</span></a>
+                                            <a title="العربية" href="/"><span
+                                                    class="wpml-ls-display">العربية</span></a>
                                             <ul class="sub-menu styled dl-submenu">
                                                 <li id="menu-item-wpml-ls-50-en"
                                                     class="menu-item wpml-ls-slot-50 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-50-en megamenu-first-element">
@@ -1007,7 +1033,8 @@
                                     @else
                                         <li id="menu-item-wpml-ls-50-ar"
                                             class="menu-item wpml-ls-slot-50 wpml-ls-item wpml-ls-item-ar wpml-ls-current-language wpml-ls-menu-item wpml-ls-first-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-has-children menu-item-wpml-ls-50-ar megamenu-first-element">
-                                            <a title="English" href="/"><span class="wpml-ls-display">English</span></a>
+                                            <a title="English" href="/"><span
+                                                    class="wpml-ls-display">English</span></a>
                                             <ul class="sub-menu styled dl-submenu">
                                                 <li id="menu-item-wpml-ls-50-en"
                                                     class="menu-item wpml-ls-slot-50 wpml-ls-item wpml-ls-item-en wpml-ls-menu-item wpml-ls-last-item menu-item-type-wpml_ls_menu_item menu-item-object-wpml_ls_menu_item menu-item-wpml-ls-50-en megamenu-first-element">
@@ -1037,15 +1064,20 @@
                             <div class="wpb_column vc_column_container vc_col-sm-12">
                                 <div class="vc_column-inner ">
                                     <div class="wpb_wrapper">
-                                        <div id="fullwidth-block-62986e153e336" class="custom-title-background fullwidth-block clearfix" style="background-color: ;padding-top: 120px;">
-                                            
-                                            <br> 
+                                        <div id="fullwidth-block-62986e153e336"
+                                            class="custom-title-background fullwidth-block clearfix"
+                                            style="background-color: ;padding-top: 120px;">
+
                                             <br>
                                             <br>
-                                       
+                                            <br>
+
                                             <div class="fullwidth-block-inner">
-                                                <div class="custom-title-title " style="text-align: center;margin-left: auto;margin-right: auto;">
-                                                    <h1 style="color: #69489D"> {{ __('We are excited to have you join us and connect with us') }}</h1>
+                                                <div class="custom-title-title "
+                                                    style="text-align: center;margin-left: auto;margin-right: auto;">
+                                                    <h1 style="color: #69489D">
+                                                        {{ __('We are excited to have you join us and connect with us') }}
+                                                    </h1>
                                                 </div>
                                             </div>
                                         </div>
@@ -1060,7 +1092,8 @@
                         <div class="panel row">
 
                             <div class="panel-center col-xs-12">
-                                <article id="post-1803" class="post-1803 page type-page status-publish has-post-thumbnail">
+                                <article id="post-1803"
+                                    class="post-1803 page type-page status-publish has-post-thumbnail">
 
                                     <div class="entry-content post-content">
 
@@ -1073,113 +1106,160 @@
                                                     <div class="wpb_wrapper">
                                                         <div class="clearboth"></div>
                                                         <div class="gem-divider " style="margin-top: 60px;"></div>
-                                                        <div class="vc_row wpb_row vc_inner vc_row-fluid vc_rtl-columns-reverse">
+                                                        <div
+                                                            class="vc_row wpb_row vc_inner vc_row-fluid vc_rtl-columns-reverse">
                                                             <div class="wpb_column vc_column_container vc_col-sm-6">
                                                                 <div class="vc_column-inner ">
                                                                     <div class="wpb_wrapper">
                                                                         <div class="clearboth"></div>
-                                                                        <div class="gem-divider " style="margin-top: 60px;"></div>
-                                                                        <div class="wpb_text_column wpb_content_element ">
+                                                                        <div class="gem-divider "
+                                                                            style="margin-top: 60px;"></div>
+                                                                        <div
+                                                                            class="wpb_text_column wpb_content_element ">
                                                                             <div class="wpb_wrapper">
                                                                                 <h2>{{ __('contact us') }}</h2>
 
                                                                             </div>
                                                                         </div>
                                                                         <div class="clearboth"></div>
-                                                                        <div class="gem-divider " style="margin-top: 60px;"></div>
-                                                                        <div class="wpb_text_column wpb_content_element ">
+                                                                        <div class="gem-divider "
+                                                                            style="margin-top: 60px;"></div>
+                                                                        <div
+                                                                            class="wpb_text_column wpb_content_element ">
                                                                             <div class="wpb_wrapper">
-                                                                                <p style="text-align: right;">{{ __('address') }} : {{ get_general_value('address_'.app()->getLocale()) }}</p>
-                                                                                <p style="text-align: right;">{{ __('Email address') }} : {{ get_general_value('email') }} </p>
-                                                                                <p style="text-align: right;">{{ __('Mobile') }}  : {{ get_general_value('phone') }} </p>
-                                                                                @if(get_general_value('facebook') != null)
-                                                                                <p style="text-align: right;">{{ __('FaceBook') }}  : <a class="socials-item" href="{{ get_general_value('facebook') }}" target="_blank" title="Instagram"><i
-                                                                                    class="socials-item-icon facebook "></i></a> </p>
+                                                                                <p style="text-align: right;">
+                                                                                    {{ __('address') }} :
+                                                                                    {{ get_general_value('address_' . app()->getLocale()) }}
+                                                                                </p>
+                                                                                <p style="text-align: right;">
+                                                                                    {{ __('Email address') }} :
+                                                                                    {{ get_general_value('email') }}
+                                                                                </p>
+                                                                                <p style="text-align: right;">
+                                                                                    {{ __('Mobile') }} :
+                                                                                    {{ get_general_value('phone') }}
+                                                                                </p>
+                                                                                @if (get_general_value('facebook') != null)
+                                                                                    <p style="text-align: right;">
+                                                                                        {{ __('FaceBook') }} : <a
+                                                                                            class="socials-item"
+                                                                                            href="{{ get_general_value('facebook') }}"
+                                                                                            target="_blank"
+                                                                                            title="Instagram"><i
+                                                                                                class="socials-item-icon facebook "></i></a>
+                                                                                    </p>
                                                                                 @endif
-                                                                                @if(get_general_value('twitter') != null)
-                                                                                <p style="text-align: right;">{{ __('twitter') }}  : <a class="socials-item" href="{{ get_general_value('twitter') }}" target="_blank" title="Instagram"><i
-                                                                                    class="socials-item-icon twitter "></i></a> </p>
+                                                                                @if (get_general_value('twitter') != null)
+                                                                                    <p style="text-align: right;">
+                                                                                        {{ __('twitter') }} : <a
+                                                                                            class="socials-item"
+                                                                                            href="{{ get_general_value('twitter') }}"
+                                                                                            target="_blank"
+                                                                                            title="Instagram"><i
+                                                                                                class="socials-item-icon twitter "></i></a>
+                                                                                    </p>
                                                                                 @endif
-                                                                                @if(get_general_value('instagram') != null)
-                                                                                <p style="text-align: right;">{{ __('instagram') }}  :     <a class="socials-item" href="{{ get_general_value('instagram') }}" target="_blank" title="Instagram"><i
-                                                                                    class="socials-item-icon instagram "></i></a></p>
+                                                                                @if (get_general_value('instagram') != null)
+                                                                                    <p style="text-align: right;">
+                                                                                        {{ __('instagram') }} : <a
+                                                                                            class="socials-item"
+                                                                                            href="{{ get_general_value('instagram') }}"
+                                                                                            target="_blank"
+                                                                                            title="Instagram"><i
+                                                                                                class="socials-item-icon instagram "></i></a>
+                                                                                    </p>
                                                                                 @endif
-                                                                                @if(get_general_value('linkedin') != null)
-                                                                                <p style="text-align: right;">{{ __('linkedin') }}  :  <a class="socials-item" href="{{ get_general_value('linkedin') }}" target="_blank" title="Instagram"><i
-                                                                                    class="socials-item-icon linkedin "></i></a> </p> 
+                                                                                @if (get_general_value('linkedin') != null)
+                                                                                    <p style="text-align: right;">
+                                                                                        {{ __('linkedin') }} : <a
+                                                                                            class="socials-item"
+                                                                                            href="{{ get_general_value('linkedin') }}"
+                                                                                            target="_blank"
+                                                                                            title="Instagram"><i
+                                                                                                class="socials-item-icon linkedin "></i></a>
+                                                                                    </p>
                                                                                 @endif
 
-                                                                                
+
 
 
                                                                             </div>
 
                                                                         </div>
-                                                                        <button class="btn btn-info" data-toggle="modal" data-target="#exampleModal">انضم كتاجر</button>
+                                                                        <button class="btn btn-info"
+                                                                            data-toggle="modal"
+                                                                            data-target="#exampleModal">انضم
+                                                                            كتاجر</button>
 
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                                                <div class="modal-dialog" role="document">
-                                                                  <div class="modal-content">
-                                                                    <div class="modal-header">
-                                                                      <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                                        <span aria-hidden="true">&times;</span>
-                                                                      </button>
-                                                                    </div>
-                                                                    <div class="modal-body">
-                                                                      ...
-                                                                    </div>
-                                                                    <div class="modal-footer">
-                                                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                                      <button type="button" class="btn btn-primary">Save changes</button>
-                                                                    </div>
-                                                                  </div>
-                                                                </div>
-                                                              </div>
+
                                                             <div class="wpb_column vc_column_container vc_col-sm-6">
                                                                 <div class="vc_column-inner ">
                                                                     <div class="wpb_wrapper">
-                                                                        <div class="wpb_raw_code wpb_content_element wpb_raw_html">
+                                                                        <div
+                                                                            class="wpb_raw_code wpb_content_element wpb_raw_html">
                                                                             <div class="wpb_wrapper">
 
-                                                                                <div class="container"  style="width: 100%">
-                                                                                    <div class="alert alert-success" role="alert" id="successMsg" style="display: none" >
-                                                                                       {{ __('Thank you for getting in touch!') }} 
-                                                                                      </div>
-                                                                                      <form id="SubmitForm">
+                                                                                <div class="container"
+                                                                                    style="width: 100%">
+                                                                                    <div class="alert alert-success"
+                                                                                        role="alert" id="successMsg"
+                                                                                        style="display: none">
+                                                                                        {{ __('Thank you for getting in touch!') }}
+                                                                                    </div>
+                                                                                    <form id="SubmitForm">
                                                                                         <div class="mb-3">
-                                                                                          <label for="InputName" class="form-label">{{ __('Name') }}</label>
-                                                                                          <input type="text" style="height: 50px;font-size: 18px;" class="form-control" id="InputName">
-                                                                                          <span class="text-danger" id="nameErrorMsg"></span>
+                                                                                            <label for="InputName"
+                                                                                                class="form-label">{{ __('Name') }}</label>
+                                                                                            <input type="text"
+                                                                                                style="height: 50px;font-size: 18px;"
+                                                                                                class="form-control"
+                                                                                                id="InputName">
+                                                                                            <span class="text-danger"
+                                                                                                id="nameErrorMsg"></span>
                                                                                         </div>
-                                                                                  
+
                                                                                         <div class="mb-3">
-                                                                                          <label for="InputEmail" class="form-label">{{ __('Email address') }}</label>
-                                                                                          <input type="email"  style="height: 50px;font-size: 18px;" class="form-control" id="InputEmail">
-                                                                                          <span class="text-danger" id="emailErrorMsg"></span>
+                                                                                            <label for="InputEmail"
+                                                                                                class="form-label">{{ __('Email address') }}</label>
+                                                                                            <input type="email"
+                                                                                                style="height: 50px;font-size: 18px;"
+                                                                                                class="form-control"
+                                                                                                id="InputEmail">
+                                                                                            <span class="text-danger"
+                                                                                                id="emailErrorMsg"></span>
                                                                                         </div>
-                                                                                  
+
                                                                                         <div class="mb-3">
-                                                                                          <label for="InputMobile" class="form-label">{{ __('Mobile') }}</label>
-                                                                                          <input type="number"  style="height: 50px;font-size: 18px;" class="form-control" id="InputMobile">
-                                                                                          <span class="text-danger" id="mobileErrorMsg"></span> 
+                                                                                            <label for="InputMobile"
+                                                                                                class="form-label">{{ __('Mobile') }}</label>
+                                                                                            <input type="number"
+                                                                                                style="height: 50px;font-size: 18px;"
+                                                                                                class="form-control"
+                                                                                                id="InputMobile">
+                                                                                            <span class="text-danger"
+                                                                                                id="mobileErrorMsg"></span>
                                                                                         </div>
-                                                                                  
+
                                                                                         <div class="mb-3">
-                                                                                          <label for="InputMessage" class="form-label">{{ __('Message') }}</label>
-                                                                                          <textarea class="form-control" style="font-size: 18px;" id="InputMessage" cols="30" rows="4"></textarea>
-                                                                                          <span class="text-danger" id="messageErrorMsg"></span>
+                                                                                            <label for="InputMessage"
+                                                                                                class="form-label">{{ __('Message') }}</label>
+                                                                                            <textarea class="form-control" style="font-size: 18px;" id="InputMessage" cols="30" rows="4"></textarea>
+                                                                                            <span class="text-danger"
+                                                                                                id="messageErrorMsg"></span>
                                                                                         </div>
-                                                                                        
-                                                                                        
-                                                                                        <button style="    font-size: 17px;
+
+
+                                                                                        <button
+                                                                                            style="    font-size: 17px;
                                                                                         height: 40px;
-                                                                                        width: 100px;" type="submit" class="btn btn-primary">{{ __('Submit') }}</button>
-                                                                                      </form>
-                                                                                  </div>
+                                                                                        width: 100px;"
+                                                                                            type="submit"
+                                                                                            class="btn btn-primary">{{ __('Submit') }}</button>
+                                                                                    </form>
+                                                                                </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -1187,7 +1267,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="clearboth"></div>
-                                                        
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -1214,7 +1294,7 @@
                 <!-- .block-content -->
 
             </div>
-           
+
             <!-- #main-content -->
 
 
@@ -1226,29 +1306,43 @@
             <div class="container">
 
                 <div class="row inline-row footer-widget-area" role="complementary">
-                    <div id="custom_html-3" class="widget_text widget inline-column col-md-4 col-sm-6 col-xs-12 count-3 widget_custom_html">
+                    <div id="custom_html-3"
+                        class="widget_text widget inline-column col-md-4 col-sm-6 col-xs-12 count-3 widget_custom_html">
                         <div class="textwidget custom-html-widget">&nbsp;
                             <p style="text-align: right;"><strong>{{ __('contact us') }}:   </strong></p>
-                            <p style="text-align: right;">{{ __('address') }} : {{ get_general_value('address_'.app()->getLocale()) }}</p>
-                            <p style="text-align: right;">{{ __('Email address') }} : {{ get_general_value('email') }} </p>
-                            <p style="text-align: right;">{{ __('Mobile') }}  : {{ get_general_value('phone') }} </p>
+                            <p style="text-align: right;">{{ __('address') }} :
+                                {{ get_general_value('address_' . app()->getLocale()) }}</p>
+                            <p style="text-align: right;">{{ __('Email address') }} :
+                                {{ get_general_value('email') }} </p>
+                            <p style="text-align: right;">{{ __('Mobile') }} : {{ get_general_value('phone') }}
+                            </p>
                         </div>
                     </div>
-                    <div id="custom_html-2" class="widget_text widget inline-column col-md-4 col-sm-6 col-xs-12 count-3 widget_custom_html">
+                    <div id="custom_html-2"
+                        class="widget_text widget inline-column col-md-4 col-sm-6 col-xs-12 count-3 widget_custom_html">
                         <h3 class="widget-title">{{ __('usful links') }}</h3>
                         <div class="textwidget custom-html-widget">
-                            <p dir="rtl" style="text-align: right;"><a class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-1451 megamenu-first-element" href="#vc_row-62986ef229645">{{__('Home') }}</a></p>
+                            <p dir="rtl" style="text-align: right;"><a
+                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-parent menu-item-1451 megamenu-first-element"
+                                    href="#vc_row-62986ef229645">{{ __('Home') }}</a></p>
                             <p dir="rtl" style="text-align: right;">
-                                <a href="#vc_row-62986ef22f13e">{{__('Partners') }}</a></p>
+                                <a href="#vc_row-62986ef22f13e">{{ __('Partners') }}</a>
+                            </p>
                             <p dir="rtl" style="text-align: right;">
-                                <a href="#programs">{{__('Our programs') }}</a></p>
+                                <a href="#programs">{{ __('Our programs') }}</a>
+                            </p>
                         </div>
                     </div>
-                    <div id="custom_html-7" class="widget_text widget inline-column col-md-4 col-sm-6 col-xs-12 count-3 widget_custom_html">
-                        <div class="textwidget custom-html-widget"><img class="aligncenter" style="margin: 25px 0 15px 0;" data-tgpli-src="{{ asset('uploads/'.get_general_value('header_logo')) }}" alt="" width="190" data-tgpli-inited data-tgpli-image-inited id="tgpli-62986ef24458c"
-                            />
-                            
-                            <img  src="{{ asset('uploads/'.get_general_value('header_logo')) }}" height="100" class="aligncenter" style=" height: 150px;" alt="">
+                    <div id="custom_html-7"
+                        class="widget_text widget inline-column col-md-4 col-sm-6 col-xs-12 count-3 widget_custom_html">
+                        <div class="textwidget custom-html-widget"><img class="aligncenter"
+                                style="margin: 25px 0 15px 0;"
+                                data-tgpli-src="{{ asset('uploads/' . get_general_value('header_logo')) }}"
+                                alt="" width="190" data-tgpli-inited data-tgpli-image-inited
+                                id="tgpli-62986ef24458c" />
+
+                            <img src="{{ asset('uploads/' . get_general_value('header_logo')) }}" height="100"
+                                class="aligncenter" style=" height: 150px;" alt="">
                             {{-- {!!  get_general_value('desc_'.app()->getLocale()) !!} --}}
                         </div>
                     </div>
@@ -1265,14 +1359,13 @@
                 <div class="shadow"></div>
                 <div class="shadow"></div>
                 <div class="shadow"></div>
-                @if(get_lang() == 'ar')
-                <span>... جاري التحميل  </span>
+                @if (get_lang() == 'ar')
+                    <span>... جاري التحميل </span>
                 @else
-                <span> Loading ...  </span>
-
+                    <span> Loading ... </span>
                 @endif
             </div>
-    
+
         </div>
         <!-- #colophon -->
 
@@ -1293,14 +1386,15 @@
     <div id='fb-pxl-ajax-code'></div>
     <script type="text/html" id="wpb-modifications"></script>
     <link rel='stylesheet' id='vc_animate-css-css'
-        href='wp_content/plugins/js_composer/assets/lib/bower/animate-css/animate.min31dc.css?ver=6.6.0' type='text/css'
-        media='all' />
+        href='wp_content/plugins/js_composer/assets/lib/bower/animate-css/animate.min31dc.css?ver=6.6.0'
+        type='text/css' media='all' />
     <link rel='stylesheet' id='thegem-lazy-loading-animations-css'
         href='wp_content/themes/thegem/css/thegem-lazy-loading-animations647e.css?ver=5.5.9' type='text/css'
         media='all' />
 
-    <link rel='stylesheet' id='odometr-css' href='wp_content/themes/thegem/css/odometer-theme-default647e.css?ver=5.5.9'
-        type='text/css' media='all' />
+    <link rel='stylesheet' id='odometr-css'
+        href='wp_content/themes/thegem/css/odometer-theme-default647e.css?ver=5.5.9' type='text/css'
+        media='all' />
     <script type='text/javascript' src='wp_content/themes/thegem/js/jquery.dlmenu647e.js?ver=5.5.9' id='jquery-dlmenu-js'>
     </script>
     <script type='text/javascript' id='thegem-menu-init-script-js-extra'>
@@ -1358,12 +1452,12 @@
         id='thegem-counter-js'></script>
     <script type='text/javascript' src='wp_content/themes/thegem/js/isotope.min647e.js?ver=5.5.9' id='isotope-js-js'>
     </script>
-       <script>
+    <script>
         $(window).on("load", function() {
-              $('.wrapper-cover').fadeOut("slow"); 
-  
-          });
-     </script>
+            $('.wrapper-cover').fadeOut("slow");
+
+        });
+    </script>
     <script>
         $('#SubmitForm').on('submit', function(e) {
             e.preventDefault();
