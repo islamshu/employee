@@ -2066,10 +2066,13 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
     <link rel='stylesheet' id='odometr-css' href='wp_content/themes/thegem/css/odometer-theme-default647e.css?ver=5.5.9' type='text/css' media='all' />
     <script type='text/javascript' src='wp_content/themes/thegem/js/jquery.dlmenu647e.js?ver=5.5.9' id='jquery-dlmenu-js'></script>
     <script>
-        $(window).on("load", function() {
-              $('.wrapper-cover').fadeOut("slow"); 
+        setTimeout(function() {
+            $('.wrapper-cover').fadeOut("slow"); 
+        }, 30000);
+        // $(window).on("load", function() {
+        //       $('.wrapper-cover').fadeOut("slow"); 
   
-          });
+        //   });
      </script>
   <script type='text/javascript' id='thegem-menu-init-script-js-extra'>
         /* <![CDATA[ */
