@@ -91,7 +91,7 @@
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
+	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/loader-spinner.png) center no-repeat #fff;
 }
 }
         
