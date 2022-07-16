@@ -1605,7 +1605,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                     gem_fix_fullwidth_position(document.getElementById("vc_row-62986ef239c0f"));
                                                 }
                                             </script>
-                                            <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-6 vc_col-md-6">
+                                            <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-12 vc_col-md-12">
                                                 <div class="vc_column-inner vc_custom_1589911199704">
                                                     <div class="wpb_wrapper">
                                                         <div class="wpb_text_column wpb_content_element ">
@@ -1629,7 +1629,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="counterdirection wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-0 vc_col-lg-6 vc_col-md-offset-0 vc_col-md-6">
+                                            <div class="counterdirection wpb_column vc_column_container vc_col-sm-12 vc_col-lg-offset-0 vc_col-lg-12 vc_col-md-offset-0 vc_col-md-12">
                                                 <div class="vc_column-inner vc_custom_1601551755857">
                                                     <div class="wpb_wrapper">
                                                         <div class="clearboth"></div>
@@ -2021,7 +2021,13 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
 
     <link rel='stylesheet' id='odometr-css' href='wp_content/themes/thegem/css/odometer-theme-default647e.css?ver=5.5.9' type='text/css' media='all' />
     <script type='text/javascript' src='wp_content/themes/thegem/js/jquery.dlmenu647e.js?ver=5.5.9' id='jquery-dlmenu-js'></script>
-    <script type='text/javascript' id='thegem-menu-init-script-js-extra'>
+    <script>
+        $(window).on("load", function() {
+              $('.wrapper-cover').fadeOut("slow"); 
+  
+          });
+     </script>
+  <script type='text/javascript' id='thegem-menu-init-script-js-extra'>
         /* <![CDATA[ */
         var thegem_dlmenu_settings = {
             "backLabel": "Back",
@@ -2048,12 +2054,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
         };
         /* ]]> */
     </script>
-    <script>
-        $(window).on('load', function () {
-          $('#loading').hide();
-        }) 
-      </script>
-
+   
 
     <script type='text/javascript' src='wp-includes/js/wp-embed.min647e.js?ver=5.5.9' id='wp-embed-js'></script>
     <script type='text/javascript' src='wp_content/plugins/js_composer/assets/js/dist/js_composer_front.min31dc.js?ver=6.6.0' id='wpb_composer_front_js-js'></script>
@@ -2063,12 +2064,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
     <script type='text/javascript' src='wp_content/themes/thegem/js/counters-effects647e.js?ver=5.5.9' id='thegem-counters-effects-js'></script>
     <script type='text/javascript' src='wp_content/themes/thegem/js/thegem-counters647e.js?ver=5.5.9' id='thegem-counter-js'></script>
     <script type='text/javascript' src='wp_content/themes/thegem/js/isotope.min647e.js?ver=5.5.9' id='isotope-js-js'></script>
-   <script>
-      $(window).on("load", function() {
-            $('.wrapper-cover').fadeOut("slow"); 
-
-        });
-   </script>
+  
    <script>
         $('#SubmitForm').on('submit',function(e){
             e.preventDefault();
