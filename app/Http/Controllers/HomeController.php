@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Blog;
 use App\FirstSection;
 use App\Partner;
 use App\Project;
@@ -47,7 +48,7 @@ class HomeController extends Controller
         ->with('statistic',Statistic::first())
         ->with('programs',Project::get())
         ->with('country',$country)
-
+        ->with('blogs',Blog::orderBy('id','desc')->take(3)->get())
         ;
     }
     public function change_lang($lang){

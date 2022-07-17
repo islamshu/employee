@@ -45,6 +45,7 @@ Route::group([ 'middleware' => 'auth'], function () {
     Route::get('new_client','ClientController@new_client')->name('new.client');
     Route::post('new_client','ClientController@post_new_client')->name('post_new.client');
     Route::resource('programs','ProjectController');
+    Route::resource('blogs','BlogController');
 
     Route::resource('contacts', 'ContactusController')->except(['create','edit','update']);
 

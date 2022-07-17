@@ -1935,10 +1935,14 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
         </div>
         <!-- #main -->
         <div id="lazy-loading-point"></div>
+        @if($blogs->count() > 0)
         <section class="text-center" style="padding: 5%">
             <h4 class="mb-5"><strong>Latest posts</strong></h4>
     
             <div class="row">
+                @foreach ($blogs as $item)
+                    
+               
               <div class="col-lg-4 col-md-12 mb-4">
                 <div class="card">
                   <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
@@ -1948,114 +1952,21 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                     </a>
                   </div>
                   <div class="card-body">
-                    <h5 class="card-title">Post title</h5>
+                    <h5 class="card-title">{{substr($item->title,30)}}</h5>
                     <p class="card-text">
-                      Some quick example text to build on the card title and make up the bulk of the
-                      card's content.
+                      {!! substr($item->description,30) !!}
                     </p>
-                    <a href="#!" class="btn btn-primary">Read</a>
+                    <a href="" class="btn btn-primary">{{__('Read')}}</a>
                   </div>
                 </div>
               </div>
+              @endforeach
     
-              <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card">
-                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                    <img src="https://mdbootstrap.com/img/new/standard/nature/023.jpg" class="img-fluid" />
-                    <a href="#!">
-                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                    </a>
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Post title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and make up the bulk of the
-                      card's content.
-                    </p>
-                    <a href="#!" class="btn btn-primary">Read</a>
-                  </div>
-                </div>
-              </div>
-    
-              <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card">
-                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                    <img src="https://mdbootstrap.com/img/new/standard/nature/111.jpg" class="img-fluid" />
-                    <a href="#!">
-                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                    </a>
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Post title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and make up the bulk of the
-                      card's content.
-                    </p>
-                    <a href="#!" class="btn btn-primary">Read</a>
-                  </div>
-                </div>
-              </div>
             </div>
     
-            <div class="row">
-              <div class="col-lg-4 col-md-12 mb-4">
-                <div class="card">
-                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                    <img src="https://mdbootstrap.com/img/new/standard/nature/002.jpg" class="img-fluid" />
-                    <a href="#!">
-                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                    </a>
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Post title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and make up the bulk of the
-                      card's content.
-                    </p>
-                    <a href="#!" class="btn btn-primary">Read</a>
-                  </div>
-                </div>
-              </div>
-    
-              <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card">
-                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                    <img src="https://mdbootstrap.com/img/new/standard/nature/022.jpg" class="img-fluid" />
-                    <a href="#!">
-                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                    </a>
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Post title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and make up the bulk of the
-                      card's content.
-                    </p>
-                    <a href="#!" class="btn btn-primary">Read</a>
-                  </div>
-                </div>
-              </div>
-    
-              <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card">
-                  <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                    <img src="https://mdbootstrap.com/img/new/standard/nature/035.jpg" class="img-fluid" />
-                    <a href="#!">
-                      <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                    </a>
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Post title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and make up the bulk of the
-                      card's content.
-                    </p>
-                    <a href="#!" class="btn btn-primary">Read</a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
           </section>
+          @endif
 
         <footer id="colophon" class="site-footer" role="contentinfo">
             <div class="container">
