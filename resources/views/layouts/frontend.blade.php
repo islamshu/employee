@@ -1937,7 +1937,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
         <div id="lazy-loading-point"></div>
         @if($blogs->count() > 0)
         <section class="text-center" style="padding: 5%">
-            <h4 class="mb-5"><strong>Latest posts</strong></h4>
+            <h4 class="mb-5"><strong>{{ __('LATEST POSTS') }}</strong></h4>
     
             <div class="row">
                 @foreach ($blogs as $item)
