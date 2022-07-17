@@ -1909,6 +1909,74 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                         </p>
 
                                     </div>
+                                    <div class="vc_row-full-width vc_clearfix"></div>
+                                        <div id="vc_row-6298452256478" class="vc_row wpb_row vc_row-fluid no-paddings-posts">
+                                            <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                <div class="vc_column-inner ">
+                                                    <div class="wpb_wrapper">
+                                                        <div class="clearboth"></div>
+                                                        <div class="gem-divider " style="margin-top: 75px;"></div>
+                                                        <div class="blog blog-style-justified-3x justified-style-2 inline-row clearfix item-animation-move-up" data-next-page="2">
+                                                            <article id="post-1434" class="col-lg-4 col-md-4 col-sm-6 col-xs-6 inline-column item-animations-not-inited post-1434 post type-post status-publish format-standard has-post-thumbnail category-1">
+                                                                <div class="post-content-wrapper" style="">
+                                                                    <div class="post-image">
+                                                                        <div class="post-featured-content">
+                                                                            <a href="../%d8%a3%d9%81%d9%83%d8%a7%d8%b1-%d8%a8%d8%b3%d9%8a%d8%b7%d8%a9-%d9%84%d8%aa%d8%b4%d8%ac%d9%8a%d8%b9-%d9%81%d8%b1%d9%8a%d9%82%d9%83/index.html">
+                                                                                <picture> <img data-tgpli-src="https://walaplus.com/wp-content/uploads/2020/09/Simple-ideas-to-encourage-your-team-thegem-blog-justified.jpg" width="640" height="480" class="img-responsive"
+                                                                                        alt="Simple ideas to encourage your team" data-tgpli-inited data-tgpli-image-inited id="tgpli-629845226a4d4" />
+                                                                                    <script>
+                                                                                        window.tgpQueue.add('tgpli-629845226a4d4', {
+                                                                                            sources: '<source srcset="https://walaplus.com/wp-content/uploads/2020/09/Simple-ideas-to-encourage-your-team-thegem-blog-justified.jpg 1x, https://walaplus.com/wp-content/uploads/2020/09/Simple-ideas-to-encourage-your-team-thegem-blog-justified.jpg 2x" media="(max-width: 992px)" sizes="100vw"> <source srcset="https://walaplus.com/wp-content/uploads/2020/09/Simple-ideas-to-encourage-your-team-thegem-blog-justified-3x-small.jpg 1x, https://walaplus.com/wp-content/uploads/2020/09/Simple-ideas-to-encourage-your-team-thegem-blog-justified.jpg 2x" media="(max-width: 1100px)" sizes="100vw"> <source srcset="https://walaplus.com/wp-content/uploads/2020/09/Simple-ideas-to-encourage-your-team-thegem-blog-justified-3x.jpg 1x, https://walaplus.com/wp-content/uploads/2020/09/Simple-ideas-to-encourage-your-team-thegem-blog-justified.jpg 2x" media="(max-width: 1920px)" sizes="100vw"> '
+                                                                                        })
+                                                                                    </script><noscript><source srcset="https://walaplus.com/wp-content/uploads/2020/09/Simple-ideas-to-encourage-your-team-thegem-blog-justified.jpg 1x, https://walaplus.com/wp-content/uploads/2020/09/Simple-ideas-to-encourage-your-team-thegem-blog-justified.jpg 2x" media="(max-width: 992px)" sizes="100vw"> <source srcset="https://walaplus.com/wp-content/uploads/2020/09/Simple-ideas-to-encourage-your-team-thegem-blog-justified-3x-small.jpg 1x, https://walaplus.com/wp-content/uploads/2020/09/Simple-ideas-to-encourage-your-team-thegem-blog-justified.jpg 2x" media="(max-width: 1100px)" sizes="100vw"> <source srcset="https://walaplus.com/wp-content/uploads/2020/09/Simple-ideas-to-encourage-your-team-thegem-blog-justified-3x.jpg 1x, https://walaplus.com/wp-content/uploads/2020/09/Simple-ideas-to-encourage-your-team-thegem-blog-justified.jpg 2x" media="(max-width: 1920px)" sizes="100vw"> <img src="../wp-content/uploads/2020/09/Simple-ideas-to-encourage-your-team-thegem-blog-justified.jpg" width="640" height="480" class="img-responsive" alt="Simple ideas to encourage your team" /></noscript>                                                                                    </picture>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="description">
+                                                                        <div class="post-meta-conteiner">
+                                                                            <div class="post-meta-right"> </div>
+                                                                        </div>
+                                                                        <div class="post-title">
+                                                                            <div class="entry-title title-h4">
+                                                                                <a href="../%d8%a3%d9%81%d9%83%d8%a7%d8%b1-%d8%a8%d8%b3%d9%8a%d8%b7%d8%a9-%d9%84%d8%aa%d8%b4%d8%ac%d9%8a%d8%b9-%d9%81%d8%b1%d9%8a%d9%82%d9%83/index.html" rel="bookmark"><span class="light">أفكار بسيطة لتشجيع فريقك</span></a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="post-text">
+                                                                            <div class="summary">
+                                                                                <p>إن إلهام فريقك هو تحفيزهم على القيام بعملهم بشكل جيد ، والاستمتاع بما يقومون به ، والشعور بالحماس نحو اتجاه&#8230;</p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="info clearfix">
+                                                                            <div class="post-footer-sharing">
+                                                                                <div class="gem-button-container gem-button-position-inline"><a class="gem-button gem-button-size-tiny gem-button-style-flat gem-button-text-weight-normal gem-button-empty" style="border-radius: 3px;" onmouseleave="" onmouseenter=""
+                                                                                        href="#" target="_self"><i class="gem-print-icon gem-icon-pack-thegem-icons gem-icon-share"></i></a></div>
+                                                                                <div class="sharing-popup">
+                                                                                    <div class="socials-sharing socials socials-colored-hover "> <a class="socials-item" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwalaplus.com%2F%25d8%25a3%25d9%2581%25d9%2583%25d8%25a7%25d8%25b1-%25d8%25a8%25d8%25b3%25d9%258a%25d8%25b7%25d8%25a9-%25d9%2584%25d8%25aa%25d8%25b4%25d8%25ac%25d9%258a%25d8%25b9-%25d9%2581%25d8%25b1%25d9%258a%25d9%2582%25d9%2583%2F"
+                                                                                            title="Facebook"><i class="socials-item-icon facebook"></i></a> <a class="socials-item" target="_blank" href="https://twitter.com/intent/tweet?text=%D8%A3%D9%81%D9%83%D8%A7%D8%B1+%D8%A8%D8%B3%D9%8A%D8%B7%D8%A9+%D9%84%D8%AA%D8%B4%D8%AC%D9%8A%D8%B9+%D9%81%D8%B1%D9%8A%D9%82%D9%83&amp;url=https%3A%2F%2Fwalaplus.com%2F%25d8%25a3%25d9%2581%25d9%2583%25d8%25a7%25d8%25b1-%25d8%25a8%25d8%25b3%25d9%258a%25d8%25b7%25d8%25a9-%25d9%2584%25d8%25aa%25d8%25b4%25d8%25ac%25d9%258a%25d8%25b9-%25d9%2581%25d8%25b1%25d9%258a%25d9%2582%25d9%2583%2F"
+                                                                                            title="Twitter"><i class="socials-item-icon twitter"></i></a> <a class="socials-item" target="_blank" href="../../pinterest.com/pin/create/button/index0308.html?url=https%3A%2F%2Fwalaplus.com%2F%25d8%25a3%25d9%2581%25d9%2583%25d8%25a7%25d8%25b1-%25d8%25a8%25d8%25b3%25d9%258a%25d8%25b7%25d8%25a9-%25d9%2584%25d8%25aa%25d8%25b4%25d8%25ac%25d9%258a%25d8%25b9-%25d9%2581%25d8%25b1%25d9%258a%25d9%2582%25d9%2583%2F&amp;description=%D8%A3%D9%81%D9%83%D8%A7%D8%B1+%D8%A8%D8%B3%D9%8A%D8%B7%D8%A9+%D9%84%D8%AA%D8%B4%D8%AC%D9%8A%D8%B9+%D9%81%D8%B1%D9%8A%D9%82%D9%83&amp;media=https%3A%2F%2Fwalaplus.com%2Fwp-content%2Fuploads%2F2020%2F09%2FSimple-ideas-to-encourage-your-team.jpg"
+                                                                                            title="Pinterest"><i class="socials-item-icon pinterest"></i></a> <a class="socials-item" target="_blank" href="http://tumblr.com/widgets/share/tool?canonicalUrl=https%3A%2F%2Fwalaplus.com%2F%25d8%25a3%25d9%2581%25d9%2583%25d8%25a7%25d8%25b1-%25d8%25a8%25d8%25b3%25d9%258a%25d8%25b7%25d8%25a9-%25d9%2584%25d8%25aa%25d8%25b4%25d8%25ac%25d9%258a%25d8%25b9-%25d9%2581%25d8%25b1%25d9%258a%25d9%2582%25d9%2583%2F"
+                                                                                            title="Tumblr"><i class="socials-item-icon tumblr"></i></a> <a class="socials-item" target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwalaplus.com%2F%25d8%25a3%25d9%2581%25d9%2583%25d8%25a7%25d8%25b1-%25d8%25a8%25d8%25b3%25d9%258a%25d8%25b7%25d8%25a9-%25d9%2584%25d8%25aa%25d8%25b4%25d8%25ac%25d9%258a%25d8%25b9-%25d9%2581%25d8%25b1%25d9%258a%25d9%2582%25d9%2583%2F&amp;title=%D8%A3%D9%81%D9%83%D8%A7%D8%B1+%D8%A8%D8%B3%D9%8A%D8%B7%D8%A9+%D9%84%D8%AA%D8%B4%D8%AC%D9%8A%D8%B9+%D9%81%D8%B1%D9%8A%D9%82%D9%83&amp;summary=%D8%A5%D9%86+%D8%A5%D9%84%D9%87%D8%A7%D9%85+%D9%81%D8%B1%D9%8A%D9%82%D9%83+%D9%87%D9%88+%D8%AA%D8%AD%D9%81%D9%8A%D8%B2%D9%87%D9%85+%D8%B9%D9%84%D9%89+%D8%A7%D9%84%D9%82%D9%8A%D8%A7%D9%85+%D8%A8%D8%B9%D9%85%D9%84%D9%87%D9%85+%D8%A8%D8%B4%D9%83%D9%84+%D8%AC%D9%8A%D8%AF+%D8%8C+%D9%88%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%85%D8%AA%D8%A7%D8%B9+%D8%A8%D9%85%D8%A7+%D9%8A%D9%82%D9%88%D9%85%D9%88%D9%86+%D8%A8%D9%87+%D8%8C+%D9%88%D8%A7%D9%84%D8%B4%D8%B9%D9%88%D8%B1+%D8%A8%D8%A7%D9%84%D8%AD%D9%85%D8%A7%D8%B3+%D9%86%D8%AD%D9%88+%D8%A7%D8%AA%D8%AC%D8%A7%D9%87..."
+                                                                                            title="LinkedIn"><i class="socials-item-icon linkedin"></i></a> <a class="socials-item" target="_blank" href="https://www.reddit.com/submit?url=https%3A%2F%2Fwalaplus.com%2F%25d8%25a3%25d9%2581%25d9%2583%25d8%25a7%25d8%25b1-%25d8%25a8%25d8%25b3%25d9%258a%25d8%25b7%25d8%25a9-%25d9%2584%25d8%25aa%25d8%25b4%25d8%25ac%25d9%258a%25d8%25b9-%25d9%2581%25d8%25b1%25d9%258a%25d9%2582%25d9%2583%2F&amp;title=%D8%A3%D9%81%D9%83%D8%A7%D8%B1+%D8%A8%D8%B3%D9%8A%D8%B7%D8%A9+%D9%84%D8%AA%D8%B4%D8%AC%D9%8A%D8%B9+%D9%81%D8%B1%D9%8A%D9%82%D9%83"
+                                                                                            title="Reddit"><i class="socials-item-icon reddit"></i></a> </div> <svg class="sharing-styled-arrow"><use xlink:href="../wp-content/themes/thegem/css/post-arrow.svg#dec-post-arrow"></use></svg></div>
+                                                                            </div>
+                                                                            <div class="post-read-more">
+                                                                                <div class="gem-button-container gem-button-position-inline"><a class="gem-button gem-button-size-tiny gem-button-style-outline gem-button-text-weight-normal gem-button-border-2" style="border-radius: 3px;" onmouseleave="" onmouseenter=""
+                                                                                        href="../%d8%a3%d9%81%d9%83%d8%a7%d8%b1-%d8%a8%d8%b3%d9%8a%d8%b7%d8%a9-%d9%84%d8%aa%d8%b4%d8%ac%d9%8a%d8%b9-%d9%81%d8%b1%d9%8a%d9%82%d9%83/index.html" target="_self">اقرأ المزيد</a></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </article>
+                                                            
+                                                            
+                                                        </div>
+                                                       
+                                                        <div class="clearboth"></div>
+                                                        <div class="gem-divider " style="margin-top: 55px;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     <!-- .entry-content -->
 
 
