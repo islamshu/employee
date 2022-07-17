@@ -53,7 +53,7 @@ class HomeController extends Controller
     }
     public function blog($slug){
         $blog = Blog::where('slug',$slug)->first();
-        $blog->show =+0;
+        $blog->show =+1;
         $blog->save();
         return $blog;
     }
