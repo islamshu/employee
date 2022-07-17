@@ -51,6 +51,10 @@ class HomeController extends Controller
         ->with('blogs',Blog::orderBy('id','desc')->take(3)->get())
         ;
     }
+    public function blog($slug){
+        $blog = Blog::where('slug',$slug)->first();
+        return $blog;
+    }
     public function change_lang($lang){
         Session::put('lang', $lang);
         return redirect()->back();

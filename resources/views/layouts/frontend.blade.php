@@ -1956,7 +1956,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                     <p class="card-text">
                       {!! \Illuminate\Support\Str::words($item->description, 20,'...')  !!}
                     </p>
-                    <a href="" class="btn btn-primary">{{__('Read')}}</a>
+                    <a href="{{ route('blog',$item->slug) }}" class="btn btn-primary">{{__('Read')}}</a>
                   </div>
                 </div>
               </div>
