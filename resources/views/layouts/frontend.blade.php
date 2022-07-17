@@ -1935,7 +1935,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
         </div>
         <!-- #main -->
         <div id="lazy-loading-point"></div>
-        <section class="text-center">
+        <section class="text-center" style="padding: 5%">
             <h4 class="mb-5"><strong>Latest posts</strong></h4>
     
             <div class="row">
