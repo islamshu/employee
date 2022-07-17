@@ -1954,7 +1954,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                   <div class="card-body">
                     <h5 class="card-title">{{substr($item->title,30)}}</h5>
                     <p class="card-text">
-                      {!! substr($item->description,30) !!}
+                      {!! substr($item->description,5) !!}
                     </p>
                     <a href="" class="btn btn-primary">{{__('Read')}}</a>
                   </div>
