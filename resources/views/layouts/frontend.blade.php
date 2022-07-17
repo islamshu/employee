@@ -1952,9 +1952,9 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                     </a>
                   </div>
                   <div class="card-body">
-                    <h5 class="card-title">{{\Illuminate\Support\Str::words($item->title, 30,'...')}}</h5>
+                    <h5 class="card-title">{{\Illuminate\Support\Str::words($item->title, 10,'...')}}</h5>
                     <p class="card-text">
-                      {!! \Illuminate\Support\Str::words($item->description, 50,'...')  !!}
+                      {!! \Illuminate\Support\Str::words($item->description, 30,'...')  !!}
                     </p>
                     <a href="" class="btn btn-primary">{{__('Read')}}</a>
                   </div>
