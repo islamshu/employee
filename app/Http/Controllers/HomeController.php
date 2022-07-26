@@ -34,7 +34,7 @@ class HomeController extends Controller
             $ip ='84.239.49.235';
         }
         $country = \Location::get($ip);
-        dd($country);
+        dd(CountryFlag::get( $country->countryCode ));
 
         $country = \Countries::get();
 
