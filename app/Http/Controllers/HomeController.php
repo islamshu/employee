@@ -39,7 +39,7 @@ class HomeController extends Controller
         // dd($country);
         $country = \Countries::where('name.common', $country->countryName)->first();
 
-
+        dd($country);
 
         return view('layouts.frontend')
         ->with('first_se',FirstSection::first())
