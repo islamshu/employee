@@ -2,7 +2,7 @@
 
 return [
     'aliases' => [
-        'AA' => 'NL',
+        '' => 'NL',
     ],
 ];
 

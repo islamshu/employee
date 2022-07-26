@@ -32,11 +32,10 @@ class HomeController extends Controller
             $ip = $request->ip();
         }else{
             $ip ='84.239.49.235';
-
         }
-        dd(CountryFlag::get('AA'));
         $country = \Location::get($ip);
-        
+        dd($country);
+
         $country = \Countries::get();
 
         dd($country);
