@@ -1076,7 +1076,7 @@
                                                 <div class="custom-title-title "
                                                     style="text-align: center;margin-left: auto;margin-right: auto;">
                                                     <h1 style="color: #69489D">
-                                                        {{ __('We are excited to have you join us and connect with us') }}
+                                                        {{ __('Blogs') }}
                                                     </h1>
                                                 </div>
                                             </div>
