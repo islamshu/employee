@@ -70,6 +70,7 @@
                                         <div class="col-md-6">
                                             <label>اضف صورة * </label>
                                             <input type="file" name="image"  class="form-control"  >
+                                            <img src="{{ asset('uploads/'.$blog->image) }}" width="100" height="70" alt="">
                                         </div>
                                        
                                     </div>
