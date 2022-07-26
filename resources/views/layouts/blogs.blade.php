@@ -1094,8 +1094,8 @@
                             <div class="col-lg-4 col-md-12 mb-4">
                                 <div class="card">
                                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-                                        <img src="{{ asset('uploads/'.$item->image) }}"
-                                            class="img-fluid" />
+                                        <img src="{{ asset('uploads/'.$item->image) }}" class="img-fluid" width="100" height="100" />
+
                                         <a href="#!">
                                             <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);">
                                             </div>
