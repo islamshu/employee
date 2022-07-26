@@ -36,7 +36,7 @@ class HomeController extends Controller
         }
         $country = \Location::get($ip);
         
-        // dd($country);
+        dd($country);
         $country = \Countries::where('name.common', $country->countryName)->first();
 
         dd($country);
