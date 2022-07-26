@@ -26,6 +26,11 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Contracts\Support\Renderable
      */
+    public function blogs()
+    {
+        $blogs = Blog::orderby('id','desc')->get();
+        return view('layouts.blogs')->with('blogs');
+    }
     public function index(Request $request)
     {
         if (config('app.env') === 'production') {
