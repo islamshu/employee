@@ -34,12 +34,10 @@ class HomeController extends Controller
             $ip ='84.239.49.235';
         }
         $country = \Location::get($ip);
-        dd( $country);
-        return CountryFlag::get( $country->countryCode );
+       
 
-        $country = \Countries::get();
+        $country = $country->countryCode;
 
-        dd($country);
 
         return view('layouts.frontend')
         ->with('first_se',FirstSection::first())

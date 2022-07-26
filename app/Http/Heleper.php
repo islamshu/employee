@@ -508,6 +508,10 @@ function get_flag($code){
         return 'https://upload.wikimedia.org/wikipedia/commons/7/75/Flag_of_Palestine.png';
     }elseif($code =='SA'){
         return 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/1280px-Flag_of_Saudi_Arabia.svg.png';
+    }elseif($code =='EG'){
+        return 'https://www.pngitem.com/pimgs/m/326-3267303_egypt-flag-hd-png-download.png';
+    }else{
+        return 'https://upload.wikimedia.org/wikipedia/commons/7/75/Flag_of_Palestine.png';
 
     }
 }
