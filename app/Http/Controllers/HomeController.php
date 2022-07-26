@@ -29,7 +29,7 @@ class HomeController extends Controller
     public function blogs()
     {
         $blogs = Blog::orderby('id','desc')->get();
-        return view('layouts.blogs')->with('blogs');
+        return view('layouts.blogs')->with('blogs',$blogs);
     }
     public function index(Request $request)
     {
