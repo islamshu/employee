@@ -10,6 +10,10 @@
 
 body {
 	background: #40E0D0;
+    
+}
+.page-content .item {
+    background: white !important
 }
 
 /*/ start count stats /*/

@@ -8,18 +8,6 @@
     padding: 50px 0;
 }
 
-.new_style {
-    direction: ltr;
-    position: relative;
-    left: -193.2px;
-    box-sizing: border-box;
-    width: 1526px;
-    padding-left: 193.2px;
-    padding-right: 192.8px;
-    right: -216.2px;
-    background: white;
-}
-
 .page-content .item {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 10px;
