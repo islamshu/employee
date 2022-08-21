@@ -226,7 +226,6 @@ section#counter-stats {
     </style>
   
     <script type="text/javascript" async src="wp_content/themes/thegem/js/thegem-pagespeed-lazy-items.js"></script>
-    <link rel="stylesheet" href="{{ asset('chartf/css/style.css') }}">
 
     @if(get_lang() == 'ar')
     <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.5.3/css/bootstrap.min.css" integrity="sha384-JvExCACAZcHNJEc7156QaHXTnQL3hQBixvj5RV5buE7vgnNEzzskDtx9NQ4p6BJe" crossorigin="anonymous">
@@ -242,6 +241,7 @@ section#counter-stats {
     <title>{{ get_general_value('title') }}</title>
     <meta name="description" content="{{ get_general_value('title') }}" />
     <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <link rel="stylesheet" href="{{ asset('chartf/css/style.css') }}">
 
     <style type="text/css">
         img.wp-smiley,
