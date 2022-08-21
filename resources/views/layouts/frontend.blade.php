@@ -1578,12 +1578,11 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                         <!-- Gallery -->
                                         <!-- Grid row -->
 <!-- Page Content -->
-<div id="vc_row-62986ef23ee6f" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_16007207530001 vc_row-has-fill">
-    <script type="text/javascript">
-        if (typeof(gem_fix_fullwidth_position) == "function") {
-            gem_fix_fullwidth_position(document.getElementById("vc_row-62986ef23ee6f"));
-        }
-    </script>
+<div class="vc_row-full-width vc_clearfix"></div>
+
+<div  data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_16007207530001 vc_row-has-fill">
+    <div class="vc_row-full-width vc_clearfix"></div>
+
     <div class="page-content table-responsive" style="direction: ltr">
         <div class="container">
             <div class=" d-flex justify-content-between">
