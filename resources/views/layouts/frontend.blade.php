@@ -224,7 +224,6 @@ section#counter-stats {
         
 
     </style>
-    <link rel="stylesheet" href="{{ asset('chartf/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('chartf/css/style.css') }}">
     <script type="text/javascript" async src="wp_content/themes/thegem/js/thegem-pagespeed-lazy-items.js"></script>
     @if(get_lang() == 'ar')
