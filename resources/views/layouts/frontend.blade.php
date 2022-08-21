@@ -1578,9 +1578,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                         <!-- Gallery -->
                                         <!-- Grid row -->
 <!-- Page Content -->
-<div class="vc_row-full-width vc_clearfix"></div>
-
-<div  data-vc-full-width="true" class="vc_row wpb_row vc_row-fluid">
+<div >
     <div class="vc_row-full-width vc_clearfix"></div>
 
     <div class="page-content table-responsive" style="direction: ltr">
