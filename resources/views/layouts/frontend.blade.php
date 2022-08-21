@@ -1578,7 +1578,15 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                         <!-- Gallery -->
                                         <!-- Grid row -->
 <!-- Page Content -->
-<div class="new_style" >
+<div class="new_style" style=" direction: ltr;
+position: relative;
+left: -193.2px;
+box-sizing: border-box;
+width: 1526px;
+padding-left: 193.2px;
+padding-right: 192.8px;
+right: -216.2px;
+background: white;" >
 
     <div class="page-content table-responsive " >
         <div class="container">
