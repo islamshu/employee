@@ -1431,161 +1431,6 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                                 </div>
                                             </div>
                                         </div>
-
-
-                                        <div class="new_style" >
-
-                                            <div class="page-content table-responsive " >
-                                                <div class="container">
-                                                    <div class=" d-flex justify-content-between">
-                                                        <div class="">
-                                            
-                                                            <div class="item-wrap">
-                                                                <div class="item">
-                                                                    <h4>Lorem, ipsum dolor.</h4>
-                                                                    <div class="imgs">
-                                                                        <img src="images/buildings.png" alt="">
-                                            
-                                            
-                                                                    </div>
-                                                                </div>
-                                                                <div class="arrow toBottomLeft">
-                                                                    <div class="graph"></div>
-                                                                    <div class="point"></div>
-                                                                </div>
-                                                            </div>
-                                            
-                                            
-                                                            <div class="item-wrap">
-                                                                <div class="item">
-                                                                    <h4>Lorem, ipsum dolor.</h4>
-                                                                    <div class="imgs">
-                                                                        <img src="images/buildings.png" alt="">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="arrow toBottomLeftMid">
-                                                                    <div class="graph"></div>
-                                                                    <div class="point"></div>
-                                                                </div>
-                                                            </div>
-                                            
-                                                            <div class="item-wrap">
-                                                                <div class="item">
-                                                                    <h4>Lorem, ipsum dolor.</h4>
-                                                                    <div class="imgs">
-                                                                        <img src="images/buildings.png" alt="">
-                                            
-                                            
-                                                                    </div>
-                                                                </div>
-                                                                <div class="arrow toTopLeftMid">
-                                                                    <div class="graph"></div>
-                                                                    <div class="point"></div>
-                                                                </div>
-                                                            </div>
-                                            
-                                                            <div class="item-wrap">
-                                                                <div class="item">
-                                                                    <h4>Lorem, ipsum dolor.</h4>
-                                                                    <div class="imgs">
-                                                                        <img src="images/buildings.png" alt="">
-                                            
-                                            
-                                                                    </div>
-                                                                </div>
-                                            
-                                                                <div class="arrow toTopLeft">
-                                                                    <div class="graph"></div>
-                                                                    <div class="point"></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                            
-                                            
-                                                        <div class=" text-center d-flex align-items-center justify-content-center flex-column">
-                                            
-                                                            <!-- <p>Lorem ipsum dolor sit.</p> -->
-                                                            <div class="item p-5">
-                                                                <h4>Lorem, ipsum dolor.</h4>
-                                                                <div class="imgs">
-                                                                    <img src="images/buildings.png" alt="">
-                                                                </div>
-                                                            </div>
-                                                            <!-- <p>Lorem ipsum dolor sit.</p> -->
-                                            
-                                                        </div>
-                                            
-                                            
-                                                        <div class="">
-                                                            <div class="item-wrap">
-                                                                <div class="item">
-                                                                    <h4>Lorem, ipsum dolor.</h4>
-                                                                    <div class="imgs">
-                                                                        <img src="images/buildings.png" alt="">
-                                            
-                                            
-                                                                    </div>
-                                                                </div>
-                                                                <div class="arrow toBottom">
-                                                                    <div class="graph"></div>
-                                                                    <div class="point"></div>
-                                                                </div>
-                                            
-                                                            </div>
-                                                            <div class="item-wrap">
-                                                                <div class="item">
-                                                                    <h4>Lorem, ipsum dolor.</h4>
-                                                                    <div class="imgs">
-                                                                        <img src="images/buildings.png" alt="">
-                                            
-                                            
-                                                                    </div>
-                                                                </div>
-                                                                <div class="arrow toBottomMid">
-                                                                    <div class="graph"></div>
-                                                                    <div class="point"></div>
-                                                                </div>
-                                                            </div>
-                                            
-                                                            <div class="item-wrap">
-                                                                <div class="item">
-                                                                    <h4>Lorem, ipsum dolor.</h4>
-                                                                    <div class="imgs">
-                                                                        <img src="images/buildings.png" alt="">
-                                            
-                                            
-                                                                    </div>
-                                                                </div>
-                                            
-                                                                <div class="arrow toTopMid">
-                                                                    <div class="graph"></div>
-                                                                    <div class="point"></div>
-                                                                </div>
-                                                            </div>
-                                            
-                                                            <div class="item-wrap">
-                                                                <div class="item">
-                                                                    <h4>Lorem, ipsum dolor.</h4>
-                                                                    <div class="imgs">
-                                                                        <img src="images/buildings.png" alt="">
-                                            
-                                            
-                                                                    </div>
-                                                                </div>
-                                            
-                                                                <div class="arrow toTop">
-                                                                    <div class="graph"></div>
-                                                                    <div class="point"></div>
-                                                                </div>
-                                            
-                                                            </div>
-                                            
-                                                        </div>
-                                            
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
                                         <div class="vc_row-full-width vc_clearfix"></div>
                                         <div class="vc_row-full-width-before"></div>
                                      
@@ -1733,7 +1578,159 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                         <!-- Gallery -->
                                         <!-- Grid row -->
 <!-- Page Content -->
+<div class="new_style" >
 
+    <div class="page-content table-responsive " >
+        <div class="container">
+            <div class=" d-flex justify-content-between">
+                <div class="">
+    
+                    <div class="item-wrap">
+                        <div class="item">
+                            <h4>Lorem, ipsum dolor.</h4>
+                            <div class="imgs">
+                                <img src="images/buildings.png" alt="">
+    
+    
+                            </div>
+                        </div>
+                        <div class="arrow toBottomLeft">
+                            <div class="graph"></div>
+                            <div class="point"></div>
+                        </div>
+                    </div>
+    
+    
+                    <div class="item-wrap">
+                        <div class="item">
+                            <h4>Lorem, ipsum dolor.</h4>
+                            <div class="imgs">
+                                <img src="images/buildings.png" alt="">
+                            </div>
+                        </div>
+                        <div class="arrow toBottomLeftMid">
+                            <div class="graph"></div>
+                            <div class="point"></div>
+                        </div>
+                    </div>
+    
+                    <div class="item-wrap">
+                        <div class="item">
+                            <h4>Lorem, ipsum dolor.</h4>
+                            <div class="imgs">
+                                <img src="images/buildings.png" alt="">
+    
+    
+                            </div>
+                        </div>
+                        <div class="arrow toTopLeftMid">
+                            <div class="graph"></div>
+                            <div class="point"></div>
+                        </div>
+                    </div>
+    
+                    <div class="item-wrap">
+                        <div class="item">
+                            <h4>Lorem, ipsum dolor.</h4>
+                            <div class="imgs">
+                                <img src="images/buildings.png" alt="">
+    
+    
+                            </div>
+                        </div>
+    
+                        <div class="arrow toTopLeft">
+                            <div class="graph"></div>
+                            <div class="point"></div>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class=" text-center d-flex align-items-center justify-content-center flex-column">
+    
+                    <!-- <p>Lorem ipsum dolor sit.</p> -->
+                    <div class="item p-5">
+                        <h4>Lorem, ipsum dolor.</h4>
+                        <div class="imgs">
+                            <img src="images/buildings.png" alt="">
+                        </div>
+                    </div>
+                    <!-- <p>Lorem ipsum dolor sit.</p> -->
+    
+                </div>
+    
+    
+                <div class="">
+                    <div class="item-wrap">
+                        <div class="item">
+                            <h4>Lorem, ipsum dolor.</h4>
+                            <div class="imgs">
+                                <img src="images/buildings.png" alt="">
+    
+    
+                            </div>
+                        </div>
+                        <div class="arrow toBottom">
+                            <div class="graph"></div>
+                            <div class="point"></div>
+                        </div>
+    
+                    </div>
+                    <div class="item-wrap">
+                        <div class="item">
+                            <h4>Lorem, ipsum dolor.</h4>
+                            <div class="imgs">
+                                <img src="images/buildings.png" alt="">
+    
+    
+                            </div>
+                        </div>
+                        <div class="arrow toBottomMid">
+                            <div class="graph"></div>
+                            <div class="point"></div>
+                        </div>
+                    </div>
+    
+                    <div class="item-wrap">
+                        <div class="item">
+                            <h4>Lorem, ipsum dolor.</h4>
+                            <div class="imgs">
+                                <img src="images/buildings.png" alt="">
+    
+    
+                            </div>
+                        </div>
+    
+                        <div class="arrow toTopMid">
+                            <div class="graph"></div>
+                            <div class="point"></div>
+                        </div>
+                    </div>
+    
+                    <div class="item-wrap">
+                        <div class="item">
+                            <h4>Lorem, ipsum dolor.</h4>
+                            <div class="imgs">
+                                <img src="images/buildings.png" alt="">
+    
+    
+                            </div>
+                        </div>
+    
+                        <div class="arrow toTop">
+                            <div class="graph"></div>
+                            <div class="point"></div>
+                        </div>
+    
+                    </div>
+    
+                </div>
+    
+            </div>
+        </div>
+    </div>
+</div>
 <div style="width: 100%" >
 
     <h1 id="vc_row-62986ef22f13e" class="fw-light text-center text-lg-start mt-4 mb-0">{{ __('Partners') }}</h1>
