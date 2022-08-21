@@ -224,7 +224,8 @@ section#counter-stats {
         
 
     </style>
-  
+    <link rel="stylesheet" href="{{ asset('chartf/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('chartf/css/style.css') }}">
     <script type="text/javascript" async src="wp_content/themes/thegem/js/thegem-pagespeed-lazy-items.js"></script>
     @if(get_lang() == 'ar')
     <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.5.3/css/bootstrap.min.css" integrity="sha384-JvExCACAZcHNJEc7156QaHXTnQL3hQBixvj5RV5buE7vgnNEzzskDtx9NQ4p6BJe" crossorigin="anonymous">
@@ -2175,7 +2176,9 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
 
     <link rel='stylesheet' id='odometr-css' href='wp_content/themes/thegem/css/odometer-theme-default647e.css?ver=5.5.9' type='text/css' media='all' />
     <script type='text/javascript' src='wp_content/themes/thegem/js/jquery.dlmenu647e.js?ver=5.5.9' id='jquery-dlmenu-js'></script>
-    <script>
+    <script src="{{ asset('chartf/js/bootstrap.bundle.min.js') }}"></script>
+
+   <script>
         setTimeout(function() {
             $('.wrapper-cover').fadeOut("slow"); 
         }, 2000);
