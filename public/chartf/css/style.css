@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.page-content{
+    padding: 50px 0;
+}
+
+.page-content .item{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 15px;
+    text-align: center;
+    width: 300px;
+}
+
+.page-content .item h4{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.page-content .item .imgs{
+    
+}
+
+.page-content .item .imgs img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+/* arrow */
+
+
+
+.arrow {
+	position: relative;
+  margin: 0 auto;
+  width: 100px;
+}
+
+
+.arrow .point:before {
+	top: -11px;
+	left: -10px;
+	transform:rotate(-74deg);
+	-webkit-transform:rotate(-74deg);
+  -moz-transform:rotate(-74deg);
+  -ms-transform: rotate(-74deg);
+}
+
+.arrow .point:after {
+  top: -19px;
+	left: 5px;
+	transform:rotate(12deg);
+	-webkit-transform: rotate(12deg);
+  -moz-transform:rotate(12deg);
+  -ms-transform: rotate(12deg);
+}
+
+
+
+.graph {
+    height: 40px;
+    width: 160px;
+    background: transparent;
+    border-radius: 0px 0px 0px 370px/225px;
+    border: solid 3px grey;
+    border-top: none;
+    border-right: none;
+    margin: 20px;
+}
+
+
+.arrow .point{
+    position: absolute;
+    left: 22px;
+    top: 0;
+    transform: rotate(207deg);
+}
+
+
+.graph:before{
+    display: none;
+}
+
+.arrow .point:before, .arrow .point:after{
+    border: 1px solid black;
+    height: 25px;
+    content: "";
+    position: absolute;
+    background-color: black;
+}
+
+
+.item-wrap{
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+}
+
+.toBottom{
+    top: 38%;
+    left: -50%;
+    transform: rotateX(-180deg);
+}
+
+.toBottom .graph{
+    height: 70px !important;
+}
+
+
+.toBottomLeft{
+    top: 38%;
+    right: -50%;
+    transform: rotate(-180deg);
+}
+
+.toBottomLeft .graph{
+    height: 70px !important;
+}
+
+
+.toBottomMid{
+    top: 7%;
+    left: -50%;
+    transform: rotateX(-180deg);
+}
+
+.toBottomLeftMid{
+    top: 7%;
+    right: -50%;
+    transform: rotate(-180deg);
+}
+
+
+.toTop{
+    top: 23%;
+    left: -50%;
+    /* transform: rotateX(-180deg); */
+}
+
+.toTop .graph{
+    height: 70px !important;
+}
+
+.toTopMid{
+    top: 57%;
+    left: -50%;
+    /* transform: rotateX(-180deg); */
+}
+
+.toTopLeft{
+    top: 23%;
+    right: -50%;
+    transform: rotateY(-180deg);
+}
+
+.toTopLeft .graph{
+    height: 70px !important;
+}
+
+.toTopLeftMid{
+    top: 57%;
+    right: -50%;
+    transform: rotateY(-180deg);
+}
+
+
+.graph{
+    border-color: black;
+    border-radius:0px 0px 0px 201px/225px;
+}
+
+
