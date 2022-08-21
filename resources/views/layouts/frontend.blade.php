@@ -1391,7 +1391,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                                         </style>
 
 
-<div class="page-content table-responsive" style="direction: rtl">
+<div class="page-content table-responsive" style="direction: ltr">
     <div class="container">
         <div class=" d-flex justify-content-between">
             <div class="">
