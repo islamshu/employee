@@ -1594,7 +1594,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                     <div class="item">
                         <h4>Lorem, ipsum dolor.</h4>
                         <div class="imgs">
-                            <img src="images/buildings.png"
+                            <img src="{{ asset('chartf/images/buildings.png') }}"
                                 alt="">
 
 
@@ -1611,7 +1611,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                     <div class="item">
                         <h4>Lorem, ipsum dolor.</h4>
                         <div class="imgs">
-                            <img src="images/buildings.png"
+                            <img src="{{ asset('chartf/images/buildings.png') }}"
                                 alt="">
                         </div>
                     </div>
@@ -1625,7 +1625,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                     <div class="item">
                         <h4>Lorem, ipsum dolor.</h4>
                         <div class="imgs">
-                            <img src="images/buildings.png"
+                            <img src="{{ asset('chartf/images/buildings.png') }}"
                                 alt="">
 
 
@@ -1641,7 +1641,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                     <div class="item">
                         <h4>Lorem, ipsum dolor.</h4>
                         <div class="imgs">
-                            <img src="images/buildings.png"
+                            <img src="{{ asset('chartf/images/buildings.png') }}"
                                 alt="">
 
 
@@ -1663,7 +1663,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                 <div class="item p-5">
                     <h4>Lorem, ipsum dolor.</h4>
                     <div class="imgs">
-                        <img src="images/buildings.png" alt="">
+                        <img src="{{ asset('chartf/images/buildings.png') }}" alt="">
                     </div>
                 </div>
                 <!-- <p>Lorem ipsum dolor sit.</p> -->
@@ -1676,7 +1676,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                     <div class="item">
                         <h4>Lorem, ipsum dolor.</h4>
                         <div class="imgs">
-                            <img src="images/buildings.png"
+                            <img src="{{ asset('chartf/images/buildings.png') }}"
                                 alt="">
 
 
@@ -1692,7 +1692,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                     <div class="item">
                         <h4>Lorem, ipsum dolor.</h4>
                         <div class="imgs">
-                            <img src="images/buildings.png"
+                            <img src="{{ asset('chartf/images/buildings.png') }}"
                                 alt="">
 
 
@@ -1708,7 +1708,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                     <div class="item">
                         <h4>Lorem, ipsum dolor.</h4>
                         <div class="imgs">
-                            <img src="images/buildings.png"
+                            <img src="{{ asset('chartf/images/buildings.png') }}"
                                 alt="">
 
 
@@ -1725,7 +1725,7 @@ src="https://www.facebook.com/tr?id=360462288775028&amp;ev=PageView&amp;noscript
                     <div class="item">
                         <h4>Lorem, ipsum dolor.</h4>
                         <div class="imgs">
-                            <img src="images/buildings.png"
+                            <img src="{{ asset('chartf/images/buildings.png') }}"
                                 alt="">
 
 
