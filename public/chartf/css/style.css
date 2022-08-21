@@ -1,15 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-.page-content{
+.page-content {
     padding: 50px 0;
 }
 
-.page-content .item{
+.page-content .item {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 10px;
     padding: 30px;
@@ -18,57 +17,57 @@
     width: 300px;
 }
 
-.page-content .item h4{
+.page-content .item h4 {
     font-size: 20px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
 
-.page-content .item .imgs{
-    
-}
+.page-content .item .imgs {}
 
-.page-content .item .imgs img{
+.page-content .item .imgs img {
     width: 50px;
     height: 50px;
 }
 
-
-
-
-
+.new_style {
+    direction: ltr;
+    position: relative;
+    left: -193.2px;
+    box-sizing: border-box;
+    width: 1526px;
+    padding-left: 193.2px;
+    padding-right: 192.8px;
+    right: -216.2px;
+    background: white;
+}
 
 
 /* arrow */
 
-
-
 .arrow {
-	position: relative;
-  margin: 0 auto;
-  width: 100px;
+    position: relative;
+    margin: 0 auto;
+    width: 100px;
 }
 
-
 .arrow .point:before {
-	top: -11px;
-	left: -10px;
-	transform:rotate(-74deg);
-	-webkit-transform:rotate(-74deg);
-  -moz-transform:rotate(-74deg);
-  -ms-transform: rotate(-74deg);
+    top: -11px;
+    left: -10px;
+    transform: rotate(-74deg);
+    -webkit-transform: rotate(-74deg);
+    -moz-transform: rotate(-74deg);
+    -ms-transform: rotate(-74deg);
 }
 
 .arrow .point:after {
-  top: -19px;
-	left: 5px;
-	transform:rotate(12deg);
-	-webkit-transform: rotate(12deg);
-  -moz-transform:rotate(12deg);
-  -ms-transform: rotate(12deg);
+    top: -19px;
+    left: 5px;
+    transform: rotate(12deg);
+    -webkit-transform: rotate(12deg);
+    -moz-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
 }
-
-
 
 .graph {
     height: 40px;
@@ -81,20 +80,19 @@
     margin: 20px;
 }
 
-
-.arrow .point{
+.arrow .point {
     position: absolute;
     left: 22px;
     top: 0;
     transform: rotate(207deg);
 }
 
-
-.graph:before{
+.graph:before {
     display: none;
 }
 
-.arrow .point:before, .arrow .point:after{
+.arrow .point:before,
+.arrow .point:after {
     border: 1px solid black;
     height: 25px;
     content: "";
@@ -102,8 +100,7 @@
     background-color: black;
 }
 
-
-.item-wrap{
+.item-wrap {
     position: relative;
 }
 
@@ -111,77 +108,71 @@
     position: absolute;
 }
 
-.toBottom{
+.toBottom {
     top: 38%;
     left: -50%;
     transform: rotateX(-180deg);
 }
 
-.toBottom .graph{
+.toBottom .graph {
     height: 70px !important;
 }
 
-
-.toBottomLeft{
+.toBottomLeft {
     top: 38%;
     right: -50%;
     transform: rotate(-180deg);
 }
 
-.toBottomLeft .graph{
+.toBottomLeft .graph {
     height: 70px !important;
 }
 
-
-.toBottomMid{
+.toBottomMid {
     top: 7%;
     left: -50%;
     transform: rotateX(-180deg);
 }
 
-.toBottomLeftMid{
+.toBottomLeftMid {
     top: 7%;
     right: -50%;
     transform: rotate(-180deg);
 }
 
-
-.toTop{
+.toTop {
     top: 23%;
     left: -50%;
     /* transform: rotateX(-180deg); */
 }
 
-.toTop .graph{
+.toTop .graph {
     height: 70px !important;
 }
 
-.toTopMid{
+.toTopMid {
     top: 57%;
     left: -50%;
     /* transform: rotateX(-180deg); */
 }
 
-.toTopLeft{
+.toTopLeft {
     top: 23%;
     right: -50%;
     transform: rotateY(-180deg);
 }
 
-.toTopLeft .graph{
+.toTopLeft .graph {
     height: 70px !important;
 }
 
-.toTopLeftMid{
+.toTopLeftMid {
     top: 57%;
     right: -50%;
     transform: rotateY(-180deg);
 }
 
-
-.graph{
+.graph {
     border-color: black;
-    border-radius:0px 0px 0px 201px/225px;
+    border-radius: 0px 0px 0px 201px/225px;
 }
-
-
